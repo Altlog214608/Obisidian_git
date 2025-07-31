@@ -39,7 +39,6 @@
   "deleteFileOption": "trash",
   "expandedSpaces": [
     "/",
-    "//ScentSmart/ScentSmart/계획",
     "//Notes",
     "//Notes/Notes/Daily",
     "//Notes/Notes/Daily/Notes/Daily/2025",
@@ -47,7 +46,8 @@
     "//Tags",
     "//ScentSmart/ScentSmart/분석",
     "//ScentSmart/ScentSmart/17_데이터저장",
-    "//ScentSmart"
+    "//ScentSmart",
+    "//ScentSmart/ScentSmart/계획"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
