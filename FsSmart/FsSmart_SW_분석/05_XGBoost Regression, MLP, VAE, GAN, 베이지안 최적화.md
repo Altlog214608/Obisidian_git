@@ -57,7 +57,6 @@
 ![oaicite:23](https:)  
 💡 이미지 4: 생성자와 판별자가 상호작용하며 학습하는 기본 GAN 구조입니다. ([GeeksforGeeks](https://www.geeksforgeeks.org/generative-adversarial-network-gan/?utm_source=chatgpt.com "Generative Adversarial Network (GAN) - GeeksforGeeks"))
 
----
 
 
 [![Schematic diagram of bayesian optimization process | Download ...](https://tse1.mm.bing.net/th/id/OIP.iSXDKJYdbOqp7EK-F0OLJwHaHI?pid=Api)](https://www.researchgate.net/figure/Schematic-diagram-of-bayesian-optimization-process_fig3_370138057)
@@ -121,6 +120,9 @@
 |**단점**|모델 설정(커널, acquisition 함수) 민감, 계산 복잡도 있음|
 |**대표적인 활용 사례**|머신러닝 하이퍼파라미터 튜닝, 물질 최적화, 로보틱스 실험 등|
 
+---
+
+필요하시면 **Expected Improvement(UCB/PI)** 수식이나 **Bayesian Optimization 코드 예제**, **다중 목적 또는 조건부 BO 활용법**도 추가로 정리해 드릴게요. 언제든 말씀해 주세요!
 
 
 ---

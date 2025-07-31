@@ -1,5 +1,4 @@
-sklearn Pipeline과 OneHotEncoder를 정말 쉽게, 한 줄 한 줄 설명해 드릴게요.  
-아래의 개념과 코드 흐름 모두, 초심자도 이해할 수 있게 아주 자세히 풀어서 설명합니다.
+
 
 # 1. sklearn Pipeline(파이프라인)
 

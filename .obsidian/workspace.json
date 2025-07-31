@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+                "file": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화"
+              "title": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer"
             }
           }
         ]
@@ -203,18 +203,20 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
+    "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+    "Pasted image 20250731171503.jpg",
+    "Pasted image 20250731170930.jpg",
+    "ScentSmart/ScentSmart_SW_분석/20_암호화.md",
+    "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md",
     "Pasted image 20250731175906.jpg",
     "Pasted image 20250731175903.jpg",
     "Pasted image 20250731175857.jpg",
     "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
-    "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
     "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
     "Pasted image 20250731171512.jpg",
-    "Pasted image 20250731171503.jpg",
-    "Pasted image 20250731170930.jpg",
     "ScentSmart/ScentSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md",
@@ -235,8 +237,6 @@
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md",
     "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md",
     "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md",
-    "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md",
-    "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md",
     "ScentSmart/분석123",
     "ScentSmart/ScentSmart_SW_분석",
     "ScentSmart/17_데이터저장",
