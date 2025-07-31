@@ -1,75 +1,94 @@
 
-
-아래는 주요 앙상블 기법(Bagging, Boosting, Stacking, XGBoost)을 **모델별로 각각 한 장의 시각 이미지**와 설명을 포함해 Markdown 형식으로 정리한 내용입니다. Obsidian에 그대로 붙여넣으면 바로 활용 가능합니다.
-
 ---
 
-## 🖼️ Bagging
+## 🏷️ 앙상블 기법별 구조 및 설명
 
-[![Demystifying Ensemble Methods: Boosting, Bagging, and Stacking ...](https://tse2.mm.bing.net/th/id/OIP.9sHDQ5Jf2DhcjaXYgxcwsgHaES?r=0&pid=Api)](https://machinelearningmastery.com/demystifying-ensemble-methods-boosting-bagging-and-stacking-explained/)
+[![Ensemble Learning Methods: Bagging, Boosting and Stacking](https://tse4.mm.bing.net/th/id/OIP.a6hnuJ8WM37mLimHfMORmQHaDq?pid=Api)](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/)
 
-**Bagging (Bootstrap Aggregating)**
+### **1. Bagging (Bootstrap Aggregating)**
 
-- 동일한 학습기를 여러 부트스트랩 샘플로 병렬 학습
+- **구조**: 동일 모델(예: 약한 학습기)을 다양한 랜덤 샘플로 병렬 학습
     
-- 각 모델의 예측을 **투표 또는 평균으로 결합**
+- **결합 방식**: 분류 → 다수결 투표 / 회귀 → 평균
     
-- 과적합 감소 · 예측 안정성 향상에 효과적 ([MachineLearningMastery.com](https://machinelearningmastery.com/demystifying-ensemble-methods-boosting-bagging-and-stacking-explained/?utm_source=chatgpt.com "Demystifying Ensemble Methods: Boosting, Bagging, and Stacking ..."), [Jun’s Archive](https://esj205.oopy.io/dd0a89f9-1cac-4578-a3a1-7bb458836311?utm_source=chatgpt.com "Bagging vs Boosting vs Stacking"))
+- **효과**: 분산(variance) 감소로 예측 안정성 향상, 과적합 억제
     
-
----
-
-## 🖼️ Boosting
-
-[![Ensemble Methods: dé 3 methoden eenvoudig uitgelegd](https://tse3.mm.bing.net/th/id/OIP.6mX3aeRad1-yC7_VWQvhqQHaEw?r=0&pid=Api)](https://pythoncursus.nl/ensemble-methods/)
-
-**Boosting (AdaBoost, GBDT 등)**
-
-- 약한 학습기를 **순차적으로 학습**
+- **대표 모델**: Random Forest
     
-- 이전 단계의 오류 사례에 가중치를 주어 집중 학습
-    
-- 예측은 **학습기별 결과에 가중합** 방식으로 최종 결정 ([Jun’s Archive](https://esj205.oopy.io/dd0a89f9-1cac-4578-a3a1-7bb458836311?utm_source=chatgpt.com "Bagging vs Boosting vs Stacking"))
+- **단점**: 편향(bias)은 줄이지 않음  
+    ([GeeksforGeeks](https://www.geeksforgeeks.org/machine-learning/a-comprehensive-guide-to-ensemble-learning/?utm_source=chatgpt.com "Ensemble Learning - GeeksforGeeks"), [위키백과](https://en.wikipedia.org/wiki/Bootstrap_aggregating?utm_source=chatgpt.com "Bootstrap aggregating"))
     
 
 ---
 
-## 🖼️ Random Forest / Stacking
+[![Ensemble Learning Methods: Bagging, Boosting and Stacking](https://tse3.mm.bing.net/th/id/OIP.4XuD6oRrgVqtaSwH-cu6SAHaDq?pid=Api)](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/)
 
-[![Bagging vs Boosting vs Stacking](https://tse2.mm.bing.net/th/id/OIP.T0QxT02mrNg6jqcU2XJb6wHaEL?r=0&pid=Api)](https://esj205.oopy.io/dd0a89f9-1cac-4578-a3a1-7bb458836311)
+### **2. Boosting (AdaBoost, GBDT 등)**
 
-- **Random Forest**는 Bagging 기반이지만, 각 트리가 다른 특성(feature subset)만 사용해 학습 → 모델 간 상관성 감소 → 투표 방식 결합
+- **구조**: 순차적 학습. 이전 약한 모델이 틀린 샘플에 높은 가중치 부여
     
-- **Stacking**은 서로 다른 모델(B, C, D 등)의 예측 결과들을 모아서 **Meta-learner**가 추가 학습 → 최종 예측 생성 ([Medium](https://medium.com/%40patwariraghottam/ensemble-learning-unveiled-comparing-bagging-boosting-voting-and-stacking-with-xgboost-leading-eab2de794c16?utm_source=chatgpt.com "Ensemble Learning Unveiled: Comparing Bagging, Boosting, Voting ..."), [Jun’s Archive](https://esj205.oopy.io/dd0a89f9-1cac-4578-a3a1-7bb458836311?utm_source=chatgpt.com "Bagging vs Boosting vs Stacking"))
+- **결합 방식**: 각 모델 예측의 가중 합 (weighted sum)
+    
+- **효과**: 편향(bias) 최소화, 예측 정확도 상승
+    
+- **단점**: 과적합 가능성, 순차 학습 → 느림  
+    ([위키백과](https://en.wikipedia.org/wiki/Boosting_%28machine_learning%29?utm_source=chatgpt.com "Boosting (machine learning)"), [Cross Validated](https://stats.stackexchange.com/questions/552356/boosting-reduces-bias-when-compared-to-what-algorithm?utm_source=chatgpt.com "Boosting reduces bias when compared to what algorithm?"), [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/?utm_source=chatgpt.com "Bagging, Boosting and Stacking: Ensemble Learning in ML Models"))
+    
+
+---
+![[Pasted image 20250731171512.jpg]]
+
+### **3. Stacking (Stacked Generalization)**
+
+- **구조**: 서로 다른 베이스 모델(B, C, D)의 예측 결과를 **메타 모델**이 학습
+    
+- **결합 방식**: meta learner가 base 모델 예측들을 feature로 받아 최종 예측
+    
+- **효과**: 서로 다른 모델의 장점을 결합해 일반화 성능 향상
+    
+- **단점**: 구성 복잡, 과적합 위험 있음  
+    ([Medium](https://medium.com/%40abhishekjainindore24/different-types-of-ensemble-techniques-bagging-boosting-stacking-voting-blending-b04355a03c93?utm_source=chatgpt.com "Bagging, Boosting, Stacking, Voting, Blending | by Abhishek Jain"))
     
 
 ---
 
-## 🖼️ XGBoost
+[![The structure of the extreme gradient boosting (XGBoost) approach ...](https://tse2.mm.bing.net/th/id/OIP.gzAo1kBkzVf9ffoHH_kOwQHaEj?pid=Api)](https://www.researchgate.net/figure/The-structure-of-the-extreme-gradient-boosting-XGBoost-approach_fig7_370857103)
 
-[![XGBoost Explained: A Beginner’s Guide | by Jamie Crossman-Smith | Low ...](https://tse1.mm.bing.net/th/id/OIP.bGrSU6jjt_KSo_DfdSIVcwHaDe?r=0&pid=Api)](https://medium.com/low-code-for-advanced-data-science/xgboost-explained-a-beginners-guide-095464ad418f)
+### **4. XGBoost (Extreme Gradient Boosting)**
 
-**XGBoost (Extreme Gradient Boosting)**
-
-- Gradient Boosting 기반의 고성능 모델
+- **구조**: Gradient Boosting의 고도화 구현체. 트리 기반 순차 학습
     
-- **정규화, 병렬 처리, 결측치 자동 처리**, 빠른 학습 속도 등의 고급 기능 포함
+- **특징**: 정규화, 병렬 처리, 결측치 자동 처리, 과적합 방지 기능 내장
     
-- Boosting의 순차 방식에 최적화된 구현체로, 실무에서 뛰어난 성능 발휘 ([Scikit-learn](https://scikit-learn.org/stable/modules/ensemble.html?utm_source=chatgpt.com "1.11. Ensembles: Gradient boosting, random forests, bagging, voting ..."), [MachineLearningMastery.com](https://machinelearningmastery.com/demystifying-ensemble-methods-boosting-bagging-and-stacking-explained/?utm_source=chatgpt.com "Demystifying Ensemble Methods: Boosting, Bagging, and Stacking ..."))
+- **효과**: GBDT보다 빠르고 정확하며 실무에서 널리 사용
+    
+- **단점**: 하이퍼파라미터 튜닝 복잡  
+    ([Medium](https://medium.com/%40patwariraghottam/ensemble-learning-unveiled-comparing-bagging-boosting-voting-and-stacking-with-xgboost-leading-eab2de794c16?utm_source=chatgpt.com "Ensemble Learning Unveiled: Comparing Bagging, Boosting, Voting ..."), [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/?utm_source=chatgpt.com "Bagging, Boosting and Stacking: Ensemble Learning in ML Models"), [위키백과](https://en.wikipedia.org/wiki/Boosting_%28machine_learning%29?utm_source=chatgpt.com "Boosting (machine learning)"))
     
 
 ---
 
-## ⚖️ 앙상블 기법 비교 요약 표
+## 🧾 모델 비교 정리
 
-|모델|설명 요약|
-|---|---|
-|Bagging|병렬 학습 + 투표/평균 결합 → 분산 감소|
-|Random Forest|Bagging + 랜덤 feature 선택 → 안정성 및 정확도 증가|
-|Boosting|순차 학습 + 가중합 결합 → 오류 중심 학습, 정확도 향상|
-|Stacking|다양한 베이스 모델 예측 결과를 meta 모델이 추가 학습|
-|XGBoost|고도화된 Boosting 구현체, 빠르고 정교한 예측 가능|
+|기법|학습 방식|결합 방식|주요 효과|단점|
+|---|---|---|---|---|
+|**Bagging**|병렬 학습 (bootstrap)|투표 / 평균|분산 감소, 안정성 향상|편향은 줄이지 못함|
+|**Boosting**|순차 학습 (오류 중심)|가중 합|편향 감소, 정확도 상승|과적합 가능성, 학습 속도 느림|
+|**Stacking**|병렬 + meta 학습|메타 모델 기반 결합|각 모델 장점 결합, 일반화 우수|구현 복잡, 과적합 위험 있음|
+|**XGBoost**|Gradient Boosting 최적화|Boosting 합산|빠르고 정확한 부스팅 구현체|설정 복잡, 초기 학습 비용 높음|
 
 ---
 
-필요하시면 **VotingClassifier, AdaBoost 사용 예제**, 혹은 **각 기법별 장단점 목록**, **Scikit‑learn 코드 샘플**도 제공해 드릴 수 있어요!
+## 🔍 요약
+
+- **Bagging**: 동일 모델을 여러 샘플로 병렬 학습 → 과적합 억제, 안정성 확보
+    
+- **Random Forest**: Bagging의 확장 (랜덤 feature 추출 포함)
+    
+- **Boosting**: 순차적 학습으로 약한 학습기의 단점 보완 → 높은 예측 성능
+    
+- **Stacking**: 다양한 모델을 결합해 메타 학습기로 최적화된 예측 생성
+    
+- **XGBoost**: 실제 응용에서 성능/속도 최적화된 Boosting 구현체
+    
+
