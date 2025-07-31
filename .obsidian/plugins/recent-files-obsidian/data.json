@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "ScentSmart_인수인계문서_작성구조안",
+      "path": "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md"
+    },
+    {
+      "basename": "ScentSmart_분석_권장_순서",
+      "path": "ScentSmart/계획/ScentSmart_분석_권장_순서.md"
+    },
+    {
+      "basename": "ScentSmart_디지털후각검사_인수인계문서",
+      "path": "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md"
+    },
+    {
       "basename": "07_검사_훈련_시나리오",
       "path": "ScentSmart/분석/07_검사_훈련_시나리오.md"
     },
@@ -95,18 +107,6 @@
     {
       "basename": "99_부록_용어정리",
       "path": "ScentSmart/분석/99_부록_용어정리.md"
-    },
-    {
-      "basename": "ScentSmart_인수인계문서_작성구조안",
-      "path": "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md"
-    },
-    {
-      "basename": "ScentSmart_분석_권장_순서",
-      "path": "ScentSmart/계획/ScentSmart_분석_권장_순서.md"
-    },
-    {
-      "basename": "ScentSmart_디지털후각검사_인수인계문서",
-      "path": "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md"
     }
   ],
   "omittedPaths": [],
