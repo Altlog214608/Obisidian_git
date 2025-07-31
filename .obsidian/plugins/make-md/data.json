@@ -42,7 +42,11 @@
     "//ScentSmart",
     "//Tags",
     "//ScentSmart/ScentSmart/계획",
-    "//ScentSmart/ScentSmart/분석"
+    "//ScentSmart/ScentSmart/분석",
+    "//Notes",
+    "//Notes/Notes/Daily",
+    "//Notes/Notes/Daily/Notes/Daily/2025",
+    "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6599eb6411cb97a5",
+        "id": "ba12c87d6f202220",
         "type": "tabs",
         "children": [
           {
-            "id": "c43372832585551e",
+            "id": "e1abbe70ac287c80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-07-28.md",
+                "file": "Notes/Daily/2025/07/2025-07-28.md",
                 "mode": "source",
                 "source": false
               },
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2025-07-28.md",
+                "file": "Notes/Daily/2025/07/2025-07-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2025-07-28.md",
+                "file": "Notes/Daily/2025/07/2025-07-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -202,9 +202,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c43372832585551e",
+  "active": "e1abbe70ac287c80",
   "lastOpenFiles": [
+    "Notes/Daily/2025/07/2025-07-29.md",
+    "Notes/Daily/2025/07/2025-07-28.md",
     "2025-07-28.md",
+    "Notes/Daily/2025/07",
+    "Notes/Daily/2025",
+    "Notes/Daily",
+    "Notes",
     "2025-07-31.md",
     "ScentSmart/분석/16_PWM_주파수_정리.md",
     "README.md",
@@ -229,11 +235,9 @@
     "ScentSmart/계획/ScentSmart_분석_권장_순서.md",
     "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md",
     "Tags",
-    "ScentSmart/분석/00_개요.md",
     "무제.canvas",
     "ScentSmart/계획",
     "ScentSmart/분석",
-    "ScentSmart",
-    "환영합니다!.md"
+    "ScentSmart"
   ]
 }
