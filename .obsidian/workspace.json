@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Daily/2025/07/2025-07-31.md",
+                "file": "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-07-31"
+              "title": "17_결과 저장 및 DB 연동 구조"
             }
           }
         ]
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Daily/2025/07/2025-07-31.md",
+                "file": "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-31 의 백링크"
+              "title": "17_결과 저장 및 DB 연동 구조 의 백링크"
             }
           },
           {
@@ -134,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily/2025/07/2025-07-31.md",
+                "file": "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-07-31 의 나가는 링크"
+              "title": "17_결과 저장 및 DB 연동 구조 의 나가는 링크"
             }
           },
           {
@@ -205,9 +205,12 @@
   },
   "active": "c50d15ca0e725646",
   "lastOpenFiles": [
+    "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md",
+    "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md",
+    "ScentSmart/계획/ScentSmart_Overview.md",
+    "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/07/2025-07-30.md",
     "Notes/Daily/2025/07/2025-07-28.md",
-    "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md",
     "ScentSmart/17_데이터저장",
     "ScentSmart/분석",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/06_함수_분류_및_전체_흐름.md",
@@ -215,10 +218,8 @@
     "ScentSmart/17_결과 저장 및 DB 연동 구조/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/03_시리얼_통신_및_하드웨어.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/04_dsComm_메시지_구조.md",
-    "ScentSmart/계획/ScentSmart_Overview.md",
     "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md",
     "ScentSmart/계획/ScentSmart_분석_권장_순서.md",
-    "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/07_검사_훈련_시나리오.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/10_시리얼 통신 관련 핵심 함수 정리.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/12_sendMsg_구조_비교.md",
@@ -227,7 +228,6 @@
     "ScentSmart/17_결과 저장 및 DB 연동 구조/16_PWM_주파수_정리.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/08_QObject.md",
     "ScentSmart/17_결과 저장 및 DB 연동 구조/00_개요.md",
-    "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/07/2025-07-29.md",
     "README.md",
     "2025-07-28.md",
