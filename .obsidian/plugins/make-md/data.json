@@ -50,7 +50,8 @@
     "//ScentSmart/ScentSmart/분석",
     "/",
     "//FsSmart",
-    "//FsSmart/FsSmart/FsSmart_SW_분석"
+    "//FsSmart/FsSmart/FsSmart_SW_분석",
+    "//FsSmart/FsSmart/FsSmart_SW_분석_계획"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
