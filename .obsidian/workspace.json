@@ -183,11 +183,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,16 +205,17 @@
   },
   "active": "c50d15ca0e725646",
   "lastOpenFiles": [
-    "ScentSmart/분석/05_프로토콜_분석.md",
-    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
-    "ScentSmart/분석/08_QObject.md",
-    "ScentSmart/분석/07_검사_훈련_시나리오.md",
-    "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
+    "ScentSmart/분석/09_Signal 객체와 QThread.md",
     "ScentSmart/분석/12_sendMsg_구조_비교.md",
-    "ScentSmart/분석/16_PWM_주파수_정리.md",
-    "ScentSmart/분석/분석.md",
-    "ScentSmart/분석/00_개요.md",
     "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
+    "ScentSmart/분석/분석.md",
+    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
+    "ScentSmart/분석/07_검사_훈련_시나리오.md",
+    "ScentSmart/분석/05_프로토콜_분석.md",
+    "ScentSmart/분석/08_QObject.md",
+    "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
+    "ScentSmart/분석/16_PWM_주파수_정리.md",
+    "ScentSmart/분석/00_개요.md",
     "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/07/2025-07-30.md",
     "Notes/Daily/2025/07/2025-07-29.md",
@@ -225,7 +227,6 @@
     "Notes/Daily",
     "Notes",
     "2025-07-31.md",
-    "ScentSmart/분석/09_Signal 객체와 QThread.md",
     "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석/15_uiDlgProtocol_함수정리.md",
     "ScentSmart/분석/14_ScentSmart_함수_정리.md",
