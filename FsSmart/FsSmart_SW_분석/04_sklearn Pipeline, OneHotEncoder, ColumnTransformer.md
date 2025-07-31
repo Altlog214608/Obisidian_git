@@ -14,9 +14,17 @@ sklearn Pipeline과 OneHotEncoder를 정말 쉽게, 한 줄 한 줄 설명해 �
 
 ## 코드에서 쓰이는 파이프라인 한 줄씩 해석
 
-python
+```python
 
-`pipeline = Pipeline(steps=[     ('preprocessor', preprocessor),    ('classifier', RandomForestClassifier(n_estimators=100, random_state=42)) ])`
+pipeline = Pipeline(steps=[
+
+    ('preprocessor', preprocessor),
+
+    ('classifier', RandomForestClassifier(n_estimators=100, random_state=42))
+
+])
+
+```
 
 - `Pipeline(steps=[ ... ])`: 여러 과정(단계,stage)을 순서대로 정합니다.
     
@@ -75,9 +83,11 @@ python
 
 ## 코드로 알아보기
 
-python
+```python
 
-`OneHotEncoder(handle_unknown='ignore')`
+OneHotEncoder(handle_unknown='ignore')
+
+```
 
 - OneHotEncoder() : 기본적인 원-핫 인코더입니다.
     
@@ -113,9 +123,21 @@ python
 - 여기서는 **여러 범주형 컬럼**('성별', '성격' 등)에만 OneHotEncoder를 적용하고, 나머지는 그대로 둡니다.
     
 
-python
+```python
 
-`preprocessor = ColumnTransformer(     transformers=[        ('cat', OneHotEncoder(handle_unknown='ignore'), CATEGORICAL_FEATURES)    ],    remainder='passthrough' )`
+preprocessor = ColumnTransformer(
+
+    transformers=[
+
+        ('cat', OneHotEncoder(handle_unknown='ignore'), CATEGORICAL_FEATURES)
+
+    ],
+
+    remainder='passthrough'
+
+)
+
+```
 
 - `('cat', OneHotEncoder(...), CATEGORICAL_FEATURES)`:
     
@@ -147,7 +169,3 @@ python
     
 - 코드 쓰임새, 원리, 과정이 모두 자동으로 연결되는 것이 sklearn의 큰 장점이에요.
     
-
-궁금한 점, 구체적으로 더 보고 싶은 과정이 있으면 언제든 질문해 주세요!
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/c2f3bdbb-426d-4456-8a4d-969610db507d/testModel.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/c2f3bdbb-426d-4456-8a4d-969610db507d/testModel.py)
