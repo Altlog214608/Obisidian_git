@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/분석/24_로그인_과정.md",
+                "file": "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "24_로그인_과정"
+              "title": "23_2025_DS_ID12_KR_흐름도"
             }
           }
         ]
@@ -203,8 +203,8 @@
   },
   "active": "4cf2fd2885d6ee26",
   "lastOpenFiles": [
-    "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
     "ScentSmart/분석/24_로그인_과정.md",
+    "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
     "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/분석/21_암호화_사용함수_목적.md",
     "ScentSmart/분석/18_결과.xlsx_저장_함수.md",
