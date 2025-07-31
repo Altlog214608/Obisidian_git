@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "분석",
+      "path": "ScentSmart/분석/분석.md"
+    },
+    {
       "basename": "06_함수_분류_및_전체_흐름",
       "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
     },
@@ -63,10 +67,6 @@
     {
       "basename": "08_QObject",
       "path": "ScentSmart/분석/08_QObject.md"
-    },
-    {
-      "basename": "분석",
-      "path": "ScentSmart/분석/분석.md"
     },
     {
       "basename": "00_개요",
