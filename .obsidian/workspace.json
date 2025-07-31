@@ -203,8 +203,9 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석/무제.md",
+    "FsSmart/FsSmart_SW_분석/00_개요.md",
+    "ScentSmart/ScentSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md",
@@ -231,7 +232,6 @@
     "ScentSmart/ScentSmart_SW_분석/16_PWM_주파수_정리.md",
     "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md",
     "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md",
-    "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md",
     "ScentSmart/분석123",
     "ScentSmart/ScentSmart_SW_분석",
     "ScentSmart/17_데이터저장",
