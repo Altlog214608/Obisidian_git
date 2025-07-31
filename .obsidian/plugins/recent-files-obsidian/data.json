@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "18_결과.xlsx_저장_함수",
+      "path": "ScentSmart/분석/18_결과.xlsx_저장_함수.md"
+    },
+    {
       "basename": "19_DB_모듈_정리",
       "path": "ScentSmart/분석/19_DB_모듈_정리.md"
+    },
+    {
+      "basename": "16_PWM_주파수_정리",
+      "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
+    },
+    {
+      "basename": "13_Register_ModBUS_정리",
+      "path": "ScentSmart/분석/13_Register_ModBUS_정리.md"
     },
     {
       "basename": "20_암호화",
@@ -27,10 +39,6 @@
     {
       "basename": "06_함수_분류_및_전체_흐름",
       "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
-    },
-    {
-      "basename": "18_결과.xlsx_저장_함수",
-      "path": "ScentSmart/분석/18_결과.xlsx_저장_함수.md"
     },
     {
       "basename": "08_QObject",
