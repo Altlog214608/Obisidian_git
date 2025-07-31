@@ -1,20 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "ScentSmart_SW_분석",
-      "path": "ScentSmart/ScentSmart_SW_분석/ScentSmart_SW_분석.md"
-    },
-    {
       "basename": "ScentSmart",
       "path": "ScentSmart/ScentSmart.md"
     },
     {
-      "basename": "07_검사_훈련_시나리오",
-      "path": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md"
-    },
-    {
       "basename": "08_QObject",
       "path": "ScentSmart/ScentSmart_SW_분석/08_QObject.md"
+    },
+    {
+      "basename": "ScentSmart_인수인계문서_작성구조안",
+      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md"
+    },
+    {
+      "basename": "07_검사_훈련_시나리오",
+      "path": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md"
     },
     {
       "basename": "09_Signal 객체와 QThread",
@@ -111,10 +111,6 @@
     {
       "basename": "2025-07-28",
       "path": "Notes/Daily/2025/07/2025-07-28.md"
-    },
-    {
-      "basename": "ScentSmart_인수인계문서_작성구조안",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md"
     },
     {
       "basename": "ScentSmart_분석_권장_순서",

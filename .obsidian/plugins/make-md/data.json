@@ -48,7 +48,9 @@
     "//ScentSmart",
     "//ScentSmart/ScentSmart/17_결과 저장 및 DB 연동 구조",
     "//ScentSmart/ScentSmart/계획",
-    "//ScentSmart/ScentSmart/분석"
+    "//ScentSmart/ScentSmart/분석",
+    "//ScentSmart/ScentSmart/ScentSmart_SW_분석_계획",
+    "//ScentSmart/ScentSmart/ScentSmart_SW_분석"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
