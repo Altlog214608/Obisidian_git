@@ -59,20 +59,68 @@
 
 ---
 
-### 5. Bayesian Optimization (베이지안 최적화)
 
-- **개요**: 평가 비용이 큰 함수의 최적값을 효율적으로 찾는 확률 기반 탐색 기법입니다.
+[![Schematic diagram of bayesian optimization process | Download ...](https://tse1.mm.bing.net/th/id/OIP.iSXDKJYdbOqp7EK-F0OLJwHaHI?pid=Api)](https://www.researchgate.net/figure/Schematic-diagram-of-bayesian-optimization-process_fig3_370138057)
+
+---
+
+## 🧠 Bayesian Optimization (베이지안 최적화)
+
+### 🔍 개요
+
+- 평가 비용이 매우 큰 함수(예: 하이퍼파라미터 튜닝, 실험 설계)의 최적값을 찾기 위한 **샘플 효율적인 탐색 기법**입니다.
     
-- **구성 요소**:
+- 직접 함수를 여러 번 평가하기보다, **확률 모델(surrogate model)**을 사용해 다음 샘플 지점을 예측하고 평가하는 방식.
     
-    - Surrogate model (주로 Gaussian Process)
-        
-    - Acquisition function (익스펙티드 임프루브먼트 등)
-        
-- **과정**: 초기 샘플 → surrogate 모델 학습 → acquisition으로 다음 후보 탐색 → 실제 평가 → 반복 → 최적 파라미터 탐색.
+
+---
+
+### 📈 주요 구성 요소
+
+- **Surrogate Model**: 주로 Gaussian Process(GP)를 사용해 함수의 평균과 불확실성 영역을 추정
     
-- **활용**: 머신러닝 하이퍼파라미터 튜닝, 실험비용이 높은 최적화 문제 등에 적합.
+- **Acquisition Function**: Expected Improvement(EI), Upper Confidence Bound(UCB) 등  
+    → surrogate가 기대하는 최적 포인트를 **탐색(explore)** 또는 **이용(exploit)** 하기 위한 기준 함수
     
+
+---
+
+### 🔁 반복 과정 흐름
+
+1. 초기 샘플링 데이터 수집
+    
+2. Gaussian Process를 통해 함수 예측 및 불확실성 추정
+    
+3. Acquisition 함수 계산 → 최적 후보 지점 결정
+    
+4. 해당 지점 평가 → 결과 데이터에 추가
+    
+5. surrogate 모델 업데이트 → **이 과정을 반복해 최적값 탐색**
+    
+
+---
+
+### 🧾 이미지 설명
+
+위 이미지(`turn0image3`)는 전체 BO 프로세스를 요약한 **플로우차트 구조**입니다:
+
+- GP 모델 업데이트 → Acquisition 함수 최적화 → 새로운 샘플 선택 → 반복
+    
+- 흐름의 반복 과정과 **exploit**과 **explore**의 균형 전략을 시각적으로 잘 표현하고 있습니다. ([sciencedirect.com](https://www.sciencedirect.com/science/article/pii/S2589004221007495?utm_source=chatgpt.com "Bayesian optimization for goal-oriented multi-objective inverse ..."), [nature.com](https://www.nature.com/articles/s41524-021-00662-x?utm_source=chatgpt.com "Bayesian optimization with adaptive surrogate models for automated ..."))
+    
+
+---
+
+### ✅ 요약 정리
+
+|항목|내용|
+|---|---|
+|**적합한 상황**|평가 비용이 비싼 함수의 최적화 (ex: 실험설계, 하이퍼파라미터 튜닝)|
+|**주요 구성 요소**|Gaussian Process (surrogate), Acquisition Function (EI, UCB 등)|
+|**장점**|적은 평가 횟수로도 전역 최적점을 찾을 수 있음|
+|**단점**|모델 설정(커널, acquisition 함수) 민감, 계산 복잡도 있음|
+|**대표적인 활용 사례**|머신러닝 하이퍼파라미터 튜닝, 물질 최적화, 로보틱스 실험 등|
+
 
 
 ---
@@ -89,5 +137,3 @@
 
 ---
 
-위 이미지와 설명은 직접 다운로드해 Obsidian Notes에서 붙여넣기 활용하실 수 있습니다.  
-더 자세한 코드 예제나 응용 사례도 필요하시면 언제든 요청해주세요!
