@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/분석/07_검사_훈련_시나리오.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/ScentSmart_SW_분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_검사_훈련_시나리오"
+              "title": "ScentSmart_SW_분석"
             }
           }
         ]
@@ -201,36 +201,36 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "4cf2fd2885d6ee26",
+  "active": "04be0613f5a9ceb8",
   "lastOpenFiles": [
-    "ScentSmart/분석/08_QObject.md",
-    "ScentSmart/분석/09_Signal 객체와 QThread.md",
-    "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
-    "ScentSmart/분석/24_로그인_과정.md",
-    "ScentSmart/분석/12_sendMsg_구조_비교.md",
-    "ScentSmart/분석/15_uiDlgProtocol_함수정리.md",
-    "ScentSmart/분석/16_PWM_주파수_정리.md",
-    "ScentSmart/분석/17_결과 저장 및 DB 연동 구조.md",
-    "ScentSmart/분석/18_결과.xlsx_저장_함수.md",
-    "ScentSmart/분석/19_DB_모듈_정리.md",
-    "ScentSmart/분석/13_Register_ModBUS_정리.md",
-    "ScentSmart/분석/20_암호화.md",
-    "ScentSmart/분석/21_암호화_사용함수_목적.md",
-    "ScentSmart/분석/22_dsAP 파일 용도.md",
-    "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
-    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
+    "ScentSmart/ScentSmart_SW_분석/ScentSmart_SW_분석.md",
     "ScentSmart/ScentSmart.md",
+    "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md",
+    "ScentSmart/ScentSmart_SW_분석/08_QObject.md",
+    "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md",
+    "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md",
+    "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md",
+    "ScentSmart/ScentSmart_SW_분석/12_sendMsg_구조_비교.md",
+    "ScentSmart/ScentSmart_SW_분석/15_uiDlgProtocol_함수정리.md",
+    "ScentSmart/ScentSmart_SW_분석/16_PWM_주파수_정리.md",
+    "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md",
+    "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md",
+    "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md",
+    "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md",
+    "ScentSmart/ScentSmart_SW_분석/20_암호화.md",
+    "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md",
+    "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md",
+    "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md",
+    "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md",
     "Vault.md",
-    "ScentSmart/분석/분석.md",
-    "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md",
-    "ScentSmart/분석/00_개요.md",
-    "ScentSmart/분석/01_PySide6_기초.md",
-    "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
+    "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md",
+    "ScentSmart/ScentSmart_SW_분석/00_개요.md",
+    "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md",
+    "ScentSmart/ScentSmart_SW_분석/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석321123/분석321123.md",
     "ScentSmart/분석/분석321123.md",
-    "ScentSmart/분석/99_부록_용어정리.md",
     "ScentSmart/분석123",
-    "ScentSmart/분석",
+    "ScentSmart/ScentSmart_SW_분석",
     "ScentSmart/17_데이터저장",
     "ScentSmart/분석321123",
     "Notes/Daily/2025/07",
@@ -239,6 +239,6 @@
     "Notes",
     "Tags",
     "무제.canvas",
-    "ScentSmart/계획"
+    "ScentSmart/ScentSmart_SW_분석_계획"
   ]
 }

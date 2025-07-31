@@ -1,88 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "ScentSmart_SW_분석",
+      "path": "ScentSmart/ScentSmart_SW_분석/ScentSmart_SW_분석.md"
+    },
+    {
+      "basename": "ScentSmart",
+      "path": "ScentSmart/ScentSmart.md"
+    },
+    {
       "basename": "07_검사_훈련_시나리오",
-      "path": "ScentSmart/분석/07_검사_훈련_시나리오.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md"
     },
     {
       "basename": "08_QObject",
-      "path": "ScentSmart/분석/08_QObject.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/08_QObject.md"
     },
     {
       "basename": "09_Signal 객체와 QThread",
-      "path": "ScentSmart/분석/09_Signal 객체와 QThread.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md"
     },
     {
       "basename": "10_시리얼 통신 관련 핵심 함수 정리",
-      "path": "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md"
     },
     {
       "basename": "24_로그인_과정",
-      "path": "ScentSmart/분석/24_로그인_과정.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
     },
     {
       "basename": "12_sendMsg_구조_비교",
-      "path": "ScentSmart/분석/12_sendMsg_구조_비교.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/12_sendMsg_구조_비교.md"
     },
     {
       "basename": "15_uiDlgProtocol_함수정리",
-      "path": "ScentSmart/분석/15_uiDlgProtocol_함수정리.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/15_uiDlgProtocol_함수정리.md"
     },
     {
       "basename": "16_PWM_주파수_정리",
-      "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/16_PWM_주파수_정리.md"
     },
     {
       "basename": "17_결과 저장 및 DB 연동 구조",
-      "path": "ScentSmart/분석/17_결과 저장 및 DB 연동 구조.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md"
     },
     {
       "basename": "18_결과.xlsx_저장_함수",
-      "path": "ScentSmart/분석/18_결과.xlsx_저장_함수.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md"
     },
     {
       "basename": "19_DB_모듈_정리",
-      "path": "ScentSmart/분석/19_DB_모듈_정리.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
     },
     {
       "basename": "13_Register_ModBUS_정리",
-      "path": "ScentSmart/분석/13_Register_ModBUS_정리.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
     },
     {
       "basename": "20_암호화",
-      "path": "ScentSmart/분석/20_암호화.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/20_암호화.md"
     },
     {
       "basename": "21_암호화_사용함수_목적",
-      "path": "ScentSmart/분석/21_암호화_사용함수_목적.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md"
     },
     {
       "basename": "22_dsAP 파일 용도",
-      "path": "ScentSmart/분석/22_dsAP 파일 용도.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
     },
     {
       "basename": "23_2025_DS_ID12_KR_흐름도",
-      "path": "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
     },
     {
       "basename": "06_함수_분류_및_전체_흐름",
-      "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md"
     },
     {
       "basename": "03_시리얼_통신_및_하드웨어",
-      "path": "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md"
     },
     {
       "basename": "00_개요",
-      "path": "ScentSmart/분석/00_개요.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/00_개요.md"
     },
     {
       "basename": "01_PySide6_기초",
-      "path": "ScentSmart/분석/01_PySide6_기초.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md"
     },
     {
       "basename": "02_UI_구조_및_다이얼로그",
-      "path": "ScentSmart/분석/02_UI_구조_및_다이얼로그.md"
+      "path": "ScentSmart/ScentSmart_SW_분석/02_UI_구조_및_다이얼로그.md"
     },
     {
       "basename": "2025-07-31",
@@ -90,11 +98,11 @@
     },
     {
       "basename": "ScentSmart_디지털후각검사_인수인계문서",
-      "path": "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md"
+      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_디지털후각검사_인수인계문서.md"
     },
     {
       "basename": "ScentSmart_Overview",
-      "path": "ScentSmart/계획/ScentSmart_Overview.md"
+      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_Overview.md"
     },
     {
       "basename": "2025-07-30",
@@ -106,11 +114,11 @@
     },
     {
       "basename": "ScentSmart_인수인계문서_작성구조안",
-      "path": "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md"
+      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md"
     },
     {
       "basename": "ScentSmart_분석_권장_순서",
-      "path": "ScentSmart/계획/ScentSmart_분석_권장_순서.md"
+      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_권장_순서.md"
     },
     {
       "basename": "2025-07-29",
