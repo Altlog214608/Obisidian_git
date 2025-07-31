@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "분석",
-      "path": "ScentSmart/분석/분석.md"
+      "basename": "19_",
+      "path": "ScentSmart/분석/19_.md"
+    },
+    {
+      "basename": "08_QObject",
+      "path": "ScentSmart/분석/08_QObject.md"
+    },
+    {
+      "basename": "03_시리얼_통신_및_하드웨어",
+      "path": "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md"
+    },
+    {
+      "basename": "00_개요",
+      "path": "ScentSmart/분석/00_개요.md"
+    },
+    {
+      "basename": "01_PySide6_기초",
+      "path": "ScentSmart/분석/01_PySide6_기초.md"
+    },
+    {
+      "basename": "02_UI_구조_및_다이얼로그",
+      "path": "ScentSmart/분석/02_UI_구조_및_다이얼로그.md"
     },
     {
       "basename": "18_결과.xlsx_저장_함수",

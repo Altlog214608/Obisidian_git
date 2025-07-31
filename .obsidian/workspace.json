@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/분석/분석.md",
+                "file": "ScentSmart/분석/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "분석"
+              "title": "무제"
             }
           }
         ]
@@ -201,9 +201,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "481fa9127befe921",
+  "active": "4cf2fd2885d6ee26",
   "lastOpenFiles": [
+    "ScentSmart/분석/무제.md",
+    "Vault.md",
+    "ScentSmart/분석/08_QObject.md",
     "ScentSmart/분석/분석.md",
+    "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md",
+    "ScentSmart/분석/00_개요.md",
+    "ScentSmart/분석/01_PySide6_기초.md",
+    "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석/18_결과.xlsx_저장_함수.md",
     "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/분석321123/분석321123.md",
@@ -218,19 +225,12 @@
     "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
     "ScentSmart/분석/09_Signal 객체와 QThread.md",
-    "ScentSmart/분석/08_QObject.md",
     "ScentSmart/분석/07_검사_훈련_시나리오.md",
     "ScentSmart/분석/05_프로토콜_분석.md",
     "ScentSmart/분석/04_dsComm_메시지_구조.md",
-    "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md",
-    "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
-    "ScentSmart/분석/01_PySide6_기초.md",
-    "ScentSmart/분석/00_개요.md",
     "ScentSmart/분석321123/Untitled.md",
     "ScentSmart/분석123",
-    "ScentSmart/분석321123/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석",
-    "ScentSmart/분석321123/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/17_데이터저장",
     "ScentSmart/분석321123",
     "Notes/Daily/2025/07",
