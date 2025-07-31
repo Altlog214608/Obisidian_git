@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "16_PWM_주파수_정리",
+      "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
+    },
+    {
+      "basename": "분석",
+      "path": "ScentSmart/분석/분석.md"
+    },
+    {
+      "basename": "00_개요",
+      "path": "ScentSmart/분석/00_개요.md"
+    },
+    {
+      "basename": "11_바이트패킷, Struct, CRC",
+      "path": "ScentSmart/분석/11_바이트패킷, Struct, CRC.md"
+    },
+    {
+      "basename": "2025-07-31",
+      "path": "Notes/Daily/2025/07/2025-07-31.md"
+    },
+    {
       "basename": "2025-07-30",
       "path": "Notes/Daily/2025/07/2025-07-30.md"
     },
@@ -15,10 +35,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "16_PWM_주파수_정리",
-      "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
     },
     {
       "basename": "09_Signal 객체와 QThread",

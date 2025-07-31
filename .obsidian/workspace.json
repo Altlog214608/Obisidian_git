@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ba12c87d6f202220",
+        "id": "cb34239163ed629e",
         "type": "tabs",
         "children": [
           {
-            "id": "e1abbe70ac287c80",
+            "id": "c50d15ca0e725646",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Daily/2025/07/2025-07-30.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-07-30"
+              "title": "새 탭"
             }
           }
         ]
@@ -115,7 +111,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Daily/2025/07/2025-07-30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "2025-07-30 의 백링크"
+              "title": "백링크"
             }
           },
           {
@@ -134,12 +129,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Daily/2025/07/2025-07-30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "2025-07-30 의 나가는 링크"
+              "title": "나가는 링크"
             }
           },
           {
@@ -202,10 +196,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "e1abbe70ac287c80",
+  "active": "c50d15ca0e725646",
   "lastOpenFiles": [
-    "Notes/Daily/2025/07/2025-07-29.md",
+    "ScentSmart/분석/분석.md",
+    "ScentSmart/분석/00_개요.md",
+    "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
+    "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/07/2025-07-30.md",
+    "Notes/Daily/2025/07/2025-07-29.md",
     "Notes/Daily/2025/07/2025-07-28.md",
     "README.md",
     "2025-07-28.md",
@@ -215,7 +213,6 @@
     "Notes",
     "2025-07-31.md",
     "ScentSmart/분석/16_PWM_주파수_정리.md",
-    "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/분석/09_Signal 객체와 QThread.md",
     "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석/15_uiDlgProtocol_함수정리.md",
@@ -231,9 +228,6 @@
     "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md",
     "ScentSmart/분석/01_PySide6_기초.md",
     "ScentSmart/분석/99_부록_용어정리.md",
-    "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md",
-    "ScentSmart/계획/ScentSmart_SW_인수인계_및_분석계획.md",
-    "ScentSmart/계획/ScentSmart_분석_권장_순서.md",
     "Tags",
     "무제.canvas",
     "ScentSmart/계획",
