@@ -1,32 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "17_데이터저장",
-      "path": "ScentSmart/17_데이터저장/17_데이터저장.md"
+      "basename": "ScentSmart_Overview",
+      "path": "ScentSmart/계획/ScentSmart_Overview.md"
+    },
+    {
+      "basename": "2025-07-31",
+      "path": "Notes/Daily/2025/07/2025-07-31.md"
+    },
+    {
+      "basename": "2025-07-30",
+      "path": "Notes/Daily/2025/07/2025-07-30.md"
+    },
+    {
+      "basename": "2025-07-28",
+      "path": "Notes/Daily/2025/07/2025-07-28.md"
+    },
+    {
+      "basename": "17_결과 저장 및 DB 연동 구조",
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/17_결과 저장 및 DB 연동 구조.md"
     },
     {
       "basename": "06_함수_분류_및_전체_흐름",
-      "path": "ScentSmart/17_데이터저장/06_함수_분류_및_전체_흐름.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/06_함수_분류_및_전체_흐름.md"
     },
     {
       "basename": "05_프로토콜_분석",
-      "path": "ScentSmart/17_데이터저장/05_프로토콜_분석.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/05_프로토콜_분석.md"
     },
     {
       "basename": "02_UI_구조_및_다이얼로그",
-      "path": "ScentSmart/17_데이터저장/02_UI_구조_및_다이얼로그.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/02_UI_구조_및_다이얼로그.md"
     },
     {
       "basename": "03_시리얼_통신_및_하드웨어",
-      "path": "ScentSmart/17_데이터저장/03_시리얼_통신_및_하드웨어.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/03_시리얼_통신_및_하드웨어.md"
     },
     {
       "basename": "04_dsComm_메시지_구조",
-      "path": "ScentSmart/17_데이터저장/04_dsComm_메시지_구조.md"
-    },
-    {
-      "basename": "ScentSmart_Overview",
-      "path": "ScentSmart/계획/ScentSmart_Overview.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/04_dsComm_메시지_구조.md"
     },
     {
       "basename": "ScentSmart_인수인계문서_작성구조안",
@@ -42,51 +54,39 @@
     },
     {
       "basename": "07_검사_훈련_시나리오",
-      "path": "ScentSmart/17_데이터저장/07_검사_훈련_시나리오.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/07_검사_훈련_시나리오.md"
     },
     {
       "basename": "10_시리얼 통신 관련 핵심 함수 정리",
-      "path": "ScentSmart/17_데이터저장/10_시리얼 통신 관련 핵심 함수 정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/10_시리얼 통신 관련 핵심 함수 정리.md"
     },
     {
       "basename": "12_sendMsg_구조_비교",
-      "path": "ScentSmart/17_데이터저장/12_sendMsg_구조_비교.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/12_sendMsg_구조_비교.md"
     },
     {
       "basename": "11_바이트패킷, Struct, CRC",
-      "path": "ScentSmart/17_데이터저장/11_바이트패킷, Struct, CRC.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/11_바이트패킷, Struct, CRC.md"
     },
     {
       "basename": "09_Signal 객체와 QThread",
-      "path": "ScentSmart/17_데이터저장/09_Signal 객체와 QThread.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/09_Signal 객체와 QThread.md"
     },
     {
       "basename": "16_PWM_주파수_정리",
-      "path": "ScentSmart/17_데이터저장/16_PWM_주파수_정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/16_PWM_주파수_정리.md"
     },
     {
       "basename": "08_QObject",
-      "path": "ScentSmart/17_데이터저장/08_QObject.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/08_QObject.md"
     },
     {
       "basename": "00_개요",
-      "path": "ScentSmart/17_데이터저장/00_개요.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "Notes/Daily/2025/07/2025-07-31.md"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Notes/Daily/2025/07/2025-07-30.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/00_개요.md"
     },
     {
       "basename": "2025-07-29",
       "path": "Notes/Daily/2025/07/2025-07-29.md"
-    },
-    {
-      "basename": "2025-07-28",
-      "path": "Notes/Daily/2025/07/2025-07-28.md"
     },
     {
       "basename": "README",
@@ -94,23 +94,23 @@
     },
     {
       "basename": "15_uiDlgProtocol_함수정리",
-      "path": "ScentSmart/17_데이터저장/15_uiDlgProtocol_함수정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/15_uiDlgProtocol_함수정리.md"
     },
     {
       "basename": "14_ScentSmart_함수_정리",
-      "path": "ScentSmart/17_데이터저장/14_ScentSmart_함수_정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/14_ScentSmart_함수_정리.md"
     },
     {
       "basename": "13_Register_ModBUS_정리",
-      "path": "ScentSmart/17_데이터저장/13_Register_ModBUS_정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/13_Register_ModBUS_정리.md"
     },
     {
       "basename": "01_PySide6_기초",
-      "path": "ScentSmart/17_데이터저장/01_PySide6_기초.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/01_PySide6_기초.md"
     },
     {
       "basename": "99_부록_용어정리",
-      "path": "ScentSmart/17_데이터저장/99_부록_용어정리.md"
+      "path": "ScentSmart/17_결과 저장 및 DB 연동 구조/99_부록_용어정리.md"
     }
   ],
   "omittedPaths": [],
