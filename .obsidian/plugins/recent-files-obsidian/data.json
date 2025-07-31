@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "19_DB_모듈_정리",
+      "path": "ScentSmart/분석/19_DB_모듈_정리.md"
+    },
+    {
+      "basename": "20_암호화",
+      "path": "ScentSmart/분석/20_암호화.md"
+    },
+    {
+      "basename": "21_암호화_사용함수_목적",
+      "path": "ScentSmart/분석/21_암호화_사용함수_목적.md"
+    },
+    {
+      "basename": "22_dsAP 파일 용도",
+      "path": "ScentSmart/분석/22_dsAP 파일 용도.md"
+    },
+    {
       "basename": "23_2025_DS_ID12_KR_흐름도",
       "path": "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md"
     },
@@ -13,24 +29,8 @@
       "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
     },
     {
-      "basename": "21_암호화_사용함수_목적",
-      "path": "ScentSmart/분석/21_암호화_사용함수_목적.md"
-    },
-    {
       "basename": "18_결과.xlsx_저장_함수",
       "path": "ScentSmart/분석/18_결과.xlsx_저장_함수.md"
-    },
-    {
-      "basename": "22_dsAP 파일 용도",
-      "path": "ScentSmart/분석/22_dsAP 파일 용도.md"
-    },
-    {
-      "basename": "20_암호화",
-      "path": "ScentSmart/분석/20_암호화.md"
-    },
-    {
-      "basename": "19_DB_모듈_정리",
-      "path": "ScentSmart/분석/19_DB_모듈_정리.md"
     },
     {
       "basename": "08_QObject",
