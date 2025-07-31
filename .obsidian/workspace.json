@@ -200,8 +200,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "c43372832585551e",
+  "active": "d22910a226a92f1f",
   "lastOpenFiles": [
+    "2025-07-31.md",
     "ScentSmart/분석/16_PWM_주파수_정리.md",
     "README.md",
     "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
@@ -227,7 +228,6 @@
     "Tags",
     "ScentSmart/분석/00_개요.md",
     "무제.canvas",
-    "2025-07-31.md",
     "ScentSmart/계획",
     "ScentSmart/분석",
     "ScentSmart",
