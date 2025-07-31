@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "07_검사_훈련_시나리오",
+      "path": "ScentSmart/분석/07_검사_훈련_시나리오.md"
+    },
+    {
       "basename": "05_프로토콜_분석",
       "path": "ScentSmart/분석/05_프로토콜_분석.md"
     },
@@ -11,10 +15,6 @@
     {
       "basename": "08_QObject",
       "path": "ScentSmart/분석/08_QObject.md"
-    },
-    {
-      "basename": "07_검사_훈련_시나리오",
-      "path": "ScentSmart/분석/07_검사_훈련_시나리오.md"
     },
     {
       "basename": "10_시리얼 통신 관련 핵심 함수 정리",
