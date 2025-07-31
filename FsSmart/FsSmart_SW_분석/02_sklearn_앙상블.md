@@ -94,3 +94,100 @@
 ---
 
 원하시면 **Stacking**, **Voting**, **AdaBoost**, **XGBoost** 등 다른 앙상블 기법 비교도 추가해드릴 수 있습니다. 필요하시면 말씀해주세요!
+
+다음은 **Bagging, Boosting, Voting, Stacking, XGBoost** 등 주요 앙상블 기법을 구조적으로 정리하고, 이미지로 시각화한 Markdown 문서입니다. Obsidian에서도 바로 활용할 수 있습니다.
+
+[![利用Stacking与XGBoost提升分类性能的实战案例-CSDN博客](https://tse1.mm.bing.net/th/id/OIP.4ybgcSuZqQ0L7qkRZiIR9QHaEL?pid=Api)](https://blog.csdn.net/weixin_42524864/article/details/143444257)
+
+---
+
+## 🧩 앙상블 기법 간 비교 요약
+
+|기법|학습 방식|특징|출력 결합 방식|
+|---|---|---|---|
+|**Bagging**|병렬+Bootstrap|모델 간 상관성 낮춤, 분산 감소|투표(Voting) / 평균(Averaging)|
+|**Random Forest**|Bagging + 랜덤 feature 선택|휘황한 트리 다양성, 과적합 완화|투표 / 평균|
+|**Boosting (AdaBoost/GBDT)**|순차적 학습, 오답 중심|오류에 집중해 정확도 향상|weighted sum|
+|**Voting Ensemble**|서로 다른 모델 독립 학습|간단한 모델 조합, 안정성 향상|Hard/Soft Voting|
+|**Stacking**|다양한 베이스 모델 + 메타 모델|베이스 모델의 예측을 학습해 최종 결정|메타모델 기반 학습|
+|**XGBoost**|GBDT 기반 최적화 구현|정규화, 병렬처리, 빠르고 정확함|boosting 합산|
+
+---
+
+## 🔍 각 기법 설명
+
+### 1. Bagging (Bootstrap Aggregating)
+
+- 동일 학습기를 각기 다른 bootstrap 샘플로 병렬 학습
+    
+- 결과 투표 또는 평균 집계 방식으로 예측
+    
+- 과적합 감소 및 안정성 확보 ([위키백과](https://en.wikipedia.org/wiki/Ensemble_learning?utm_source=chatgpt.com "Ensemble learning"), [Medium](https://medium.com/%40minhducnguyen20/ensembling-voting-and-stacking-fd0d37ef9791?utm_source=chatgpt.com "Ensembling: Voting and Stacking - Medium"), [fall-2023-python-programming-for-data-science.readthedocs.io](https://fall-2023-python-programming-for-data-science.readthedocs.io/en/latest/Lectures/Theme_3-Model_Engineering/Lecture_14-Ensemble_Methods/Lecture_14-Ensemble_Methods.html?utm_source=chatgpt.com "Lecture 14 - Ensemble Methods"))
+    
+
+### 2. Random Forest
+
+- Bagging 기반이나 노드마다 랜덤 feature 서브셋 사용
+    
+- 트리 간 상관성 감소, 과적합 더 효과적 완화 ([위키백과](https://en.wikipedia.org/wiki/Ensemble_learning?utm_source=chatgpt.com "Ensemble learning"), [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/?utm_source=chatgpt.com "Bagging, Boosting and Stacking: Ensemble Learning in ML Models"))
+    
+
+### 3. Boosting (AdaBoost, Gradient Boosting, XGBoost 등)
+
+- 이전 모델의 오류에 가중치를 두고 순차적으로 학습
+    
+- 편향(bias) 감소, 높은 예측력 지님
+    
+- 다만 과적합 위험 존재 ([interviewnode.com](https://www.interviewnode.com/post/ensemble-learning-techniques-boosting-bagging-and-stacking-explained?utm_source=chatgpt.com "Ensemble Learning Techniques: Boosting, Bagging, and Stacking ..."), [Analytics Vidhya](https://www.analyticsvidhya.com/blog/2023/01/ensemble-learning-methods-bagging-boosting-and-stacking/?utm_source=chatgpt.com "Bagging, Boosting and Stacking: Ensemble Learning in ML Models"))
+    
+
+### 4. Voting (Hard / Soft)
+
+- 서로 다른 분류기들의 예측 결과를 투표 또는 평균 방식으로 조합
+    
+- 단순하지만 효과적인 성능 안정화 방식 ([GeeksforGeeks](https://www.geeksforgeeks.org/ensemble-methods-in-python/?utm_source=chatgpt.com "Ensemble Methods in Python | GeeksforGeeks"), [arXiv](https://arxiv.org/abs/2005.01575?utm_source=chatgpt.com "StackGenVis: Alignment of Data, Algorithms, and Models for Stacking Ensemble Learning Using Performance Metrics"))
+    
+
+### 5. Stacking (Stacked Generalization)
+
+- 서로 다른 base 모델들의 예측 결과를 meta learner가 학습
+    
+- 최종 메타 모델이 각 base 모델의 출력 조합 → 더 높은 성능 기대 ([kaggle.com](https://www.kaggle.com/code/yug201/stacking-ensemble-xgboost-base-catboost-meta?utm_source=chatgpt.com "Stacking Ensemble: XGBoost Base & CatBoost Meta - Kaggle"))
+    
+
+### 6. XGBoost (Extreme Gradient Boosting)
+
+- Gradient Boosting 기반 최적화 구현체
+    
+- 정규화, 병렬 학습, 자동 missing 처리, 빠른 실행 등이 특징
+    
+- 실전 데이터셋에서 뛰어난 성능 보임 ([xgboosting.com](https://xgboosting.com/stacking-ensemble-with-xgboost-meta-model-final-model/?utm_source=chatgpt.com "Stacking Ensemble With XGBoost Meta Model (Final Model)"), [Medium](https://medium.com/%40bhatadithya54764118/day-41-ensemble-learning-practical-stacking-and-voting-classifiers-366b5fb64616?utm_source=chatgpt.com "Ensemble Learning Practical — Stacking and Voting Classifiers | by ..."))
+    
+
+---
+
+## 🧠 앙상블 기법 간 상관 관계
+
+- **Random Forest**는 Bagging의 확장
+    
+- **XGBoost**는 Boosting 기반 고도화된 구조
+    
+- **Voting**은 개별 모델을 그대로 결합하는 방식
+    
+- **Stacking**은 모델 간 협업된 예측을 학습하는 고도 앙상블
+    
+
+---
+
+## 📘 참고 이미지 설명
+
+- 🔺 왼쪽 상단: stacking 구조—베이스 모델과 메타 모델의 예측 결합 흐름
+    
+- 🔺 오른쪽 상단: 다양한 분류기 예측 결과의 voting 구조 ([Medium](https://medium.com/%40minhducnguyen20/ensembling-voting-and-stacking-fd0d37ef9791?utm_source=chatgpt.com "Ensembling: Voting and Stacking - Medium"), [Medium](https://medium.com/sfu-cspmp/xgboost-a-deep-dive-into-boosting-f06c9c41349?utm_source=chatgpt.com "XGBoost: A Deep Dive into Boosting | by Rohan Harode | SFU Professional ..."))
+    
+- 🔺 하단: stacking 개요 다이어그램—기존 예측 결과를 메타 모델이 재학습하는 방식
+    
+
+---
+
+필요하시면 **AdaBoost, XGBoost 내부 구조**, 또는 **VotingClassifier / StackingClassifier 사용 예제 코드**도 제공해 드릴 수 있어요. 필요하시면 말씀해 주세요!
