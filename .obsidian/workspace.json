@@ -11,14 +11,12 @@
             "id": "c43372832585551e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
-                "mode": "source",
-                "source": false
+                "path": "ScentSmart/분석"
               },
               "icon": "lucide-file",
-              "title": "16_PWM_주파수_정리"
+              "title": "분석"
             }
           }
         ]
@@ -75,16 +73,6 @@
             }
           },
           {
-            "id": "024a3b5f831f126d",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {},
-              "icon": "layout-grid",
-              "title": "Navigator"
-            }
-          },
-          {
             "id": "f7ea06071b2aaf1e",
             "type": "leaf",
             "state": {
@@ -93,8 +81,19 @@
               "icon": "clock",
               "title": "Recent Files"
             }
+          },
+          {
+            "id": "d22910a226a92f1f",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -203,8 +202,9 @@
   },
   "active": "c43372832585551e",
   "lastOpenFiles": [
-    "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/분석/16_PWM_주파수_정리.md",
+    "README.md",
+    "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/분석/09_Signal 객체와 QThread.md",
     "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
     "ScentSmart/분석/15_uiDlgProtocol_함수정리.md",

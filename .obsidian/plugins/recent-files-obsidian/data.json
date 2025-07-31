@@ -5,10 +5,6 @@
       "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
     },
     {
-      "basename": "11_바이트패킷, Struct, CRC",
-      "path": "ScentSmart/분석/11_바이트패킷, Struct, CRC.md"
-    },
-    {
       "basename": "09_Signal 객체와 QThread",
       "path": "ScentSmart/분석/09_Signal 객체와 QThread.md"
     },
