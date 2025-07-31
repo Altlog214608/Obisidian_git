@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
+                "file": "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_함수_분류_및_전체_흐름"
+              "title": "23_2025_DS_ID12_KR_흐름도"
             }
           }
         ]
@@ -203,6 +203,8 @@
   },
   "active": "4cf2fd2885d6ee26",
   "lastOpenFiles": [
+    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
+    "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
     "ScentSmart/분석/21_암호화_사용함수_목적.md",
     "ScentSmart/분석/18_결과.xlsx_저장_함수.md",
     "ScentSmart/분석/22_dsAP 파일 용도.md",
@@ -216,7 +218,6 @@
     "ScentSmart/분석/00_개요.md",
     "ScentSmart/분석/01_PySide6_기초.md",
     "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
-    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/분석321123/분석321123.md",
     "ScentSmart/분석/분석321123.md",
     "ScentSmart/분석/99_부록_용어정리.md",
@@ -228,7 +229,6 @@
     "ScentSmart/분석/12_sendMsg_구조_비교.md",
     "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
-    "ScentSmart/분석/09_Signal 객체와 QThread.md",
     "ScentSmart/분석123",
     "ScentSmart/분석",
     "ScentSmart/17_데이터저장",
