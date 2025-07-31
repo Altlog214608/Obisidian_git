@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "06_함수_분류_및_전체_흐름",
+      "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
+    },
+    {
+      "basename": "05_프로토콜_분석",
+      "path": "ScentSmart/분석/05_프로토콜_분석.md"
+    },
+    {
+      "basename": "02_UI_구조_및_다이얼로그",
+      "path": "ScentSmart/분석/02_UI_구조_및_다이얼로그.md"
+    },
+    {
+      "basename": "03_시리얼_통신_및_하드웨어",
+      "path": "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md"
+    },
+    {
+      "basename": "04_dsComm_메시지_구조",
+      "path": "ScentSmart/분석/04_dsComm_메시지_구조.md"
+    },
+    {
       "basename": "ScentSmart_Overview",
       "path": "ScentSmart/계획/ScentSmart_Overview.md"
     },
@@ -41,18 +61,6 @@
       "path": "ScentSmart/분석/16_PWM_주파수_정리.md"
     },
     {
-      "basename": "06_함수_분류_및_전체_흐름",
-      "path": "ScentSmart/분석/06_함수_분류_및_전체_흐름.md"
-    },
-    {
-      "basename": "05_프로토콜_분석",
-      "path": "ScentSmart/분석/05_프로토콜_분석.md"
-    },
-    {
-      "basename": "04_dsComm_메시지_구조",
-      "path": "ScentSmart/분석/04_dsComm_메시지_구조.md"
-    },
-    {
       "basename": "08_QObject",
       "path": "ScentSmart/분석/08_QObject.md"
     },
@@ -85,10 +93,6 @@
       "path": "README.md"
     },
     {
-      "basename": "02_UI_구조_및_다이얼로그",
-      "path": "ScentSmart/분석/02_UI_구조_및_다이얼로그.md"
-    },
-    {
       "basename": "15_uiDlgProtocol_함수정리",
       "path": "ScentSmart/분석/15_uiDlgProtocol_함수정리.md"
     },
@@ -99,10 +103,6 @@
     {
       "basename": "13_Register_ModBUS_정리",
       "path": "ScentSmart/분석/13_Register_ModBUS_정리.md"
-    },
-    {
-      "basename": "03_시리얼_통신_및_하드웨어",
-      "path": "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md"
     },
     {
       "basename": "01_PySide6_기초",
