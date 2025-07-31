@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "65e1c378c9528569",
+    "type": "split",
+    "children": [
+      {
+        "id": "6599eb6411cb97a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c43372832585551e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "16_PWM_주파수_정리"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2e82a4c42a50ddd2",
+    "type": "split",
+    "children": [
+      {
+        "id": "533a63784fdd110c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95572e70e503ef6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "1fd5cc48ff872ea6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "b9d9221eb3de433b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "북마크"
+            }
+          },
+          {
+            "id": "024a3b5f831f126d",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
+            }
+          },
+          {
+            "id": "f7ea06071b2aaf1e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "adc43d850fe1ab1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "17bc711a1334b595",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "421ed3fed2dea576",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "16_PWM_주파수_정리 의 백링크"
+            }
+          },
+          {
+            "id": "84efe010f8233f2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "16_PWM_주파수_정리 의 나가는 링크"
+            }
+          },
+          {
+            "id": "e5ef14df864d3d42",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "태그"
+            }
+          },
+          {
+            "id": "af34f18a94518347",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "16_PWM_주파수_정리 의 개요"
+            }
+          },
+          {
+            "id": "98a3a0a2d81ba333",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "custom-sort:Toggle custom sorting": false
+    }
+  },
+  "active": "c43372832585551e",
+  "lastOpenFiles": [
+    "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
+    "ScentSmart/분석/16_PWM_주파수_정리.md",
+    "ScentSmart/분석/09_Signal 객체와 QThread.md",
+    "ScentSmart/분석/02_UI_구조_및_다이얼로그.md",
+    "ScentSmart/분석/15_uiDlgProtocol_함수정리.md",
+    "ScentSmart/분석/14_ScentSmart_함수_정리.md",
+    "ScentSmart/분석/13_Register_ModBUS_정리.md",
+    "ScentSmart/분석/12_sendMsg_구조_비교.md",
+    "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
+    "ScentSmart/분석/08_QObject.md",
+    "ScentSmart/분석/07_검사_훈련_시나리오.md",
+    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
+    "ScentSmart/분석/05_프로토콜_분석.md",
+    "ScentSmart/분석/04_dsComm_메시지_구조.md",
+    "ScentSmart/분석/03_시리얼_통신_및_하드웨어.md",
+    "ScentSmart/분석/01_PySide6_기초.md",
+    "ScentSmart/분석/99_부록_용어정리.md",
+    "ScentSmart/계획/ScentSmart_인수인계문서_작성구조안.md",
+    "ScentSmart/계획/ScentSmart_SW_인수인계_및_분석계획.md",
+    "ScentSmart/계획/ScentSmart_분석_권장_순서.md",
+    "ScentSmart/계획/ScentSmart_디지털후각검사_인수인계문서.md",
+    "Tags",
+    "ScentSmart/분석/00_개요.md",
+    "무제.canvas",
+    "2025-07-31.md",
+    "ScentSmart/계획",
+    "ScentSmart/분석",
+    "ScentSmart",
+    "환영합니다!.md"
+  ]
+}
