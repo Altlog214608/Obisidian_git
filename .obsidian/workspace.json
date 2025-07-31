@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
+                "file": "ScentSmart/분석/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23_2025_DS_ID12_KR_흐름도"
+              "title": "무제"
             }
           }
         ]
@@ -203,8 +203,9 @@
   },
   "active": "4cf2fd2885d6ee26",
   "lastOpenFiles": [
-    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/분석/23_2025_DS_ID12_KR_흐름도.md",
+    "ScentSmart/분석/무제.md",
+    "ScentSmart/분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/분석/21_암호화_사용함수_목적.md",
     "ScentSmart/분석/18_결과.xlsx_저장_함수.md",
     "ScentSmart/분석/22_dsAP 파일 용도.md",
@@ -228,7 +229,6 @@
     "ScentSmart/분석/13_Register_ModBUS_정리.md",
     "ScentSmart/분석/12_sendMsg_구조_비교.md",
     "ScentSmart/분석/11_바이트패킷, Struct, CRC.md",
-    "ScentSmart/분석/10_시리얼 통신 관련 핵심 함수 정리.md",
     "ScentSmart/분석123",
     "ScentSmart/분석",
     "ScentSmart/17_데이터저장",
