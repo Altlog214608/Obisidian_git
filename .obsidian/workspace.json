@@ -11,12 +11,14 @@
             "id": "c43372832585551e",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "ScentSmart/분석"
+                "file": "2025-07-28.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "분석"
+              "title": "2025-07-28"
             }
           }
         ]
@@ -113,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "file": "2025-07-28.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "16_PWM_주파수_정리 의 백링크"
+              "title": "2025-07-28 의 백링크"
             }
           },
           {
@@ -132,12 +134,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ScentSmart/분석/16_PWM_주파수_정리.md",
+                "file": "2025-07-28.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "16_PWM_주파수_정리 의 나가는 링크"
+              "title": "2025-07-28 의 나가는 링크"
             }
           },
           {
@@ -180,12 +182,12 @@
               "title": "Calendar"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,8 +202,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "d22910a226a92f1f",
+  "active": "c43372832585551e",
   "lastOpenFiles": [
+    "2025-07-28.md",
     "2025-07-31.md",
     "ScentSmart/분석/16_PWM_주파수_정리.md",
     "README.md",
