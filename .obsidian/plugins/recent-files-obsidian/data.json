@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "00_개요",
+      "path": "ScentSmart/ScentSmart_SW_분석/00_개요.md"
+    },
+    {
+      "basename": "무제",
+      "path": "FsSmart/FsSmart_SW_분석/무제.md"
+    },
+    {
+      "basename": "FsSmart_사용 AI 모델",
+      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md"
+    },
+    {
       "basename": "FsSmart_전체흐름요약",
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md"
     },
@@ -9,16 +21,8 @@
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md"
     },
     {
-      "basename": "FsSmart_사용 AI 모델",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md"
-    },
-    {
       "basename": "FsSmart_계획",
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_계획.md"
-    },
-    {
-      "basename": "무제",
-      "path": "FsSmart/FsSmart_SW_분석/무제.md"
     },
     {
       "basename": "ScentSmart",
@@ -103,10 +107,6 @@
     {
       "basename": "03_시리얼_통신_및_하드웨어",
       "path": "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md"
-    },
-    {
-      "basename": "00_개요",
-      "path": "ScentSmart/ScentSmart_SW_분석/00_개요.md"
     },
     {
       "basename": "01_PySide6_기초",
