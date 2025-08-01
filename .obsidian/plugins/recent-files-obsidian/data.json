@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md"
+    },
+    {
       "basename": "16_SW-HW간 패킷 복호화,발향 과정",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/16_SW-HW간 패킷 복호화,발향 과정.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "24_로그인_과정",
       "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
-    },
-    {
-      "basename": "26_발향_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md"
     }
   ],
   "omittedPaths": [],
