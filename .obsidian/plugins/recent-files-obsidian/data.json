@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "01_모델설명",
+      "path": "FsSmart/FsSmart_SW_분석/01_모델설명.md"
+    },
+    {
       "basename": "09_결과_QR코드_생성_함수",
       "path": "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "03_모델 학습 코드 설명",
       "path": "FsSmart/FsSmart_SW_분석/03_모델 학습 코드 설명.md"
-    },
-    {
-      "basename": "01_모델설명",
-      "path": "FsSmart/FsSmart_SW_분석/01_모델설명.md"
     },
     {
       "basename": "2025-07-31",

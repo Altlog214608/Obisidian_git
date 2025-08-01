@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md",
+                "file": "FsSmart/FsSmart_SW_분석/01_모델설명.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "09_결과_QR코드_생성_함수"
+              "title": "01_모델설명"
             }
           }
         ]
@@ -202,10 +202,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7c533aa289527bc9",
+  "active": "fa04e6162ce313e7",
   "lastOpenFiles": [
-    "FsSmart/FsSmart_SW_분석/08_set_ui_find_age_func.md",
+    "FsSmart/FsSmart_SW_분석/FsSmart_SW_분석.md",
     "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md",
+    "FsSmart/FsSmart_SW_분석/08_set_ui_find_age_func.md",
     "FsSmart/FsSmart_SW_분석/07_AI_모델_사용시점.md",
     "FsSmart/FsSmart_SW_분석/06_전체 코드 설명.md",
     "FsSmart/FsSmart_SW_분석/06_.md",
@@ -229,7 +230,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
