@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "06_IODefine.h, known_16bit_timers.h",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
+    },
+    {
       "basename": "05_IOcontrol 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol 파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
       "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
-    },
-    {
-      "basename": "18_결과.xlsx_저장_함수",
-      "path": "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md"
     }
   ],
   "omittedPaths": [],
