@@ -13,10 +13,10 @@
             "state": {
               "type": "mk-space",
               "state": {
-                "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW"
+                "path": "Tags"
               },
               "icon": "lucide-file",
-              "title": "ScentSmart_매니폴드_제어_구동_프로그램SW"
+              "title": "Tags"
             }
           }
         ]
