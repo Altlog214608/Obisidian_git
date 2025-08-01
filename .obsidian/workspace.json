@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/30_버튼_UI_할당.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "28_ScentSmart 통신 함수 구성"
+              "title": "30_버튼_UI_할당"
             }
           }
         ]
@@ -203,8 +203,9 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md",
     "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md",
+    "ScentSmart/ScentSmart_SW_분석/30_버튼_UI_할당.md",
+    "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md",
     "ScentSmart/ScentSmart_SW_분석/29_dsComm_모듈_함수.md",
     "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md",
     "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
@@ -239,7 +240,6 @@
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_계획.md",
     "FsSmart/FsSmart_SW_분석_계획",
-    "FsSmart/FsSmart_SW_분석/무제 1.md",
     "FsSmart/FsSmart_SW_분석",
     "FsSmart",
     "ScentSmart/분석123",
