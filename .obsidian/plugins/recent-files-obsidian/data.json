@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "34_ui_subject",
+      "path": "ScentSmart/ScentSmart_SW_분석/34_ui_subject.md"
+    },
+    {
       "basename": "33_test_identification_reponse_ui파일_분석",
       "path": "ScentSmart/ScentSmart_SW_분석/33_test_identification_reponse_ui파일_분석.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "01_모델설명",
       "path": "FsSmart/FsSmart_SW_분석/01_모델설명.md"
-    },
-    {
-      "basename": "00_개요",
-      "path": "FsSmart/FsSmart_SW_분석/00_개요.md"
     }
   ],
   "omittedPaths": [],
