@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석/06_.md",
+                "file": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_"
+              "title": "03_전체 코드 설명"
             }
           }
         ]
@@ -203,6 +203,7 @@
   },
   "active": "7c533aa289527bc9",
   "lastOpenFiles": [
+    "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/06_.md",
     "Notes/Daily/2025/07/2025-07-31.md",
     "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
@@ -228,7 +229,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
