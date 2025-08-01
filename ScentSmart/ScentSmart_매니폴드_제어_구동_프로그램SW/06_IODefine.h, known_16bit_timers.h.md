@@ -38,7 +38,10 @@ c
 
 c
 
-`#define _DO_WDI       PIN_PD7  // 워치독 신호용 출력 #define _DO_485_RE    PIN_PD2  // RS485 통신 송수신 방향 제어 핀 (HIGH 송신) #define _DO_LED_STS   PIN_PB5  // 상태 표시 LED 핀`
+`
+#define _DO_WDI       PIN_PD7  // 워치독 신호용 출력 
+#define _DO_485_RE    PIN_PD2  // RS485 통신 송수신 방향 제어 핀 (HIGH 송신) 
+#define _DO_LED_STS   PIN_PB5  // 상태 표시 LED 핀`
 
 - **워치독 신호(WDI)**: MCU 정기 작동 신호용 핀
     

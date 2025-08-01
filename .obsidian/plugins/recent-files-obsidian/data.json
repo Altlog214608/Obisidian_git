@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-01",
+      "path": "Notes/Daily/2025/08/2025-08-01.md"
+    },
+    {
+      "basename": "2025-08-29",
+      "path": "Notes/Daily/2025/08/2025-08-29.md"
+    },
+    {
       "basename": "06_IODefine.h, known_16bit_timers.h",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "31_UI_분석계획",
       "path": "ScentSmart/ScentSmart_SW_분석/31_UI_분석계획.md"
-    },
-    {
-      "basename": "2025-08-29",
-      "path": "Notes/Daily/2025/08/2025-08-29.md"
     },
     {
       "basename": "2025-08-28",
@@ -129,10 +133,6 @@
       "path": "Notes/Daily/2025/08/2025-08-05.md"
     },
     {
-      "basename": "2025-08-01",
-      "path": "Notes/Daily/2025/08/2025-08-01.md"
-    },
-    {
       "basename": "2025-08-04",
       "path": "Notes/Daily/2025/08/2025-08-04.md"
     },
@@ -195,10 +195,6 @@
     {
       "basename": "03_전체 코드 설명",
       "path": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md"
-    },
-    {
-      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
-      "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
     }
   ],
   "omittedPaths": [],
