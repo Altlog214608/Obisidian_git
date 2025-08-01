@@ -155,11 +155,20 @@ _즉, 여기서 “몇 번 문항인지 표시+대기+부드러운 진행바 효
 
 text
 
-``사용자가 검사 시작 버튼 클릭     ↓ startIdentification() 호출 (검사 인덱스 초기화, 타입 설정)     ↓ waitTestIdentificationReady() 호출 (준비 화면, 프로그레스바 점차 채움)     ↓ testIdentificationProceed() 호출 (응답화면 초기화, UI 버튼 숨김, 화면 표시)     ↓ sequentialIdentification() 호출     ↓ progressBarScentAndClean() 실행 → 하드웨어로 발향 명령 전송 + 프로그레스바 애니메이션     ↓ 발향 끝나면 프로그레스바 숨기고 버튼 다시 표시     ↓ 사용자가 선택지 클릭 → 체크 이미지 표시 + "다음" 버튼 활성화     ↓ 다음 버튼 클릭 → `uiTestIdentificationProceed()` 재호출 → 다음 문항 진행``
+```
+사용자가 검사 시작 버튼 클릭     
+↓ 
+startIdentification() 호출 (검사 인덱스 초기화, 타입 설정)     
+↓
+waitTestIdentificationReady() 호출 (준비 화면, 프로그레스바 점차 채움)     
+↓ 
+testIdentificationProceed() 호출 (응답화면 초기화, UI 버튼 숨김, 화면 표시)    
+↓ 
+sequentialIdentification() 호출     
+↓ 
+progressBarScentAndClean() 실행 → 하드웨어로 발향 명령 전송 + 프로그레스바 애니메이션     ↓ 
+발향 끝나면 프로그레스바 숨기고 버튼 다시 표시     
+↓ 사용자가 선택지 클릭 → 체크 이미지 표시 + "다음" 버튼 활성화     ↓ 다음 버튼 클릭 → `uiTestIdentificationProceed()` 재호출 → 다음 문항 진행```
+```
 
-필요하면 `progressBarScentAndClean()` 내부에서 하드웨어 시리얼 명령(`requestScentNo()`)이 어떻게 작동하는지도 자세히 설명해 드릴 수 있습니다.  
-현재 설명이 전체적으로 검사 시작부터 1번 문항 발향, 선택지 UI, 선택 후 다음 문항 진행까지 동작 이해를 충분히 도울 것입니다.
 
-추가 질문 편하게 주세요!
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/ae68156a-aec7-4e3b-b07c-4c3923a5eca6/ScentSmart.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/ae68156a-aec7-4e3b-b07c-4c3923a5eca6/ScentSmart.py)
