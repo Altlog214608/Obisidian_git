@@ -18,7 +18,7 @@
 ---
 ![[Pasted image 20250731175857.jpg]]
 ### 2. MLP (Multi‑Layer Perceptron)
-
+![[Pasted image 20250801090238.jpg]]
 - **개요**: 입력층 → 은닉층(n개) → 출력층으로 구성된 전형적인 신경망입니다.
     
 - **특징**: 모든 노드가 완전 연결(Fully Connected)되어 있으며, 비선형 활성화 함수로 복잡한 패턴을 학습할 수 있습니다.
@@ -27,9 +27,8 @@
     
 
 ---
-![[Pasted image 20250731175903.jpg]]
 ### 3. VAE (Variational Autoencoder)
-
+![[Pasted image 20250801090220.jpg]]
 - **개요**: 인코더와 디코더로 구성된 확률 기반 생성 모델로, 잠재 공간(latent space)을 통해 데이터를 압축하고 재구성합니다.
     
 - **특징**: 인코더는 입력을 평균(μ), 분산(σ)으로 매핑 → 잠재 벡터 생성(z = μ + σ·ε) → 디코더가 재구성을 수행.
@@ -39,7 +38,9 @@
 
 ---
 
-### 4. GAN (Generative Adversarial Network)![[Pasted image 20250731175906.jpg]]
+### 4. GAN (Generative Adversarial Network)
+
+
 
 - **개요**: 생성자(Generator)와 판별자(Discriminator)가 적대적으로 경쟁하며 학습하는 생성 모델입니다.
     
