@@ -11,12 +11,12 @@
             "id": "7c533aa289527bc9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "mk-space",
               "state": {
-                "file": "Pasted image 20250801090220.jpg"
+                "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW"
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250801090220"
+              "icon": "lucide-file",
+              "title": "ScentSmart_매니폴드_제어_구동_프로그램SW"
             }
           }
         ]
@@ -83,7 +83,7 @@
             }
           },
           {
-            "id": "fa04e6162ce313e7",
+            "id": "1b5a460bba95c9e1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -202,6 +202,11 @@
   },
   "active": "7c533aa289527bc9",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
+    "Pasted image 20250801090312.jpg",
+    "Pasted image 20250801090238.jpg",
+    "Pasted image 20250801090201.jpg",
+    "Pasted image 20250801090220.jpg",
     "FsSmart/FsSmart_SW_분석/07_AI_모델_사용시점.md",
     "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/FsSmart_SW_분석.md",
@@ -214,7 +219,6 @@
     "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_방향.md",
     "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_권장_순서.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_디지털후각검사_인수인계문서.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md",
@@ -227,15 +231,10 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
     "Pasted image 20250801090412.jpg",
-    "Pasted image 20250801090312.jpg",
-    "Pasted image 20250801090238.jpg",
-    "Pasted image 20250801090220.jpg",
-    "Pasted image 20250801090201.jpg",
     "Pasted image 20250731171503.jpg",
     "Pasted image 20250731170930.jpg",
     "Pasted image 20250731175906.jpg",
