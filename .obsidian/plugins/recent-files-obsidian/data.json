@@ -1,6 +1,82 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-29",
+      "path": "Notes/Daily/2025/08/2025-08-29.md"
+    },
+    {
+      "basename": "2025-08-28",
+      "path": "Notes/Daily/2025/08/2025-08-28.md"
+    },
+    {
+      "basename": "2025-08-27",
+      "path": "Notes/Daily/2025/08/2025-08-27.md"
+    },
+    {
+      "basename": "2025-08-26",
+      "path": "Notes/Daily/2025/08/2025-08-26.md"
+    },
+    {
+      "basename": "2025-08-25",
+      "path": "Notes/Daily/2025/08/2025-08-25.md"
+    },
+    {
+      "basename": "2025-08-22",
+      "path": "Notes/Daily/2025/08/2025-08-22.md"
+    },
+    {
+      "basename": "2025-08-21",
+      "path": "Notes/Daily/2025/08/2025-08-21.md"
+    },
+    {
+      "basename": "2025-08-20",
+      "path": "Notes/Daily/2025/08/2025-08-20.md"
+    },
+    {
+      "basename": "2025-08-19",
+      "path": "Notes/Daily/2025/08/2025-08-19.md"
+    },
+    {
+      "basename": "2025-08-18",
+      "path": "Notes/Daily/2025/08/2025-08-18.md"
+    },
+    {
+      "basename": "2025-08-15",
+      "path": "Notes/Daily/2025/08/2025-08-15.md"
+    },
+    {
+      "basename": "2025-08-14",
+      "path": "Notes/Daily/2025/08/2025-08-14.md"
+    },
+    {
+      "basename": "2025-08-13",
+      "path": "Notes/Daily/2025/08/2025-08-13.md"
+    },
+    {
+      "basename": "2025-08-12",
+      "path": "Notes/Daily/2025/08/2025-08-12.md"
+    },
+    {
+      "basename": "2025-08-11",
+      "path": "Notes/Daily/2025/08/2025-08-11.md"
+    },
+    {
+      "basename": "2025-08-08",
+      "path": "Notes/Daily/2025/08/2025-08-08.md"
+    },
+    {
+      "basename": "2025-08-07",
+      "path": "Notes/Daily/2025/08/2025-08-07.md"
+    },
+    {
+      "basename": "2025-08-06",
+      "path": "Notes/Daily/2025/08/2025-08-06.md"
+    },
+    {
+      "basename": "2025-08-05",
+      "path": "Notes/Daily/2025/08/2025-08-05.md"
+    },
+    {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
@@ -123,78 +199,6 @@
     {
       "basename": "FsSmart_계획",
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_계획.md"
-    },
-    {
-      "basename": "ScentSmart",
-      "path": "ScentSmart/ScentSmart.md"
-    },
-    {
-      "basename": "Vault",
-      "path": "Vault.md"
-    },
-    {
-      "basename": "08_QObject",
-      "path": "ScentSmart/ScentSmart_SW_분석/08_QObject.md"
-    },
-    {
-      "basename": "ScentSmart_인수인계문서_작성구조안",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md"
-    },
-    {
-      "basename": "07_검사_훈련_시나리오",
-      "path": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md"
-    },
-    {
-      "basename": "09_Signal 객체와 QThread",
-      "path": "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md"
-    },
-    {
-      "basename": "10_시리얼 통신 관련 핵심 함수 정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md"
-    },
-    {
-      "basename": "12_sendMsg_구조_비교",
-      "path": "ScentSmart/ScentSmart_SW_분석/12_sendMsg_구조_비교.md"
-    },
-    {
-      "basename": "15_uiDlgProtocol_함수정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/15_uiDlgProtocol_함수정리.md"
-    },
-    {
-      "basename": "16_PWM_주파수_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/16_PWM_주파수_정리.md"
-    },
-    {
-      "basename": "17_결과 저장 및 DB 연동 구조",
-      "path": "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md"
-    },
-    {
-      "basename": "06_함수_분류_및_전체_흐름",
-      "path": "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md"
-    },
-    {
-      "basename": "03_시리얼_통신_및_하드웨어",
-      "path": "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md"
-    },
-    {
-      "basename": "01_PySide6_기초",
-      "path": "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md"
-    },
-    {
-      "basename": "02_UI_구조_및_다이얼로그",
-      "path": "ScentSmart/ScentSmart_SW_분석/02_UI_구조_및_다이얼로그.md"
-    },
-    {
-      "basename": "ScentSmart_디지털후각검사_인수인계문서",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_디지털후각검사_인수인계문서.md"
-    },
-    {
-      "basename": "ScentSmart_Overview",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_Overview.md"
-    },
-    {
-      "basename": "2025-07-28",
-      "path": "Notes/Daily/2025/07/2025-07-28.md"
     }
   ],
   "omittedPaths": [],
