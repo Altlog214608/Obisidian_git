@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "12_FunctionSerial",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md"
+    },
+    {
+      "basename": "11_ControlPumpNF",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md"
+    },
+    {
       "basename": "10_ConfigCOM",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "13_Register_ModBUS_정리",
       "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
-    },
-    {
-      "basename": "99_부록_용어정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
-    },
-    {
-      "basename": "25_testID(후각인지검사)_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md"
     }
   ],
   "omittedPaths": [],
