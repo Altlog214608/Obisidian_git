@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "09_TimerOne",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/09_TimerOne.md"
+    },
+    {
       "basename": "08_ScentControl",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "23_2025_DS_ID12_KR_흐름도",
       "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
-    },
-    {
-      "basename": "02_sklearn_앙상블",
-      "path": "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md"
     }
   ],
   "omittedPaths": [],
