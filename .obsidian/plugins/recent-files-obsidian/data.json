@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "Notes/Daily/2025/08/무제.md"
+    },
+    {
+      "basename": "2025-07-30",
+      "path": "Notes/Daily/2025/07/2025-07-30.md"
+    },
+    {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
     {
       "basename": "2025-07-31",
       "path": "Notes/Daily/2025/07/2025-07-31.md"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Notes/Daily/2025/07/2025-07-30.md"
     },
     {
       "basename": "2025-07-29",
@@ -195,10 +199,6 @@
     {
       "basename": "ScentSmart_분석_권장_순서",
       "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_권장_순서.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
