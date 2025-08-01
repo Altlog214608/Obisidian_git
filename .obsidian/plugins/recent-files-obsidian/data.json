@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "99_부록_용어정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
+    },
+    {
       "basename": "29_dsComm_모듈_함수",
       "path": "ScentSmart/ScentSmart_SW_분석/29_dsComm_모듈_함수.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "25_testID(후각인지검사)_과정",
       "path": "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md"
-    },
-    {
-      "basename": "99_부록_용어정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
     },
     {
       "basename": "24_로그인_과정",

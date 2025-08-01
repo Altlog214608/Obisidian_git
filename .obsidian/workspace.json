@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/29_dsComm_모듈_함수.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "29_dsComm_모듈_함수"
+              "title": "99_부록_용어정리"
             }
           }
         ]
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 298.5
   },
   "right": {
     "id": "adc43d850fe1ab1b",
@@ -203,8 +203,8 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md",
     "ScentSmart/ScentSmart_SW_분석/29_dsComm_모듈_함수.md",
+    "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md",
     "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md",
     "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md",
     "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md",
