@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "02_CC++헤더파일과 JAVA_interface",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/02_CC++헤더파일과 JAVA_interface.md"
+      "basename": "03_CC++_프로젝트_전역설정헤더",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/03_CC++_프로젝트_전역설정헤더.md"
     },
     {
       "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
+    },
+    {
+      "basename": "02_CC++헤더파일과 JAVA_interface",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/02_CC++헤더파일과 JAVA_interface.md"
     },
     {
       "basename": "01.C++ 파일과 C Header 파일",
@@ -195,10 +199,6 @@
     {
       "basename": "21_암호화_사용함수_목적",
       "path": "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md"
-    },
-    {
-      "basename": "22_dsAP 파일 용도",
-      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
     }
   ],
   "omittedPaths": [],
