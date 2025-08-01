@@ -1,3 +1,7 @@
+---
+aliases:
+  - 04_HostRun cpp/header
+---
 
 
 # 1. 펌웨어가 하는 일 - 전체 개념 정리
