@@ -46,6 +46,7 @@ Python 코드(ScentSmart.py 등)와 C언어 펌웨어 파일들이 **서로 시�
     
     cpp
     
+    ```cpp
     `ISR(USART0_RX_vect) {      // (HostRun.cpp)     SerialHost._rx_complete_irq(c);    SerialHostEvent();     // 바이트 모으면 패킷화 }`
     
 - (`SerialHostEvent`에서)
