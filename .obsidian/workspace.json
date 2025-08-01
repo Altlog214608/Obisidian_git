@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "19_펌웨어 - 소프트웨어 전송 신호"
+              "title": "20_구조요약"
             }
           }
         ]
@@ -204,8 +204,9 @@
   },
   "active": "fd6f45da14356ea0",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/16_SW-HW간 패킷 복호화,발향 과정.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
@@ -230,7 +231,6 @@
     "Notes/Daily/2025/08/2025-08-29.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/03_CC++_프로젝트_전역설정헤더.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/02_CC++헤더파일과 JAVA_interface.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
     "Pasted image 20250801090412.jpg",
