@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14_전체 파일 축약"
+              "title": "15_SW와 HW간의 연결"
             }
           }
         ]
@@ -204,8 +204,9 @@
   },
   "active": "fd6f45da14356ea0",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md",
@@ -230,7 +231,6 @@
     "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md",
     "ScentSmart/ScentSmart_SW_분석/33_test_identification_reponse_ui파일_분석.md",
     "ScentSmart/ScentSmart_SW_분석/32_UI_관련_프로퍼티_위젯.md",
-    "ScentSmart/ScentSmart_SW_분석/31_UI_분석계획.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
     "Pasted image 20250801090412.jpg",

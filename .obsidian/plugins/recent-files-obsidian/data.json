@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "15_SW와 HW간의 연결",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
+    },
+    {
       "basename": "14_전체 파일 축약",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "30_버튼_UI_할당",
       "path": "ScentSmart/ScentSmart_SW_분석/30_버튼_UI_할당.md"
-    },
-    {
-      "basename": "28_ScentSmart 통신 함수 구성",
-      "path": "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md"
     }
   ],
   "omittedPaths": [],
