@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-07-31",
+      "path": "Notes/Daily/2025/07/2025-07-31.md"
+    },
+    {
       "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
       "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-08-13",
       "path": "Notes/Daily/2025/08/2025-08-13.md"
-    },
-    {
-      "basename": "2025-08-12",
-      "path": "Notes/Daily/2025/08/2025-08-12.md"
     }
   ],
   "omittedPaths": [],
