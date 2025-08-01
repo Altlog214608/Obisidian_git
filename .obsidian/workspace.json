@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "25_testID(후각인지검사)_과정"
+              "title": "26_발향_과정"
             }
           }
         ]
@@ -203,8 +203,9 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
+    "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md",
     "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md",
+    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
     "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md",
     "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md",
     "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
@@ -240,7 +241,6 @@
     "ScentSmart/ScentSmart.md",
     "FsSmart/FsSmart.md",
     "FsSmart/FsSmart_SW_분석",
-    "FsSmart/무제.md",
     "FsSmart",
     "ScentSmart/분석123",
     "ScentSmart/ScentSmart_SW_분석",
