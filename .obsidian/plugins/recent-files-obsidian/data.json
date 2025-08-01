@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "04_HostRun",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md"
+    },
+    {
+      "basename": "07_nfserial",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md"
+    },
+    {
+      "basename": "05_IOcontrol",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol.md"
+    },
+    {
+      "basename": "00_분석방향",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md"
+    },
+    {
       "basename": "06_IODefine.h, known_16bit_timers.h",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
     },
@@ -17,14 +33,6 @@
       "path": "Notes/Daily/2025/08/2025-08-29.md"
     },
     {
-      "basename": "05_IOcontrol 파일",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol 파일.md"
-    },
-    {
-      "basename": "04_HostRun 파일",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun 파일.md"
-    },
-    {
       "basename": "03_CC++_프로젝트_전역설정헤더",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/03_CC++_프로젝트_전역설정헤더.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "01.C++ 파일과 C Header 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md"
-    },
-    {
-      "basename": "00_분석방향",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md"
     },
     {
       "basename": "34_Qt 기본 위젯",
