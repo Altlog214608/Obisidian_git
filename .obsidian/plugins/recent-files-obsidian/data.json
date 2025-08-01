@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "21_펌웨어 데이터처리 과정",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md"
+    },
+    {
       "basename": "20_구조요약",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-07-30",
       "path": "Notes/Daily/2025/07/2025-07-30.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "Notes/Daily/2025/07/2025-07-31.md"
     }
   ],
   "omittedPaths": [],
