@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22_dsAP 파일 용도"
+              "title": "23_2025_DS_ID12_KR_흐름도"
             }
           }
         ]
@@ -203,27 +203,30 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
+    "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
+    "Pasted image 20250801090412.jpg",
+    "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
+    "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
+    "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md",
+    "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md",
+    "ScentSmart/ScentSmart_SW_분석/20_암호화.md",
+    "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md",
+    "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md",
     "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md",
     "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md",
-    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
-    "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
     "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "Pasted image 20250801090312.jpg",
     "Pasted image 20250801090238.jpg",
     "Pasted image 20250801090220.jpg",
     "Pasted image 20250801090201.jpg",
-    "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
-    "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
     "Pasted image 20250731171503.jpg",
     "Pasted image 20250731170930.jpg",
-    "ScentSmart/ScentSmart_SW_분석/20_암호화.md",
-    "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md",
     "Pasted image 20250731175906.jpg",
     "Pasted image 20250731175903.jpg",
     "Pasted image 20250731175857.jpg",
     "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/00_개요.md",
-    "Pasted image 20250731171512.jpg",
     "ScentSmart/ScentSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md",
@@ -238,10 +241,6 @@
     "FsSmart/FsSmart_SW_분석",
     "FsSmart/무제.md",
     "FsSmart",
-    "Vault.md",
-    "ScentSmart/ScentSmart_SW_분석/ScentSmart_SW_분석.md",
-    "ScentSmart/ScentSmart_SW_분석/08_QObject.md",
-    "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_인수인계문서_작성구조안.md",
     "ScentSmart/분석123",
     "ScentSmart/ScentSmart_SW_분석",
     "ScentSmart/17_데이터저장",

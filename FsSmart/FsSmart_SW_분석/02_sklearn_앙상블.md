@@ -36,8 +36,8 @@
     
 
 ---
-![[Pasted image 20250731171512.jpg]]
 
+![[Pasted image 20250801090412.jpg]]
 ### **3. Stacking (Stacked Generalization)**
 
 - **구조**: 서로 다른 베이스 모델(B, C, D)의 예측 결과를 **메타 모델**이 학습

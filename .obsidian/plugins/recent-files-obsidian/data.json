@@ -1,28 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "22_dsAP 파일 용도",
-      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
-    },
-    {
       "basename": "23_2025_DS_ID12_KR_흐름도",
       "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
     },
     {
-      "basename": "24_로그인_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
-    },
-    {
       "basename": "99_부록_용어정리",
       "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
-    },
-    {
-      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
-      "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
-    },
-    {
-      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "02_sklearn_앙상블",
@@ -33,8 +17,36 @@
       "path": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md"
     },
     {
+      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
+      "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
+    },
+    {
+      "basename": "18_결과.xlsx_저장_함수",
+      "path": "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md"
+    },
+    {
+      "basename": "19_DB_모듈_정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
+    },
+    {
       "basename": "20_암호화",
       "path": "ScentSmart/ScentSmart_SW_분석/20_암호화.md"
+    },
+    {
+      "basename": "21_암호화_사용함수_목적",
+      "path": "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md"
+    },
+    {
+      "basename": "22_dsAP 파일 용도",
+      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
+    },
+    {
+      "basename": "24_로그인_과정",
+      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
+    },
+    {
+      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
+      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "01_모델설명",
@@ -109,20 +121,8 @@
       "path": "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md"
     },
     {
-      "basename": "18_결과.xlsx_저장_함수",
-      "path": "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md"
-    },
-    {
-      "basename": "19_DB_모듈_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
-    },
-    {
       "basename": "13_Register_ModBUS_정리",
       "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
-    },
-    {
-      "basename": "21_암호화_사용함수_목적",
-      "path": "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md"
     },
     {
       "basename": "06_함수_분류_및_전체_흐름",
