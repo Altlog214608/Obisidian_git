@@ -166,14 +166,3 @@
 
 **특정 연습 미션이나 도움 필요한 예시 있으면 언제든 구체적으로 물어보면,  
 코드/절차/예제 및 설계팁을 바로 안내드릴 수 있습니다!**
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py)
-2. [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
-3. [https://nicegui.io](https://nicegui.io/)
-4. [https://www.geeksforgeeks.org/python/sentiment-detector-gui-using-tkinter-python/](https://www.geeksforgeeks.org/python/sentiment-detector-gui-using-tkinter-python/)
-5. [https://www.reddit.com/r/Python/comments/hexedz/professional_gui_using_python/](https://www.reddit.com/r/Python/comments/hexedz/professional_gui_using_python/)
-6. [https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli](https://stackoverflow.com/questions/20587886/how-to-make-a-simple-gui-in-python-without-using-any-tools-such-as-tkinter-ecli)
-7. [https://kivy.org](https://kivy.org/)
-8. [https://amanxai.com/2021/02/04/15-python-gui-projects-with-source-code/](https://amanxai.com/2021/02/04/15-python-gui-projects-with-source-code/)
-9. [https://discuss.python.org/t/new-to-python-help-with-tkinter-phonebook-gui/35581](https://discuss.python.org/t/new-to-python-help-with-tkinter-phonebook-gui/35581)
-10. [https://www.mdpi.com/1424-8220/22/15/5849](https://www.mdpi.com/1424-8220/22/15/5849)
