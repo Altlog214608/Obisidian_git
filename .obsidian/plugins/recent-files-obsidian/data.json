@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_SW_분석/무제.md"
+    },
+    {
       "basename": "32_UI_관련_프로퍼티_위젯",
       "path": "ScentSmart/ScentSmart_SW_분석/32_UI_관련_프로퍼티_위젯.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "00_개요",
       "path": "FsSmart/FsSmart_SW_분석/00_개요.md"
-    },
-    {
-      "basename": "00_개요",
-      "path": "ScentSmart/ScentSmart_SW_분석/00_개요.md"
     }
   ],
   "omittedPaths": [],
