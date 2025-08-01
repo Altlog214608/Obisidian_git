@@ -311,7 +311,3 @@
 - 위와 같은 **“실무 미션에 가까운 작은 연습”**들을 직접 해보면  
     곧 실전 업무에 자신감 있게 대응할 수 있습니다!
     
-
-> **특정 미션/예제 실습 과정, 코드 스니펫, .ui 파일 만드는 법, Signal-Slot 연결법 등 실전 예시도 필요하면, 구체적으로 추가 질문해주시면 안내해드릴 수 있습니다!**
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py)
