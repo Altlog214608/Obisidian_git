@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "08_ScentControl",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md"
+    },
+    {
       "basename": "04_HostRun",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "02_sklearn_앙상블",
       "path": "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md"
-    },
-    {
-      "basename": "03_전체 코드 설명",
-      "path": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md"
     }
   ],
   "omittedPaths": [],
