@@ -11,14 +11,12 @@
             "id": "7c533aa289527bc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석/01_모델설명.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250801090220.jpg"
               },
-              "icon": "lucide-file",
-              "title": "01_모델설명"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250801090220"
             }
           }
         ]
@@ -202,16 +200,16 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "fa04e6162ce313e7",
+  "active": "7c533aa289527bc9",
   "lastOpenFiles": [
+    "FsSmart/FsSmart_SW_분석/07_AI_모델_사용시점.md",
+    "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/FsSmart_SW_분석.md",
     "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "FsSmart/FsSmart_SW_분석/08_set_ui_find_age_func.md",
-    "FsSmart/FsSmart_SW_분석/07_AI_모델_사용시점.md",
     "FsSmart/FsSmart_SW_분석/06_전체 코드 설명.md",
     "FsSmart/FsSmart_SW_분석/06_.md",
     "FsSmart/FsSmart_SW_분석/03_모델 학습 코드 설명.md",
-    "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "Notes/Daily/2025/07/2025-07-31.md",
     "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_방향.md",
