@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
+      "basename": "22_dsAP 파일 용도",
+      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
+    },
+    {
+      "basename": "23_2025_DS_ID12_KR_흐름도",
+      "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
+    },
+    {
+      "basename": "24_로그인_과정",
+      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
     },
     {
       "basename": "99_부록_용어정리",
@@ -11,6 +19,10 @@
     {
       "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
       "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
+    },
+    {
+      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
+      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "02_sklearn_앙상블",
@@ -23,10 +35,6 @@
     {
       "basename": "20_암호화",
       "path": "ScentSmart/ScentSmart_SW_분석/20_암호화.md"
-    },
-    {
-      "basename": "22_dsAP 파일 용도",
-      "path": "ScentSmart/ScentSmart_SW_분석/22_dsAP 파일 용도.md"
     },
     {
       "basename": "01_모델설명",
@@ -85,10 +93,6 @@
       "path": "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md"
     },
     {
-      "basename": "24_로그인_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
-    },
-    {
       "basename": "12_sendMsg_구조_비교",
       "path": "ScentSmart/ScentSmart_SW_분석/12_sendMsg_구조_비교.md"
     },
@@ -119,10 +123,6 @@
     {
       "basename": "21_암호화_사용함수_목적",
       "path": "ScentSmart/ScentSmart_SW_분석/21_암호화_사용함수_목적.md"
-    },
-    {
-      "basename": "23_2025_DS_ID12_KR_흐름도",
-      "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
     },
     {
       "basename": "06_함수_분류_및_전체_흐름",

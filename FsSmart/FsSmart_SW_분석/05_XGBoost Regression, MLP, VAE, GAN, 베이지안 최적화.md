@@ -16,7 +16,6 @@
 
 
 ---
-![[Pasted image 20250731175857.jpg]]
 ### 2. MLP (Multi‑Layer Perceptron)
 ![[Pasted image 20250801090238.jpg]]
 - **개요**: 입력층 → 은닉층(n개) → 출력층으로 구성된 전형적인 신경망입니다.
@@ -40,7 +39,7 @@
 
 ### 4. GAN (Generative Adversarial Network)
 
-
+![[Pasted image 20250801090312.jpg]]
 
 - **개요**: 생성자(Generator)와 판별자(Discriminator)가 적대적으로 경쟁하며 학습하는 생성 모델입니다.
     
@@ -55,8 +54,6 @@
 - **활용**: 고품질 이미지 생성, 데이터 증강, 딥페이크 등.
     
 
-![oaicite:23](https:)  
-💡 이미지 4: 생성자와 판별자가 상호작용하며 학습하는 기본 GAN 구조입니다. ([GeeksforGeeks](https://www.geeksforgeeks.org/generative-adversarial-network-gan/?utm_source=chatgpt.com "Generative Adversarial Network (GAN) - GeeksforGeeks"))
 
 
 
