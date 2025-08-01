@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md"
+    },
+    {
+      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
+    },
+    {
       "basename": "2025-08-29",
       "path": "Notes/Daily/2025/08/2025-08-29.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "FsSmart_전체흐름요약",
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md"
-    },
-    {
-      "basename": "FsSmart_SW_분석_계획",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md"
-    },
-    {
-      "basename": "FsSmart_계획",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_계획.md"
     }
   ],
   "omittedPaths": [],
