@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "27_바이트패킷_전송과정",
+      "path": "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md"
+    },
+    {
+      "basename": "24_로그인_과정",
+      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
+    },
+    {
+      "basename": "26_발향_과정",
+      "path": "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md"
+    },
+    {
       "basename": "30_버튼_UI_할당",
       "path": "ScentSmart/ScentSmart_SW_분석/30_버튼_UI_할당.md"
     },
     {
       "basename": "28_ScentSmart 통신 함수 구성",
       "path": "ScentSmart/ScentSmart_SW_분석/28_ScentSmart 통신 함수 구성.md"
-    },
-    {
-      "basename": "27_바이트패킷_전송과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md"
     },
     {
       "basename": "29_dsComm_모듈_함수",
@@ -25,16 +33,8 @@
       "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
     },
     {
-      "basename": "26_발향_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md"
-    },
-    {
       "basename": "25_testID(후각인지검사)_과정",
       "path": "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md"
-    },
-    {
-      "basename": "24_로그인_과정",
-      "path": "ScentSmart/ScentSmart_SW_분석/24_로그인_과정.md"
     },
     {
       "basename": "23_2025_DS_ID12_KR_흐름도",
