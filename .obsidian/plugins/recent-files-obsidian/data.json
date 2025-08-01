@@ -5,6 +5,10 @@
       "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
     },
     {
+      "basename": "19_DB_모듈_정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
+    },
+    {
       "basename": "33_test_identification_reponse_ui파일_분석",
       "path": "ScentSmart/ScentSmart_SW_분석/33_test_identification_reponse_ui파일_분석.md"
     },
@@ -175,10 +179,6 @@
     {
       "basename": "18_결과.xlsx_저장_함수",
       "path": "ScentSmart/ScentSmart_SW_분석/18_결과.xlsx_저장_함수.md"
-    },
-    {
-      "basename": "19_DB_모듈_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
     },
     {
       "basename": "20_암호화",
