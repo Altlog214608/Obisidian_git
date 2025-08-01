@@ -38,7 +38,6 @@
   "vaultSelector": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "//Notes",
     "//Notes/Notes/Daily",
     "//Notes/Notes/Daily/Notes/Daily/2025",
     "//ScentSmart/ScentSmart/17_데이터저장",
@@ -52,10 +51,7 @@
     "//FsSmart/FsSmart/FsSmart_SW_분석_계획",
     "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/08",
     "//Tags",
-    "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07",
-    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
-    "//ScentSmart/ScentSmart/ScentSmart_SW_분석",
-    "//ScentSmart/ScentSmart/ScentSmart_SW_분석_계획"
+    "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
