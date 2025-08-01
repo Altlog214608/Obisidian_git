@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "31_UI_분석계획",
+      "path": "ScentSmart/ScentSmart_SW_분석/31_UI_분석계획.md"
+    },
+    {
       "basename": "00_분석방향",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FsSmart_사용 AI 모델",
       "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md"
-    },
-    {
-      "basename": "FsSmart_전체흐름요약",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md"
     }
   ],
   "omittedPaths": [],
