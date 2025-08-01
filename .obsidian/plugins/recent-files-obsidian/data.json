@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md"
+    },
+    {
       "basename": "12_FunctionSerial",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "29_dsComm_모듈_함수",
       "path": "ScentSmart/ScentSmart_SW_분석/29_dsComm_모듈_함수.md"
-    },
-    {
-      "basename": "13_Register_ModBUS_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
     }
   ],
   "omittedPaths": [],
