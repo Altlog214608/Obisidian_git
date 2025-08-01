@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "13_Register_ModBUS_정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
+    },
+    {
       "basename": "99_부록_용어정리",
       "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "17_결과 저장 및 DB 연동 구조",
       "path": "ScentSmart/ScentSmart_SW_분석/17_결과 저장 및 DB 연동 구조.md"
-    },
-    {
-      "basename": "13_Register_ModBUS_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/13_Register_ModBUS_정리.md"
     },
     {
       "basename": "06_함수_분류_및_전체_흐름",
