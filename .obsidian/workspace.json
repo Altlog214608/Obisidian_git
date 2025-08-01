@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "472e2a05c12b2ada",
+        "id": "5d42a42679893c1b",
         "type": "tabs",
         "children": [
           {
-            "id": "40d0ff7604f30914",
+            "id": "0c91f81703a2a279",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "Notes/Daily/2025/08/2025-08-29.md",
-                "mode": "source",
-                "source": false
+                "path": "Notes/Daily/2025/07"
               },
               "icon": "lucide-file",
-              "title": "2025-08-29"
+              "title": "07"
             }
           }
         ]
@@ -201,10 +199,11 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "40d0ff7604f30914",
+  "active": "0c91f81703a2a279",
   "lastOpenFiles": [
-    "Notes/Daily/2025/08/2025-08-28.md",
+    "Notes/Daily/2025/08/08.md",
     "Notes/Daily/2025/08/2025-08-29.md",
+    "Notes/Daily/2025/08/2025-08-28.md",
     "Notes/Daily/2025/08/2025-08-27.md",
     "Notes/Daily/2025/08/2025-08-26.md",
     "Notes/Daily/2025/08/2025-08-25.md",
@@ -229,7 +228,6 @@
     "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/08",
     "Notes/Daily/2025/07/2025-07-29.md",
-    "ScentSmart/ScentSmart_SW_분석/27_바이트패킷_전송과정.md",
     "Pasted image 20250801090412.jpg",
     "Pasted image 20250801090312.jpg",
     "Pasted image 20250801090238.jpg",
