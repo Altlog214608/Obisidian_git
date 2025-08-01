@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "16_",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/16_.md"
+    },
+    {
       "basename": "15_SW와 HW간의 연결",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "26_발향_과정",
       "path": "ScentSmart/ScentSmart_SW_분석/26_발향_과정.md"
-    },
-    {
-      "basename": "30_버튼_UI_할당",
-      "path": "ScentSmart/ScentSmart_SW_분석/30_버튼_UI_할당.md"
     }
   ],
   "omittedPaths": [],
