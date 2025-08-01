@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10_ConfigCOM",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md"
+    },
+    {
       "basename": "09_TimerOne",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/09_TimerOne.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "25_testID(후각인지검사)_과정",
       "path": "ScentSmart/ScentSmart_SW_분석/25_testID(후각인지검사)_과정.md"
-    },
-    {
-      "basename": "23_2025_DS_ID12_KR_흐름도",
-      "path": "ScentSmart/ScentSmart_SW_분석/23_2025_DS_ID12_KR_흐름도.md"
     }
   ],
   "omittedPaths": [],
