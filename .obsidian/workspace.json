@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ScentSmart"
+              "title": "06_IODefine.h, known_16bit_timers.h"
             }
           }
         ]
@@ -201,15 +201,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "95572e70e503ef6b",
+  "active": "fd6f45da14356ea0",
   "lastOpenFiles": [
+    "README.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md",
+    "Notes/Daily/2025/08/08.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
+    "ScentSmart/ScentSmart.md",
     "무제.canvas",
     "Notes/Daily/2025/08/2025-08-01.md",
     "Notes/Daily/2025/08/2025-08-29.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol 파일.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun 파일.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/03_CC++_프로젝트_전역설정헤더.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/02_CC++헤더파일과 JAVA_interface.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
@@ -220,7 +223,6 @@
     "ScentSmart/ScentSmart_SW_분석/32_UI_관련_프로퍼티_위젯.md",
     "ScentSmart/ScentSmart_SW_분석/31_UI_분석계획.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
-    "Notes/Daily/2025/08/08.md",
     "Notes/Daily/2025/08/2025-08-28.md",
     "Notes/Daily/2025/08/2025-08-27.md",
     "Notes/Daily/2025/08/2025-08-26.md",
@@ -229,7 +231,6 @@
     "Notes/Daily/2025/08/2025-08-21.md",
     "Notes/Daily/2025/08/2025-08-20.md",
     "Notes/Daily/2025/08/2025-08-19.md",
-    "Notes/Daily/2025/08/2025-08-18.md",
     "Notes/Daily/2025/08",
     "Pasted image 20250801090412.jpg",
     "Pasted image 20250801090312.jpg",

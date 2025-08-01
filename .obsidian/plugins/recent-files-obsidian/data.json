@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "06_IODefine.h, known_16bit_timers.h",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
@@ -9,20 +17,12 @@
       "path": "Notes/Daily/2025/08/2025-08-29.md"
     },
     {
-      "basename": "06_IODefine.h, known_16bit_timers.h",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
-    },
-    {
       "basename": "05_IOcontrol 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol 파일.md"
     },
     {
       "basename": "04_HostRun 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun 파일.md"
-    },
-    {
-      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
     },
     {
       "basename": "03_CC++_프로젝트_전역설정헤더",
