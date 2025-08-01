@@ -224,44 +224,94 @@
 이게 바로 현장 자동화, 검사/제어/실험 SW의 “표준적 분리 설계”랍니다.  
 추가로 실무에서 문제되는 상황, 펌웨어 & SW 구체 API/코드 구조 등 궁금하면 언제든 질문 주세요!
 
+
+
+# 🟩 1. **기능 추가 연습 미션 예시**
+
+## ① “테스트(향 분사) 로그 저장 버튼” 만들기
+
+- **목표:** 검사/훈련 창에 “분사 로그 저장” 버튼 추가 → 클릭하면 현재 시간·발향 정보 로그 파일로 저장
+    
+- **힌트:** 새 QPushButton 추가, 클릭 시 csv/txt로 write, ScentSmart.py의 write_data/response 함수내 변수 사용
+    
+
+## ② “분사 세기(파워) 실시간 조절 기능” 추가
+
+- **목표:** 검사/훈련 화면에 QSlider를 추가, 값 변경 시 현재 세기(예: 0~100%)가 라벨에 표시되고, 분사 명령에도 반영
+    
+- **힌트:** scentSlider(혹은 QSlider), valueChanged로 라벨 및 내부 세기 변수 연동
+    
+
+## ③ “새로운 안내 팝업/경고창” 추가
+
+- **목표:** 특정 조건(예: 본인 확인 미진행, 장치 미연결)에 경고 Dialog/팝업 띄우기
+    
+- **힌트:** PySide6의 QMessageBox 사용, uiDlgMsgText/PopupDialog 참고
+    
+
+## ④ “향 분사 테스트 모드” 신규 구현
+
+- **목표:** 임의로 향/세기/시간을 직접 수동 입력할 수 있는 테스트 창 새로 추가(.ui + ScentSmart.py 연결)
+    
+- **방법:**
+    
+    1. Qt Designer로 testmanual.ui 같은 창 신규 생성(향, 세기, 시간 QLineEdit/QSlider 등 배치)
+        
+    2. UiDlg에 해당 ui 불러오는 함수 생성, 버튼 누를 때 write_data()로 명령 송신
+        
+
+# 🟩 2. **UI 커스텀/리디자인 연습 미션 예시**
+
+## ① “버튼 디자인, 텍스트, 이미지 바꿔보기”
+
+- **목표:** 버튼 색/이미지/라벨 텍스트 바꿔보고, 크기 및 폰트 변경 시 실제 UI 반영 확인
+    
+- **힌트:** .ui 파일에서 styleSheet, text 속성 변경 → QUiLoader로 자동 반영됨
+    
+
+## ② “UI 화면 이동/전환 애니메이션 효과 추가”
+
+- **목표:** 창 전환시 페이드인/슬라이드같은 애니메이션 적용
+    
+- **힌트:** PySide6의 QPropertyAnimation, uiDlgChange 함수에서 창 위치/상태 바꿀 때 응용
+    
+
+# 🟩 3. **시리얼 통신/하드웨어 연동 실습**
+
+## ① PC↔MCU “Ping-Pong” 명령 직접 만들기
+
+- **목표:** TEST 버튼을 누르면 “PING” 명령 송신하고, MCU에서 “PONG” 응답받아 로그에 출력해보기
+    
+- **힌트:** write_data() 함수에 b"PING" 등 송신 후, readSerialData()에서 “PONG” 수신시 로그 append
+    
+
+## ② 응답 패킷 파싱확장 : “버전 정보 요청” 명령 추가
+
+- **목표:** '버전정보 조회' 버튼 구현, 누르면 버전요청 명령 송신, 펌웨어 버전 응답값 로그로 확인
+    
+- **힌트:** dsComm/dsSerial 패킷 명령 생성 함수 참고해서 새로운 명령 및 응답 파서 추가
+    
+
+# 🟩 4. **실제 연습 팁/과정**
+
+1. **기존 버튼/화면에 로그출력, 텍스트 변화 등 가벼운 변경부터 시작**  
+    (예: label1에 “테스트 버튼이 눌렸어요” 띄우기)
+    
+2. **Qt Designer에서 UI 바꿔보기 → py파일에 함수 연결**
+    
+3. **함수/Signal 연결, 시리얼 송수신까지 차근차근 실습**
+    
+4. **작은 단위부터 “동작확인” (로그·print/debug 등)으로 단계별 점검**
+    
+
+# 🟦 **결론:**
+
+- ScentSmart(py)가 가진 구조는 **유지보수/기능확장/UI설계/연습에 매우 적합**하고,
+    
+- 위와 같은 **“실무 미션에 가까운 작은 연습”**들을 직접 해보면  
+    곧 실전 업무에 자신감 있게 대응할 수 있습니다!
+    
+
+> **특정 미션/예제 실습 과정, 코드 스니펫, .ui 파일 만드는 법, Signal-Slot 연결법 등 실전 예시도 필요하면, 구체적으로 추가 질문해주시면 안내해드릴 수 있습니다!**
+
 1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/52bb2ae5-374a-4605-ae99-ca380b392219/ScentSmart.py)
-2. [https://stackoverflow.com/questions/55020414/how-to-send-and-receive-data-using-pyserial](https://stackoverflow.com/questions/55020414/how-to-send-and-receive-data-using-pyserial)
-3. [https://discuss.python.org/t/how-to-send-and-receive-serial-in-python/10394](https://discuss.python.org/t/how-to-send-and-receive-serial-in-python/10394)
-4. [https://pyserial.readthedocs.io/en/latest/pyserial_api.html](https://pyserial.readthedocs.io/en/latest/pyserial_api.html)
-5. [https://stackoverflow.com/questions/56982045/i-am-using-serial-communication-module-in-python-but-data-received-is-not-prope](https://stackoverflow.com/questions/56982045/i-am-using-serial-communication-module-in-python-but-data-received-is-not-prope)
-6. [https://www.educative.io/answers/how-to-establish-a-serial-communication-channel-in-python](https://www.educative.io/answers/how-to-establish-a-serial-communication-channel-in-python)
-7. [https://patents.google.com/patent/EP0985417A2/en](https://patents.google.com/patent/EP0985417A2/en)
-8. [https://isotope.com/gases/cga-170-control-valve-for-code-13c-lecture-bottles-code-r](https://isotope.com/gases/cga-170-control-valve-for-code-13c-lecture-bottles-code-r)
-9. [https://github.com/topics/fragrances?l=python](https://github.com/topics/fragrances?l=python)
-10. [https://forum.arduino.cc/t/serial-communication-with-python-beginner-qestion/944780](https://forum.arduino.cc/t/serial-communication-with-python-beginner-qestion/944780)
-11. [https://patents.google.com/patent/US11129917B2/en](https://patents.google.com/patent/US11129917B2/en)
-12. [https://diy.stackexchange.com/questions/297973/honeywell-gas-control-valve-gas-smell](https://diy.stackexchange.com/questions/297973/honeywell-gas-control-valve-gas-smell)
-13. [https://stackoverflow.com/questions/55333703/how-to-send-value-from-python-script-to-console-and-exit](https://stackoverflow.com/questions/55333703/how-to-send-value-from-python-script-to-console-and-exit)
-14. [https://www.abelectronics.co.uk/kb/article/1112/pyserial-rs232-serial-communication](https://www.abelectronics.co.uk/kb/article/1112/pyserial-rs232-serial-communication)
-15. [https://pubs.rsc.org/en/content/articlelanding/2017/ay/c7ay01799e](https://pubs.rsc.org/en/content/articlelanding/2017/ay/c7ay01799e)
-16. [https://www.eurisotop.com/cga-170-control-valve-code-c-lecture-bottles](https://www.eurisotop.com/cga-170-control-valve-code-c-lecture-bottles)
-17. [https://git.fragrance.moe/Fragrance/eaquira/src/commit/6264d68a6d6bb4efaeeb0e1e2ca0820dbf146495](https://git.fragrance.moe/Fragrance/eaquira/src/commit/6264d68a6d6bb4efaeeb0e1e2ca0820dbf146495)
-18. [https://arduino.stackexchange.com/questions/38052/serial-comm-timing-issue-between-arduino-and-pyserial](https://arduino.stackexchange.com/questions/38052/serial-comm-timing-issue-between-arduino-and-pyserial)
-19. [https://www.kaaiot.com/docs/ota-updates/esp32](https://www.kaaiot.com/docs/ota-updates/esp32)
-20. [https://www.glsciences.eu/vici/vici-valco-cheminert-catalog.pdf](https://www.glsciences.eu/vici/vici-valco-cheminert-catalog.pdf)
-21. [https://stackoverflow.com/questions/50685530/how-to-properly-send-python-code](https://stackoverflow.com/questions/50685530/how-to-properly-send-python-code)
-22. [https://techvidvan.com/tutorials/python-sentiment-analysis/](https://techvidvan.com/tutorials/python-sentiment-analysis/)
-23. [https://amanxai.com/2021/02/04/15-python-gui-projects-with-source-code/](https://amanxai.com/2021/02/04/15-python-gui-projects-with-source-code/)
-24. [https://www.geeksforgeeks.org/sentiment-detector-gui-using-tkinter-python/](https://www.geeksforgeeks.org/sentiment-detector-gui-using-tkinter-python/)
-25. [https://github.com/Vidito/textblob_sentiment_analysis](https://github.com/Vidito/textblob_sentiment_analysis)
-26. [https://www.youtube.com/watch?v=1T8jYilRbGg](https://www.youtube.com/watch?v=1T8jYilRbGg)
-27. [https://developer.tuya.com/en/docs/iot/tuya-cloud-universal-serial-port-access-protocol?id=K9hhi0xxtn9cb](https://developer.tuya.com/en/docs/iot/tuya-cloud-universal-serial-port-access-protocol?id=K9hhi0xxtn9cb)
-28. [https://scentee-machina.com](https://scentee-machina.com/)
-29. [https://www.dhiwise.com/post/modular-programming](https://www.dhiwise.com/post/modular-programming)
-30. [https://www.c-sharpcorner.com/article/gui-controls-in-python/](https://www.c-sharpcorner.com/article/gui-controls-in-python/)
-31. [https://ncd.io/blog/how-to-update-firmware-using-a-usb-to-serial-interface/](https://ncd.io/blog/how-to-update-firmware-using-a-usb-to-serial-interface/)
-32. [https://scentair.com](https://scentair.com/)
-33. [https://arxiv.org/abs/2312.15960](https://arxiv.org/abs/2312.15960)
-34. [https://www.projectpro.io/article/sentiment-analysis-project-ideas-with-source-code/518](https://www.projectpro.io/article/sentiment-analysis-project-ideas-with-source-code/518)
-35. [https://marlinfw.org/docs/setting/serial.html](https://marlinfw.org/docs/setting/serial.html)
-36. [https://journals.sagepub.com/doi/full/10.1177/1094670519842333](https://journals.sagepub.com/doi/full/10.1177/1094670519842333)
-37. [https://kblincoe.github.io/publications/2023_ACE_Modularity.pdf](https://kblincoe.github.io/publications/2023_ACE_Modularity.pdf)
-38. [https://github.com/Deeptig9138/Sentiment-Analysis-Project](https://github.com/Deeptig9138/Sentiment-Analysis-Project)
-39. [https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/discussions/1873](https://github.com/bigtreetech/BIGTREETECH-TouchScreenFirmware/discussions/1873)
-40. [https://pmc.ncbi.nlm.nih.gov/articles/PMC8312487/](https://pmc.ncbi.nlm.nih.gov/articles/PMC8312487/)
-41. [https://www.mdpi.com/2071-1050/15/11/8858](https://www.mdpi.com/2071-1050/15/11/8858)
