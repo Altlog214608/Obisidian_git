@@ -1,4 +1,4 @@
-네, 질문하신 부분에 대해 아주 쉽게 설명드릴게요.
+
 
 ```python
 self.ui_find_dlg.pb_age_teens.setStyleSheet(     
