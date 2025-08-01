@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "02_sklearn_앙상블",
-      "path": "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md"
+      "basename": "99_부록_용어정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
     },
     {
-      "basename": "03_전체 코드 설명",
-      "path": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md"
+      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
+      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
       "path": "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
     },
     {
-      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
+      "basename": "02_sklearn_앙상블",
+      "path": "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md"
+    },
+    {
+      "basename": "03_전체 코드 설명",
+      "path": "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md"
     },
     {
       "basename": "20_암호화",

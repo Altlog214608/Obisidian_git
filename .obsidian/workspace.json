@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_sklearn_앙상블"
+              "title": "99_부록_용어정리"
             }
           }
         ]
@@ -203,9 +203,10 @@
   },
   "active": "31c3a19058368d65",
   "lastOpenFiles": [
-    "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
-    "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
     "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+    "FsSmart/FsSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
+    "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
+    "FsSmart/FsSmart_SW_분석/03_전체 코드 설명.md",
     "Pasted image 20250731171503.jpg",
     "Pasted image 20250731170930.jpg",
     "ScentSmart/ScentSmart_SW_분석/20_암호화.md",
@@ -215,7 +216,6 @@
     "Pasted image 20250731175857.jpg",
     "FsSmart/FsSmart_SW_분석/01_모델설명.md",
     "FsSmart/FsSmart_SW_분석/00_개요.md",
-    "FsSmart/FsSmart_SW_분석/02_sklearn_앙상블.md",
     "Pasted image 20250731171512.jpg",
     "ScentSmart/ScentSmart_SW_분석/00_개요.md",
     "FsSmart/FsSmart_SW_분석_계획/FsSmart_사용 AI 모델.md",
