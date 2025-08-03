@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "FsSmart_전체흐름요약",
+      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md"
+    },
+    {
+      "basename": "2025-07-30",
+      "path": "Notes/Daily/2025/07/2025-07-30.md"
+    },
+    {
       "basename": "2025-08-04",
       "path": "Notes/Daily/2025/08/2025-08-04.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "2025-07-29",
       "path": "Notes/Daily/2025/07/2025-07-29.md"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Notes/Daily/2025/07/2025-07-30.md"
     },
     {
       "basename": "2025-07-31",
@@ -195,10 +199,6 @@
     {
       "basename": "19_DB_모듈_정리",
       "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
-    },
-    {
-      "basename": "33_test_identification_reponse_ui파일_분석",
-      "path": "ScentSmart/ScentSmart_SW_분석/33_test_identification_reponse_ui파일_분석.md"
     }
   ],
   "omittedPaths": [],
