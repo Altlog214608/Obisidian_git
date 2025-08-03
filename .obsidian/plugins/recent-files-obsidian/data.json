@@ -5,6 +5,22 @@
       "path": "Notes/Daily/2025/08/2025-08-04.md"
     },
     {
+      "basename": "2025-07-28",
+      "path": "Notes/Daily/2025/07/2025-07-28.md"
+    },
+    {
+      "basename": "2025-07-29",
+      "path": "Notes/Daily/2025/07/2025-07-29.md"
+    },
+    {
+      "basename": "2025-07-30",
+      "path": "Notes/Daily/2025/07/2025-07-30.md"
+    },
+    {
+      "basename": "2025-07-31",
+      "path": "Notes/Daily/2025/07/2025-07-31.md"
+    },
+    {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
@@ -51,10 +67,6 @@
     {
       "basename": "03_모델 학습 코드 설명",
       "path": "FsSmart/FsSmart_SW_분석/03_모델 학습 코드 설명.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "Notes/Daily/2025/07/2025-07-31.md"
     },
     {
       "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
@@ -187,18 +199,6 @@
     {
       "basename": "33_test_identification_reponse_ui파일_분석",
       "path": "ScentSmart/ScentSmart_SW_분석/33_test_identification_reponse_ui파일_분석.md"
-    },
-    {
-      "basename": "32_UI_관련_프로퍼티_위젯",
-      "path": "ScentSmart/ScentSmart_SW_분석/32_UI_관련_프로퍼티_위젯.md"
-    },
-    {
-      "basename": "31_UI_분석계획",
-      "path": "ScentSmart/ScentSmart_SW_분석/31_UI_분석계획.md"
-    },
-    {
-      "basename": "2025-08-28",
-      "path": "Notes/Daily/2025/08/2025-08-28.md"
     }
   ],
   "omittedPaths": [],
