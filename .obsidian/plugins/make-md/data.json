@@ -46,12 +46,12 @@
     "//ScentSmart/ScentSmart/계획",
     "//ScentSmart/ScentSmart/분석",
     "/",
-    "//FsSmart",
     "//FsSmart/FsSmart/FsSmart_SW_분석",
     "//FsSmart/FsSmart/FsSmart_SW_분석_계획",
     "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/08",
     "//Tags",
-    "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07"
+    "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07",
+    "//FsSmart"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

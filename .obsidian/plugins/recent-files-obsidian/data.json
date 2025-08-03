@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-04",
+      "path": "Notes/Daily/2025/08/2025-08-04.md"
+    },
+    {
+      "basename": "2025-08-01",
+      "path": "Notes/Daily/2025/08/2025-08-01.md"
+    },
+    {
+      "basename": "09_결과_QR코드_생성_함수",
+      "path": "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md"
+    },
+    {
       "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
     },
@@ -27,10 +39,6 @@
     {
       "basename": "01_모델설명",
       "path": "FsSmart/FsSmart_SW_분석/01_모델설명.md"
-    },
-    {
-      "basename": "09_결과_QR코드_생성_함수",
-      "path": "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md"
     },
     {
       "basename": "08_set_ui_find_age_func",
@@ -153,10 +161,6 @@
       "path": "README.md"
     },
     {
-      "basename": "2025-08-01",
-      "path": "Notes/Daily/2025/08/2025-08-01.md"
-    },
-    {
       "basename": "2025-08-29",
       "path": "Notes/Daily/2025/08/2025-08-29.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-08-28",
       "path": "Notes/Daily/2025/08/2025-08-28.md"
-    },
-    {
-      "basename": "2025-08-27",
-      "path": "Notes/Daily/2025/08/2025-08-27.md"
     }
   ],
   "omittedPaths": [],
