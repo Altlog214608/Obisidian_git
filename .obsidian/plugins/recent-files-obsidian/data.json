@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "13_MODBUS",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md"
+    },
+    {
+      "basename": "08_ScentControl",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md"
+    },
+    {
+      "basename": "07_nfserial",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md"
+    },
+    {
       "basename": "04_HostRun",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md"
     },
@@ -79,10 +91,6 @@
     {
       "basename": "14_전체 파일 축약",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md"
-    },
-    {
-      "basename": "13_MODBUS",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md"
     },
     {
       "basename": "12_FunctionSerial",
@@ -191,14 +199,6 @@
     {
       "basename": "09_TimerOne",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/09_TimerOne.md"
-    },
-    {
-      "basename": "08_ScentControl",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md"
-    },
-    {
-      "basename": "07_nfserial",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md"
     }
   ],
   "omittedPaths": [],
