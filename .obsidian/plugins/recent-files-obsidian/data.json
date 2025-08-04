@@ -5,12 +5,12 @@
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/24_펌웨어 분류(용도).md"
     },
     {
-      "basename": "22_펌웨어 분류(12개 파일)",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류(12개 파일).md"
+      "basename": "23_펌웨어 분류(8개 파일)_MODBUS_Firmware",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md"
     },
     {
-      "basename": "23_펌웨어 분류(8개 파일)",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일).md"
+      "basename": "22_펌웨어 분류(12개 파일)_CustomSerial_Firmware",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류(12개 파일)_CustomSerial_Firmware.md"
     },
     {
       "basename": "15_SW와 HW간의 연결",
