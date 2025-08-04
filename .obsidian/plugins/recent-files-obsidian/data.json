@@ -5,6 +5,14 @@
       "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
     {
+      "basename": "34_Qt 기본 위젯",
+      "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
+    },
+    {
+      "basename": "99_부록_용어정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
+    },
+    {
       "basename": "29_SLIP(Serial Line Internet Protocol)",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/29_SLIP(Serial Line Internet Protocol).md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "2025-07-31",
       "path": "Notes/Daily/2025/07/2025-07-31.md"
-    },
-    {
-      "basename": "2025-08-01",
-      "path": "Notes/Daily/2025/08/2025-08-01.md"
-    },
-    {
-      "basename": "01_모델설명",
-      "path": "FrSmart/FrSmart_SW_분석/01_모델설명.md"
     }
   ],
   "omittedPaths": [],
