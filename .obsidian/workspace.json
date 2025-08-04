@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md",
+                "file": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "35_데이터 송수신 구조 꼭 이해해야 할 포인트"
+              "title": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화"
             }
           }
         ]
@@ -202,11 +202,15 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "0b7919bb41434810",
+  "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
+    "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
+    "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+    "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md",
     "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md",
-    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
     "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md",
+    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/29_SLIP(Serial Line Internet Protocol).md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/28_MODBUS_주요 기능 및 흐름.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md",
@@ -230,10 +234,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
     "assets/img/Pasted image 20250801090238.jpg",
     "assets/img/Pasted image 20250801090201.jpg",
-    "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
-    "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
-    "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
-    "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
     "assets/img/Pasted image 20250801090312.jpg",
     "assets/img/Pasted image 20250801090220.jpg",
     "assets/img/Pasted image 20250801090412.jpg",

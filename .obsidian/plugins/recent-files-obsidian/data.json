@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
-      "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
+      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
+      "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
+    },
+    {
+      "basename": "07_AI_모델_사용시점",
+      "path": "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md"
+    },
+    {
+      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
+      "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
+    },
+    {
+      "basename": "06_전체 코드 설명",
+      "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
     },
     {
       "basename": "34_Qt 기본 위젯",
       "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
+    },
+    {
+      "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
+      "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
     {
       "basename": "99_부록_용어정리",
@@ -97,20 +113,8 @@
       "path": "assets/img/Pasted image 20250801090201.jpg"
     },
     {
-      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
-    },
-    {
-      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
-      "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
-    },
-    {
       "basename": "03_모델 학습 코드 설명",
       "path": "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md"
-    },
-    {
-      "basename": "07_AI_모델_사용시점",
-      "path": "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md"
     },
     {
       "basename": "08_set_ui_find_age_func",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-07-29",
       "path": "Notes/Daily/2025/07/2025-07-29.md"
-    },
-    {
-      "basename": "2025-07-31",
-      "path": "Notes/Daily/2025/07/2025-07-31.md"
     }
   ],
   "omittedPaths": [],
