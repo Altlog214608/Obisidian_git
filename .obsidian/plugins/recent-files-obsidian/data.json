@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "2025-08-04",
-      "path": "Notes/Daily/2025/08/2025-08-04.md"
+      "basename": "2025-08-05",
+      "path": "Notes/Daily/2025/08/2025-08-05.md"
+    },
+    {
+      "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
+      "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
     {
       "basename": "36_빅엔디안(Big-endian)순서",
       "path": "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md"
+    },
+    {
+      "basename": "2025-08-04",
+      "path": "Notes/Daily/2025/08/2025-08-04.md"
+    },
+    {
+      "basename": "2025-08-01",
+      "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
     {
       "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
@@ -27,10 +39,6 @@
     {
       "basename": "34_Qt 기본 위젯",
       "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
-    },
-    {
-      "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
-      "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
     {
       "basename": "99_부록_용어정리",
@@ -145,10 +153,6 @@
       "path": "assets/img/Pasted image 20250801090412.jpg"
     },
     {
-      "basename": "2025-08-05",
-      "path": "Notes/Daily/2025/08/2025-08-05.md"
-    },
-    {
       "basename": "01.C++ 파일과 C Header 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-07-30",
       "path": "Notes/Daily/2025/07/2025-07-30.md"
-    },
-    {
-      "basename": "2025-07-28",
-      "path": "Notes/Daily/2025/07/2025-07-28.md"
     }
   ],
   "omittedPaths": [],
