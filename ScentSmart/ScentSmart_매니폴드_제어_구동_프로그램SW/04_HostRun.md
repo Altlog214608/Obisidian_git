@@ -159,28 +159,26 @@ aliases:
 
 
 
-```cpp#include <inttypes.h>         
-// 다양한 크기의 정수타입 정의 (uint8_t, int16_t 등) #include <wiring_private.h>   
-// 하드웨어 제어(PWM, UART 등) 구현용, Arduino/AVR용 내부 함수 #include "IODefine.h"         
-// 입출력 핀 정의 (예: 센서, 벨브 연결 핀번호) #include "nfserial.h"         
-// 시리얼 통신(NFSerial 클래스) 정의 #include "IOControl.h"        
-// 입출력 제어 함수 (핀 ON/OFF 등) #include "HostRun.h"         
-// Host 명령상수, 데이터구조, 함수 원형(프로토타입) 정의 #include "ScentControl.h"     
-// 향/세정 등 디바이스 동작 함수 정의```
 
 ```cpp
 
-#include          // 다양한 크기의 정수타입 정의 (uint8_t, int16_t 등)
+#include          
+// 다양한 크기의 정수타입 정의 (uint8_t, int16_t 등)
 
-#include    // 하드웨어 제어(PWM, UART 등) 구현용, Arduino/AVR용 내부 함수
+#include    
+// 하드웨어 제어(PWM, UART 등) 구현용, Arduino/AVR용 내부 함수
 
 #include "IODefine.h"
+// 입출력 핀 정의 (예: 센서, 벨브 연결 핀번호)
 
 #include "nfserial.h"
+// 시리얼 통신(NFSerial 클래스) 정의 #include "IOControl.h"
 
-#include "IOControl.h"
+#include "IOControl.h" 
+// 입출력 제어 함수 (핀 ON/OFF 등) #include 
 
 #include "HostRun.h"
+// Host 명령상수, 데이터구조, 함수 원형(프로토타입) 정의 #include "ScentControl.h" 
 
 #include "ScentControl.h" 
 // 향/세정 등 디바이스 동작 함수 정의
