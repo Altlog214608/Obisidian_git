@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "15_SW와 HW간의 연결"
+              "title": "22_"
             }
           }
         ]
@@ -204,6 +204,7 @@
   },
   "active": "587d8abe93099d8c",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md",
@@ -237,7 +238,6 @@
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_계획.md",
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md",
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_전체흐름요약.md",
-    "Notes/Daily/2025/07/2025-07-30.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
