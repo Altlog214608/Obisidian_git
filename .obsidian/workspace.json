@@ -11,14 +11,12 @@
             "id": "7c533aa289527bc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
-                "mode": "source",
-                "source": false
+                "path": "ScentSmart"
               },
               "icon": "lucide-file",
-              "title": "14_전체 파일 축약"
+              "title": "ScentSmart"
             }
           }
         ]
@@ -99,7 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 311.5
   },
   "right": {
     "id": "adc43d850fe1ab1b",
@@ -203,6 +201,10 @@
   },
   "active": "7c533aa289527bc9",
   "lastOpenFiles": [
+    "Pasted image 20250801090238.jpg",
+    "Pasted image 20250801090220.jpg",
+    "Pasted image 20250801090201.jpg",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md",
@@ -219,9 +221,6 @@
     "Notes/Daily/2025/08/2025-08-01.md",
     "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "Pasted image 20250801090312.jpg",
-    "Pasted image 20250801090238.jpg",
-    "Pasted image 20250801090201.jpg",
-    "Pasted image 20250801090220.jpg",
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
     "FrSmart/FrSmart_SW_분석/01_모델설명.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
@@ -231,8 +230,6 @@
     "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
     "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_방향.md",
-    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
-    "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_권장_순서.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
