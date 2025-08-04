@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "17_실제_발향과정",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md"
+    },
+    {
+      "basename": "18_분사 정지 함수",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md"
+    },
+    {
+      "basename": "21_펌웨어 데이터처리 과정",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md"
+    },
+    {
+      "basename": "19_펌웨어 - 소프트웨어 전송 신호",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md"
+    },
+    {
+      "basename": "15_SW와 HW간의 연결",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
+    },
+    {
       "basename": "28_MODBUS_주요 기능 및 흐름",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/28_MODBUS_주요 기능 및 흐름.md"
     },
@@ -39,10 +59,6 @@
     {
       "basename": "22_펌웨어 분류(12개 파일)_CustomSerial_Firmware",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류(12개 파일)_CustomSerial_Firmware.md"
-    },
-    {
-      "basename": "15_SW와 HW간의 연결",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
     },
     {
       "basename": "13_MODBUS",
@@ -183,22 +199,6 @@
     {
       "basename": "06_전체 코드 설명",
       "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
-    },
-    {
-      "basename": "ScentSmart_분석_방향",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_방향.md"
-    },
-    {
-      "basename": "99_부록_용어정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
-    },
-    {
-      "basename": "ScentSmart_분석_권장_순서",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_권장_순서.md"
-    },
-    {
-      "basename": "ScentSmart_디지털후각검사_인수인계문서",
-      "path": "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_디지털후각검사_인수인계문서.md"
     }
   ],
   "omittedPaths": [],
