@@ -11,17 +11,40 @@
             "id": "7c533aa289527bc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
-                "mode": "source",
-                "source": false
+                "file": "Pasted image 20250801090201.jpg"
               },
-              "icon": "lucide-file",
-              "title": "04_HostRun"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250801090201"
+            }
+          },
+          {
+            "id": "268f89408e5dc467",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250801090220.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250801090220"
+            }
+          },
+          {
+            "id": "9fbd105209ef908c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20250801090201.jpg"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250801090201"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -201,14 +224,22 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7c533aa289527bc9",
+  "active": "9fbd105209ef908c",
   "lastOpenFiles": [
+    "Pasted image 20250801090220.jpg",
+    "Pasted image 20250801090201.jpg",
+    "Pasted image 20250801090238.jpg",
+    "Pasted image 20250801090312.jpg",
+    "Pasted image 20250801090412.jpg",
+    "Notes/Daily/2025/08/2025-08-04.md",
+    "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
+    "assets/img",
+    "assets",
+    "Notes/Daily/2025/08/2025-08-05.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
-    "Pasted image 20250801090238.jpg",
-    "Pasted image 20250801090220.jpg",
-    "Pasted image 20250801090201.jpg",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
@@ -219,36 +250,27 @@
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md",
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_전체흐름요약.md",
     "Notes/Daily/2025/07/2025-07-30.md",
-    "Notes/Daily/2025/08/2025-08-04.md",
     "Notes/Daily/2025/07/2025-07-28.md",
     "Notes/Daily/2025/07/2025-07-29.md",
     "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/08/2025-08-01.md",
     "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
-    "Pasted image 20250801090312.jpg",
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
     "FrSmart/FrSmart_SW_분석/01_모델설명.md",
     "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
     "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md",
-    "FsSmart/FsSmart_SW_분석/06_.md",
-    "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
-    "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
-    "Pasted image 20250801090412.jpg",
     "Pasted image 20250731171503.jpg",
     "Pasted image 20250731170930.jpg",
     "Pasted image 20250731175906.jpg",
     "Pasted image 20250731175903.jpg",
-    "Pasted image 20250731175857.jpg",
     "FrSmart/FrSmart_SW_분석_계획",
     "FrSmart/FrSmart_SW_분석",
     "FrSmart",
     "ScentSmart/분석123",
     "ScentSmart/ScentSmart_SW_분석",
-    "ScentSmart/17_데이터저장",
-    "ScentSmart/분석321123",
-    "Notes/Daily/2025/07"
+    "ScentSmart/17_데이터저장"
   ]
 }

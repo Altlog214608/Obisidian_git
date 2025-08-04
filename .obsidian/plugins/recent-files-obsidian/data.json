@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "Pasted image 20250801090201",
+      "path": "Pasted image 20250801090201.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090220",
+      "path": "Pasted image 20250801090220.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090238",
+      "path": "Pasted image 20250801090238.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090312",
+      "path": "Pasted image 20250801090312.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090412",
+      "path": "Pasted image 20250801090412.jpg"
+    },
+    {
+      "basename": "2025-08-04",
+      "path": "Notes/Daily/2025/08/2025-08-04.md"
+    },
+    {
+      "basename": "2025-08-05",
+      "path": "Notes/Daily/2025/08/2025-08-05.md"
+    },
+    {
       "basename": "04_HostRun",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md"
     },
@@ -15,18 +43,6 @@
     {
       "basename": "FrSmart_SW_분석",
       "path": "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md"
-    },
-    {
-      "basename": "Pasted image 20250801090238",
-      "path": "Pasted image 20250801090238.jpg"
-    },
-    {
-      "basename": "Pasted image 20250801090220",
-      "path": "Pasted image 20250801090220.jpg"
-    },
-    {
-      "basename": "Pasted image 20250801090201",
-      "path": "Pasted image 20250801090201.jpg"
     },
     {
       "basename": "14_전체 파일 축약",
@@ -69,10 +85,6 @@
       "path": "Notes/Daily/2025/07/2025-07-30.md"
     },
     {
-      "basename": "2025-08-04",
-      "path": "Notes/Daily/2025/08/2025-08-04.md"
-    },
-    {
       "basename": "2025-07-28",
       "path": "Notes/Daily/2025/07/2025-07-28.md"
     },
@@ -91,10 +103,6 @@
     {
       "basename": "09_결과_QR코드_생성_함수",
       "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
-    },
-    {
-      "basename": "Pasted image 20250801090312",
-      "path": "Pasted image 20250801090312.jpg"
     },
     {
       "basename": "07_AI_모델_사용시점",
@@ -191,14 +199,6 @@
     {
       "basename": "README",
       "path": "README.md"
-    },
-    {
-      "basename": "2025-08-29",
-      "path": "Notes/Daily/2025/08/2025-08-29.md"
-    },
-    {
-      "basename": "03_CC++_프로젝트_전역설정헤더",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/03_CC++_프로젝트_전역설정헤더.md"
     }
   ],
   "omittedPaths": [],
