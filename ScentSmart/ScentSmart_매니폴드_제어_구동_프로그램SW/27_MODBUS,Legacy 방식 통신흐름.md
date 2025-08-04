@@ -28,17 +28,11 @@
 
   
 ```mermaid
-
 flowchart TD
-
-    A[ScentSmart.py - trigger functions] --> B[dsComm.py - build MODBUS packet]
-
-    B --> C[Serial.write() - send packet]
-
-    C --> D[Firmware (MODBUS) - CRC & command parsing]
-
-    D --> E[Scent control - ControlPumpNF.c]
-
+    A[ScentSmart_py - trigger functions] --> B[dsComm_py - build MODBUS packet]
+    B --> C[Serial_write - send packet]
+    C --> D[Firmware_MODBUS - CRC and parse]
+    D --> E[Scent control - ControlPumpNF_c]
 ```
 
 ---
@@ -59,16 +53,11 @@ flowchart TD
 
   
 ```mermaid
-
 flowchart TD
-
-    A[ScentSmart.py - trigger functions] --> B[dsComm.py - build Legacy packet]
-
-    B --> C[Serial.write() - send packet]
-
-    C --> D[Firmware (Legacy) - parse ASCII command]
-
-    D --> E[Scent control - ScentControl.c]
+    A[ScentSmart_py - trigger functions] --> B[dsComm_py - build Legacy packet]
+    B --> C[Serial_write - send packet]
+    C --> D[Firmware_Legacy - parse command]
+    D --> E[Scent control - ScentControl_c]
 
 ```
   
