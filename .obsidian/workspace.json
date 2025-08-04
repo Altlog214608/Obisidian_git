@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23_펌웨어 분류(8개 파일)_MODBUS_Firmware"
+              "title": "무제"
             }
           }
         ]
@@ -204,13 +204,14 @@
   },
   "active": "587d8abe93099d8c",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/25_MODBUS vs Legacy.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/24_펌웨어 분류(용도).md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류(12개 파일)_CustomSerial_Firmware.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",

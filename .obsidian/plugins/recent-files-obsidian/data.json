@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md"
+    },
+    {
       "basename": "23_펌웨어 분류(8개 파일)_MODBUS_Firmware",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "21_펌웨어 데이터처리 과정",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md"
-    },
-    {
-      "basename": "20_구조요약",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md"
     }
   ],
   "omittedPaths": [],
