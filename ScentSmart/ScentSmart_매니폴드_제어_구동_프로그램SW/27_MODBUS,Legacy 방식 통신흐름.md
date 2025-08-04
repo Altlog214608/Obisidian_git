@@ -27,15 +27,19 @@
 - **다수 장치(Slave), 확장성, 무결성에 강함**
 
   
-
 ```mermaid
-flowchart TD
-    A[ScentSmart.py - 기능 호출] --> B[dsComm.py - MODBUS 패킷 조립]
-    B --> C[Serial.write() - 송신]
-    C --> D[MODBUS 펌웨어 - CRC 검증 및 파싱]
-    D --> E[향기 제어 - ControlPumpNF.c]
-```
 
+flowchart TD
+
+    A[ScentSmart.py - 기능 호출] --> B[dsComm.py - MODBUS 패킷 조립]
+
+    B --> C[Serial.write() - 송신]
+
+    C --> D[MODBUS 펌웨어 - CRC 검증 및 파싱]
+
+    D --> E[향기 제어 - ControlPumpNF.c]
+
+```
 
 ---
 
@@ -109,3 +113,10 @@ flowchart TD
   실제 패킷 형식(MODBUS 또는 Legacy)은 **`dsComm.py`가 결정**합니다.
 
 - 소프트웨어 코드는 바꾸지 않고, **dsComm을 교체하여 두 펌웨어 모두 호환 가능**한 구조입니다.
+- 
+- - `ScentSmart.py`는 동일하게 동작하며, 핵심은 `dsComm.py`에서 어떤 **패킷 형식**으로 조립하느냐에 따라 펌웨어 호환 방식이 달라짐
+
+- MODBUS는 **정확성·확장성·표준성**에서 강점
+
+- Legacy는 **간단함·빠른 처리**에서 강점
+
