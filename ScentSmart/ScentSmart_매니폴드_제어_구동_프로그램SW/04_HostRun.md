@@ -191,9 +191,25 @@ aliases:
 
 # 2. 외부 변수 및 주요 구조체 의미
 
-cpp
+```cpp
 
-`extern NFSerial SerialDebug;      // 디버그용 시리얼. 로그, 상태 찍을 때 사용 NFSerial SerialHost(&UBRR0H, &UBRR0L, &UCSR0A, &UCSR0B, &UCSR0C, &UDR0); // 메인 통신(Host↔장치)용 시리얼 객체. (AVR UART0 레지스터 직접 지정) extern int MyAddress;             // 이 장치의 주소 (2글자. 예: '01') extern int RecvFlag;              // 데이터 수신 여부 플래그 extern char RunScentStatus[4];    // 장치 동작상태(4byte) - 향/세정 등 각 채널상태`
+extern NFSerial SerialDebug;      // 디버그용 시리얼. 로그, 상태 찍을 때 사용
+
+  
+
+NFSerial SerialHost(&UBRR0H, &UBRR0L, &UCSR0A, &UCSR0B, &UCSR0C, &UDR0);
+
+// 메인 통신(Host↔장치)용 시리얼 객체. (AVR UART0 레지스터 직접 지정)
+
+  
+
+extern int MyAddress;             // 이 장치의 주소 (2글자. 예: '01')
+
+extern int RecvFlag;              // 데이터 수신 여부 플래그
+
+extern char RunScentStatus[4];    // 장치 동작상태(4byte) - 향/세정 등 각 채널상태
+
+```채널상태`
 
 # 3. 프로토콜 구조 & 명령 리스트
 
