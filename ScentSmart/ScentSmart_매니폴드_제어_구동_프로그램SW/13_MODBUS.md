@@ -18,10 +18,19 @@
 
 # 1. 매크로 정의
 
-c
+
 
 ```c
-#define MBC_RCL 0x01 // Read Coils (비트 읽기) #define MBC_RDI 0x02 // Read Discrete Inputs (비트 읽기) #define MBC_RHR 0x03 // Read Holding Register (16비트 읽기/쓰기 가능) #define MBC_RIP 0x04 // Read Input Register (16비트 읽기 전용) #define MBC_WSC 0x05 // Write Single Coil (비트 쓰기) #define MBC_WSR 0x06 // Write Single Register (16비트 쓰기) #define MBC_WMC 0x0F // Write Multiple Coils (비트 여러개 쓰기) #define MBC_WMR 0x10 // Write Multiple Registers (16비트 여러개 쓰기)`
+#define MBC_RCL 0x01 
+// Read Coils (비트 읽기) 
+#define MBC_RDI 0x02 // Read Discrete Inputs (비트 읽기) 
+#define MBC_RHR 0x03 // Read Holding Register (16비트 읽기/쓰기 가능) 
+#define MBC_RIP 0x04 // Read Input Register (16비트 읽기 전용) 
+#define MBC_WSC 0x05 // Write Single Coil (비트 쓰기) 
+#define MBC_WSR 0x06 // Write Single Register (16비트 쓰기) 
+#define MBC_WMC 0x0F // Write Multiple Coils (비트 여러개 쓰기)
+#define MBC_WMR 0x10 // Write Multiple Registers (16비트 여러개 쓰기)
+```
 
 - Modbus 통신 시에 **명령 코드(Command Code, Function Code)** 로 사용됩니다.
     
@@ -36,9 +45,11 @@ c
 
 ## 2-1. `ReadRegisters_MODBUS`
 
-c
 
-`void ReadRegisters_MODBUS(unsigned char readcmd, unsigned short add, unsigned short qtres)`
+
+```c
+void ReadRegisters_MODBUS(unsigned char readcmd, unsigned short add, unsigned short qtres)
+```
 
 - **역할** :  
     Modbus의 “레지스터 읽기” 명령을 만들어 `s_serial.send` 버퍼에 넣고,  
@@ -73,9 +84,11 @@ c
 
 ## 2-2. `WriteSingeRes_MODBUS`
 
-c
 
-`void WriteSingeRes_MODBUS(unsigned short add, unsigned short value)`
+
+```c
+void WriteSingeRes_MODBUS(unsigned short add, unsigned short value)
+```
 
 - **역할**:  
     Modbus 단일 레지스터 쓰기(Write Single Register, command 0x06) 명령을 작성해 보내는 함수
@@ -100,9 +113,10 @@ c
 - 만약, 16비트 홀딩 레지스터 주소 0x1068에 값 0x0002 쓰고 싶으면,
     
 
-c
 
-`WriteSingeRes_MODBUS(0x1068, 2);`
+
+```c
+WriteSingeRes_MODBUS(0x1068, 2);```
 
 - Modbus 명령 프레임 일부가 아래와 같이 `s_serial.send` 배열에 채워지고,
     
