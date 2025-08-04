@@ -135,19 +135,32 @@ CRC 검증 (`CheckCRC16`, `CheckModbusCRC`)
 
 (텍스트 플로우로 표현)
 
-text
 
-   
+
+```text
+   [사용자/프로그램 명령]              
+   │              
+   ▼   
+    [ControlPumpNF.c: 명령 함수]              
+   │             
+   ▼   
+   [MODBUS.c/FunctionSerial.c: 패킷+CRC/SLIP 인코딩]              
+   │              
+   ▼   
+    [ConfigCOM.c: SendToCom → 포트로 송신]              
+   │              
+   ▼    
+   [외부장치: 펌웨어/MCU 응답]              
+   │              
+   ▼    
+   [PC시리얼포트: ConfigCOM.c: 콜백 → ReadFromCom()]              
+   │              
+   ▼   
+   [FunctionSerial.c: SLIP/CRC해제]             
+   │              
+   ▼    
+   [ControlPumpNF.c: DecodePacket() → 결과값/에러 표시]
    ```
-```
-   [사용자/프로그램 명령]              │              
-   ▼    [ControlPumpNF.c: 명령 함수]              │             
-   ▼   [MODBUS.c/FunctionSerial.c: 패킷+CRC/SLIP 인코딩]              │              
-   ▼    [ConfigCOM.c: SendToCom → 포트로 송신]              │              
-   ▼    [외부장치: 펌웨어/MCU 응답]              │              
-   ▼    [PC시리얼포트: ConfigCOM.c: 콜백 → ReadFromCom()]              │              
-   ▼   [FunctionSerial.c: SLIP/CRC해제]              │              
-   ▼    [ControlPumpNF.c: DecodePacket() → 결과값/에러 표시]```
 
 
 
