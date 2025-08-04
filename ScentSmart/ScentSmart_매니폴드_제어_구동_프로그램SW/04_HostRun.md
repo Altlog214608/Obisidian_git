@@ -152,3 +152,162 @@ aliases:
 
 
 ---
+
+# 1. include 파일 설명
+
+cpp
+
+`#include <inttypes.h>         // 다양한 크기의 정수타입 정의 (uint8_t, int16_t 등) #include <wiring_private.h>   // 하드웨어 제어(PWM, UART 등) 구현용, Arduino/AVR용 내부 함수 #include "IODefine.h"         // 입출력 핀 정의 (예: 센서, 벨브 연결 핀번호) #include "nfserial.h"         // 시리얼 통신(NFSerial 클래스) 정의 #include "IOControl.h"        // 입출력 제어 함수 (핀 ON/OFF 등) #include "HostRun.h"          // Host 명령상수, 데이터구조, 함수 원형(프로토타입) 정의 #include "ScentControl.h"     // 향/세정 등 디바이스 동작 함수 정의`
+
+- 표준 및 프로젝트용 헤더파일을 모두 포함
+    
+- 시리얼 통신, IO제어, 프로젝트별 커맨드와 동작 등 모든 기반 코드 포함
+    
+
+# 2. 외부 변수 및 주요 구조체 의미
+
+cpp
+
+`extern NFSerial SerialDebug;      // 디버그용 시리얼. 로그, 상태 찍을 때 사용 NFSerial SerialHost(&UBRR0H, &UBRR0L, &UCSR0A, &UCSR0B, &UCSR0C, &UDR0); // 메인 통신(Host↔장치)용 시리얼 객체. (AVR UART0 레지스터 직접 지정) extern int MyAddress;             // 이 장치의 주소 (2글자. 예: '01') extern int RecvFlag;              // 데이터 수신 여부 플래그 extern char RunScentStatus[4];    // 장치 동작상태(4byte) - 향/세정 등 각 채널상태`
+
+# 3. 프로토콜 구조 & 명령 리스트
+
+cpp
+
+`// [시리얼 패킷 구조] /* STX(시작), Addr[2](목적지 주소), Command[1], Data[n], CheckSum[2], ETX(종료) */ HostCommandDataTag HostCommand[] = {     { 'C', 7 + 0,   0 },     // 'C': 통신확인(Cofirm) - 데이터 없음    { 'R', 7 + 13,  13 },    // 'R': 향분사(Run Scent) - Delay, Number, Period 등 13byte    { 'L', 7 + 13,  13 },    // 'L': 세정(Run Clear)    { 'S', 7 + 13,  13 },    // 'S': 중지(Run Stop)    { 'G', 7 + 0,   0 },     // 'G': 상태요청(Get Status)    { 'V', 7 + 0,   0 },     // 'V': 버전요청(Get Version)    { 'Z', 7 + 17,  17 },    // 'Z': 밸브 제로브로드캐스트    { 'z', 7 + 9,    9 },    // 'z': 밸브 제로설정    { 'v', 7 + 0,    0 },    // 'v': 밸브상태요청 };`
+
+- `Command`: 명령 한 글자
+    
+- `Length`: 전체 명령길이
+    
+- `DataLength`: 데이터부분 길이(파라미터 길이)
+    
+
+# 4. 상수 정의 (프로토콜 제어문자, 버퍼사이즈 등)
+
+cpp
+
+`#define SERIAL_HOST_COMMAND_POS    3   // 명령위치 (시작, 주소, 주소, [명령]) #define SERIAL_HOST_COMMAND_LEN    1 #define SERIAL_HOST_PARAM_POS      4   // 데이터 시작위치 #define SERIAL_STX   0x02   // 시작문자 #define SERIAL_SOH   0x40   // 전송시작(송신용) #define SERIAL_ETX   0x03   // 종료문자 #define SERIAL_ACK   0x06   // 통신성공(Ack) #define SERIAL_NACK  0x15   // 통신실패(Nak) #define SERIAL_HOST_BUFF_SIZE 128    // 시리얼 버퍼크기 128바이트 #define SerialHostTimeOutDefault 400 // 타임아웃카운트(40*10ms=4초) //--- 송수신용 버퍼와 상태변수들 unsigned char   SerialHostRxBuff[SERIAL_HOST_BUFF_SIZE];        // 수신 버퍼 unsigned char   SerialHostRxCommandBuff[SERIAL_HOST_BUFF_SIZE]; // 명령 수신 버퍼 unsigned char   SerialHostRxCommandParam[SERIAL_HOST_BUFF_SIZE];// 명령 데이터 파라미터 unsigned int    SerialHostRxCount = 0;                         // 수신된 바이트 수 unsigned int    SerialHostRxCommandBuffCount = 0;              // 명령버퍼 바이트수 unsigned int    SerialHostCommandIndex = 0;                    // 명령 인덱스(HostCommand 테이블 기준) unsigned char   SerialHostCommandActiveFlag = 0;               // 명령처리유무 unsigned char   SerialHostTxBuff[SERIAL_HOST_BUFF_SIZE];        // 송신 버퍼 unsigned int    SerialHostTxCount = 0;                         // 송신한 바이트 수 unsigned char   Host_CommandFlag;                              // 명령플래그(1이면 명령 도착, 처리대기) unsigned char   Host_SerialRunFlag;                            // 수신시작플래그(패킷 처음부터 수신 중) int SerialHostTimeOutCount = SerialHostTimeOutDefault;         // 타임아웃 카운트`
+
+- **패킷별 송수신을 위한 버퍼, 길이 저장 변수들이 반복적으로 쓰임**
+    
+- 각종 플래그 변수(패킷완결, 시작 등)로 명확한 흐름 컨트롤
+    
+
+# 5. 주요 함수 해설 (하나씩!)
+
+## 5.1. 시간, 타임아웃 함수
+
+cpp
+
+`void SerialHostTimeOutCheck() // 주기적으로 실행(50ms마다) {     if (SerialHostTimeOutCount)        SerialHostTimeOutCount--; // 타임아웃카운트 감소 (0되면 타임아웃) } char IsSerialHostTimeOut() {     if (SerialHostTimeOutCount == 0)        return 1;    else        return 0; }`
+
+- **명령 실행 중 일정 시간(4초 정도)이 지난 후 응답 없으면 실패판정**
+    
+- 상태 관리, 안전장치 역할
+    
+
+## 5.2. 패킷수신, 명령파싱(SerialHostEvent, RunSerialHostDataCheck)
+
+cpp
+
+`// 시리얼 수신 인터럽트/루프마다 실행: 들어온 바이트 읽고 패킷모으기 void SerialHostEvent(void) {     int C;    while (SerialHost.available())    {        C = SerialHost.read();    // 1바이트 읽기        if (C == -1)            return;        if (C == SERIAL_STX)     // 시작문자 오면        {            memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));            SerialHostRxCount = 0;            Host_SerialRunFlag = 1;        }        if (Host_SerialRunFlag)        {            SerialHostRxBuff[SerialHostRxCount++] = C; // 버퍼에 저장            if (C == SERIAL_ETX)        // 끝문자 오면 패킷 완성                Host_CommandFlag = 1;            if (SerialHostRxCount >= sizeof(SerialHostRxBuff))            {   // 버퍼 오버플로우 - 초기화                memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));                SerialHostRxCount = 0;                Host_SerialRunFlag = 0;                Host_CommandFlag = 0;            }        }    } }`
+
+cpp
+
+`// 패킷 완성시 명령 구분 및 데이터 추출 void RunSerialHostDataCheck(void) {     int n;    if (Host_CommandFlag == 0)        return;    memcpy(SerialHostRxCommandBuff, SerialHostRxBuff, SerialHostRxCount);    SerialHostRxCommandBuffCount = SerialHostRxCount;    memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));    SerialHostRxCount = 0;     // 명령 문자(Command)와 HostCommand테이블의 n번째 명령 매칭    for (n = 0; n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)); n++)    {        if ((SerialHostRxCommandBuff[SERIAL_HOST_COMMAND_POS] == HostCommand[n].Command))            break;    }     if (n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)))    {   // 유효 명령이면 파라미터부분 추출        memset(SerialHostRxCommandParam, 0, sizeof(SerialHostRxCommandParam));        memcpy(SerialHostRxCommandParam, &SerialHostRxCommandBuff[SERIAL_HOST_PARAM_POS], HostCommand[n].DataLength);        SerialHostCommandIndex = n;        SerialHostCommandActiveFlag = 1;    }    else    // 알 수 없는 명령!    {        SerialHostCommandIndex = -1;        SerialHostCommandActiveFlag = 0;    }    RunSerialHostCommand();      // 실제 명령 수행    Host_CommandFlag = 0;        // 처리완료 }`
+
+- **수신→임시버퍼 저장→명령 구분→파라미터 분리→명령 실행 흐름**
+    
+- 모든 명령패킷 공통 처리법
+    
+
+## 5.3. 시리얼 인터럽트 핸들러
+
+cpp
+
+`ISR(USART0_RX_vect) // 시리얼 수신완료 인터럽트 {     if (bit_is_clear(UCSR0A, UPE0))    {        uint8_t c = UDR0;        SerialHost._rx_complete_irq(c);        SerialHostEvent();    }    else    {        uint8_t c = UDR0;    } } ISR(USART0_UDRE_vect) // 송신완료 인터럽트 {     if (SerialHost.Txavailable())    {        SerialHost._tx_udr_empty_irq();        SerialHost._TxEndFlag = 0;    }    else    {        if (SerialHost._TxEndFlag == 0)        {            cbi(UCSR0B, UDRIE0);            SerialHost._TxEndFlag = 1;        }    } }`
+
+- **수신/송신 인터럽트마다 시리얼 데이터 입출력 동작**
+    
+- 하드웨어 레벨, 프레임 하나하나 안정적으로 처리
+    
+
+## 5.4. 데이터 송신
+
+cpp
+
+`void SerialHostSendData(unsigned char* p, int Count) {     int i;    RS485_Tx_Enable();    delay(4);    for (i = 0; i < Count; )    {        if (SerialHost.availableForWrite())        {            SerialHost.print((char)*p++);            i++;        }    } }`
+
+- RS485 송신모드 전환→데이터 한 글자씩 송신
+    
+- availableForWrite로 버퍼초과 방지
+    
+
+## 5.5. 체크섬 처리
+
+cpp
+
+`int SerialCheckCheckSum(unsigned char* p, int Count) {     // Count 바이트까지 XOR로 CHK값 만든 뒤 (16진수 → 문자)    // 뒤 2글자는 이 값이 맞는지 확인 } int MakeSerialCheckSum(unsigned char* p, int Count) {     // CHK 계산 후 p[Count]=CheckH, p[Count+1]=CheckL, 종료문자까지 추가, 전체길이 반환 }`
+
+- **데이터 무결성 검사용 XOR 체크섬**
+    
+- HEX 값 2글자 문자로 붙임
+    
+
+## 5.6. 각 명령별 실행함수
+
+(아래는 일부만 예시로, 나머지도 매우 유사 구조)
+
+cpp
+
+`int RunSerialHostCommandConfirm() {     // Reply 패킷 생성 ("Confirm OK")    // 체크섬 붙이고 송신    // 코드 흐름 동일 } int RunSerialHostCommandRunScent() {     // 명령 데이터에서 Delay, ScentNo, Period 읽어서 전역 변수 세팅    // 향 분사 함수(DoScentBackLoop) 실행    // 결과 요청 } int RunSerialHostCommandRunClear() {     // 명령 데이터에서 Delay, ScentNo, Period 읽어서 세정 명령 수행    // 세정 함수, 상태 송신 등 } int RunSerialHostCommandGetStatus() {     // 현재 상태를 읽어서 패킷 포맷으로 송신 } int RunSerialHostCommandGetVersion() {     // 버전정보 문자열 생성, 패킷 송신 }`
+
+- **모든 명령은 패킷 처리 → 해당 동작 함수 호출 → 결과 송신**의 일관된 구조
+    
+
+# 6. 명령 패킷의 전체 수행 흐름
+
+1. 시리얼 데이터 수신(인터럽트, Event())
+    
+2. 패킷 완성(STX~ETX 수집), 명령 파싱(RunSerialHostDataCheck)
+    
+3. 올바른 명령이면 데이터 분리, 지정 함수(RunSerialHostCommand) 실행
+    
+4. 연산(DoScentBackLoop 등) & 결과 송신 패킷 전송
+    
+5. 진행상황/에러/버전정보 등 응답
+    
+
+# 7. HostRun.h 헤더파일 내용 설명[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h)
+
+- **NFSerial SerialHost**: Host(PC 등)와 통신하는 메인 시리얼 객체(여기서 전역선언)
+    
+- **RunDelayTime, RunPieriod, RunScentNo, RunScentClearFlag**: 분사 대기시간, 향번호, 주기, 동작종류('R'향/'C'세정등) 등 제어용 변수
+    
+- **HostCommandDataTag 구조체**: 패킷 명령에 대한 정보 저장  
+    (명령문자, 전체패킷 길이, 데이터부분 길이)
+    
+- **enum 명령리스트**: 코드에서 명령번호 사용 시 매칭용
+    
+- **모든 함수 원형 선언**: .c 내부 함수들 미리 나열(컴파일러용)
+    
+- **타임아웃 함수, 각 명령별 실행함수(Confirm, RunScent 등) 원형**
+    
+
+# 정리
+
+- **시리얼로 들어온 모든 명령을 STX~ETX까지 패킷단위로 처리**
+    
+- **각 명령에 따라 데이터를 분리하고, 동작 분기**
+    
+- **동작 시 Delay, Number, Period 등 항상 파싱/적용**
+    
+- **안전하게 버퍼 로직, 플래그, 타임아웃 등 견고하게 짜여 있음**
+    
+- **직접 하드웨어/펌웨어와 연동하여 임베디드에서 그대로 동작하는 구조**
+    
+
+궁금한 각 명령/상세 변수 해설이나, 실제 데이터 송수신 예시가 더 필요하면 언제든 요청하세요!
+
+1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h)
