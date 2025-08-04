@@ -400,7 +400,7 @@ cpp
 5. 진행상황/에러/버전정보 등 응답
     
 
-# 7. HostRun.h 헤더파일 내용 설명[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h)
+# 7. HostRun.h 헤더파일 내용 설명
 
 - **NFSerial SerialHost**: Host(PC 등)와 통신하는 메인 시리얼 객체(여기서 전역선언)
     
@@ -428,7 +428,3 @@ cpp
     
 - **직접 하드웨어/펌웨어와 연동하여 임베디드에서 그대로 동작하는 구조**
     
-
-궁금한 각 명령/상세 변수 해설이나, 실제 데이터 송수신 예시가 더 필요하면 언제든 요청하세요!
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/02797fa0-df22-47ce-9161-450fcf41b5b0/HostRun.h)
