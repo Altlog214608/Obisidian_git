@@ -41,7 +41,6 @@
     "//Notes/Notes/Daily",
     "//Notes/Notes/Daily/Notes/Daily/2025",
     "//ScentSmart/ScentSmart/17_데이터저장",
-    "//ScentSmart",
     "//ScentSmart/ScentSmart/17_결과 저장 및 DB 연동 구조",
     "//ScentSmart/ScentSmart/계획",
     "//ScentSmart/ScentSmart/분석",
@@ -53,7 +52,8 @@
     "//FsSmart",
     "//FsSmart/FsSmart/FrSmart_SW_분석_계획",
     "//FrSmart",
-    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW"
+    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
+    "//ScentSmart"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
