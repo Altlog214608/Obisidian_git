@@ -52,11 +52,11 @@
     "//FsSmart",
     "//FsSmart/FsSmart/FrSmart_SW_분석_계획",
     "//FrSmart",
-    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "//ScentSmart",
     "//assets",
     "//FrSmart/FrSmart/FrSmart_SW_분석",
-    "//Tags"
+    "//Tags",
+    "//ScentSmart/ScentSmart/ScentSmart_SW_분석"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

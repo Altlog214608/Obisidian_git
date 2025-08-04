@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
+      "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
+    },
+    {
       "basename": "29_SLIP(Serial Line Internet Protocol)",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/29_SLIP(Serial Line Internet Protocol).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "01_모델설명",
       "path": "FrSmart/FrSmart_SW_분석/01_모델설명.md"
-    },
-    {
-      "basename": "06_전체 코드 설명",
-      "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
     }
   ],
   "omittedPaths": [],
