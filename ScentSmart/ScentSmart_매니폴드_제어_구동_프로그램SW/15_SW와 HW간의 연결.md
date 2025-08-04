@@ -36,7 +36,8 @@ def write_data(self, wdata):
         python
         
         ```python
-		def readSerialData(self, rdata):     ...  # rdata = 바이트 데이터(패킷)    self.parseReadData(rdata)
+	def readSerialData(self, rdata):     ...  # rdata = 바이트 데이터(패킷)
+		self.parseReadData(rdata)
 	```
         
     - 여기서 `rdata`는 펌웨어가 보낸 응답 패킷(상태, 결과 등)
@@ -52,7 +53,12 @@ def write_data(self, wdata):
     
     cpp
     
-    ````ISR(USART0_RX_vect) {      // (HostRun.cpp)     SerialHost._rx_complete_irq(c);    SerialHostEvent();     // 바이트 모으면 패킷화 }`
+    ```cpp
+    ISR(USART0_RX_vect) {      // (HostRun.cpp)     
+		 SerialHost._rx_complete_irq(c);    
+		 SerialHostEvent();     // 바이트 모으면 패킷화 
+		 }
+    ```
     
 - (`SerialHostEvent`에서)
     
