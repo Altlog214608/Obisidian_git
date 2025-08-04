@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "22_"
+              "title": "22_펌웨어 분류"
             }
           }
         ]
@@ -209,7 +209,7 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류.md",
     "assets/img/Pasted image 20250801090238.jpg",
     "assets/img/Pasted image 20250801090201.jpg",
     "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
