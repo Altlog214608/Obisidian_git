@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01.C++ 파일과 C Header 파일"
+              "title": "04_HostRun"
             }
           }
         ]
@@ -203,6 +203,7 @@
   },
   "active": "7c533aa289527bc9",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
     "Pasted image 20250801090238.jpg",
@@ -232,7 +233,6 @@
     "FsSmart/FsSmart_SW_분석/06_.md",
     "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
     "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
-    "ScentSmart/ScentSmart_SW_분석_계획/ScentSmart_분석_방향.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
