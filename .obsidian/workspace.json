@@ -4,47 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "da6b25aeb679c77d",
+        "id": "09f9e43f4285f374",
         "type": "tabs",
         "children": [
           {
-            "id": "7c533aa289527bc9",
+            "id": "587d8abe93099d8c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Pasted image 20250801090201.jpg"
+                "file": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250801090201"
-            }
-          },
-          {
-            "id": "268f89408e5dc467",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250801090220.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250801090220"
-            }
-          },
-          {
-            "id": "9fbd105209ef908c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20250801090201.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250801090201"
+              "icon": "lucide-file",
+              "title": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -224,13 +201,19 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "9fbd105209ef908c",
+  "active": "587d8abe93099d8c",
   "lastOpenFiles": [
-    "Pasted image 20250801090220.jpg",
-    "Pasted image 20250801090201.jpg",
-    "Pasted image 20250801090238.jpg",
-    "Pasted image 20250801090312.jpg",
-    "Pasted image 20250801090412.jpg",
+    "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
+    "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
+    "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
+    "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
+    "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
+    "assets/img/Pasted image 20250801090312.jpg",
+    "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
+    "assets/img/Pasted image 20250801090201.jpg",
+    "assets/img/Pasted image 20250801090220.jpg",
+    "assets/img/Pasted image 20250801090238.jpg",
+    "assets/img/Pasted image 20250801090412.jpg",
     "Notes/Daily/2025/08/2025-08-04.md",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
     "assets/img",
@@ -254,11 +237,6 @@
     "Notes/Daily/2025/07/2025-07-29.md",
     "Notes/Daily/2025/07/2025-07-31.md",
     "Notes/Daily/2025/08/2025-08-01.md",
-    "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
-    "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
-    "FrSmart/FrSmart_SW_분석/01_모델설명.md",
-    "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
-    "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",

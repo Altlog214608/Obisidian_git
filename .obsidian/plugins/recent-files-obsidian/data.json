@@ -1,24 +1,52 @@
 {
   "recentFiles": [
     {
-      "basename": "Pasted image 20250801090201",
-      "path": "Pasted image 20250801090201.jpg"
+      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
+      "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
-      "basename": "Pasted image 20250801090220",
-      "path": "Pasted image 20250801090220.jpg"
+      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
+      "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
     },
     {
-      "basename": "Pasted image 20250801090238",
-      "path": "Pasted image 20250801090238.jpg"
+      "basename": "03_모델 학습 코드 설명",
+      "path": "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md"
+    },
+    {
+      "basename": "07_AI_모델_사용시점",
+      "path": "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md"
+    },
+    {
+      "basename": "09_결과_QR코드_생성_함수",
+      "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
+    },
+    {
+      "basename": "08_set_ui_find_age_func",
+      "path": "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md"
     },
     {
       "basename": "Pasted image 20250801090312",
-      "path": "Pasted image 20250801090312.jpg"
+      "path": "assets/img/Pasted image 20250801090312.jpg"
+    },
+    {
+      "basename": "02_sklearn_앙상블",
+      "path": "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md"
+    },
+    {
+      "basename": "Pasted image 20250801090201",
+      "path": "assets/img/Pasted image 20250801090201.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090220",
+      "path": "assets/img/Pasted image 20250801090220.jpg"
+    },
+    {
+      "basename": "Pasted image 20250801090238",
+      "path": "assets/img/Pasted image 20250801090238.jpg"
     },
     {
       "basename": "Pasted image 20250801090412",
-      "path": "Pasted image 20250801090412.jpg"
+      "path": "assets/img/Pasted image 20250801090412.jpg"
     },
     {
       "basename": "2025-08-04",
@@ -101,32 +129,12 @@
       "path": "Notes/Daily/2025/08/2025-08-01.md"
     },
     {
-      "basename": "09_결과_QR코드_생성_함수",
-      "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
-    },
-    {
-      "basename": "07_AI_모델_사용시점",
-      "path": "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md"
-    },
-    {
       "basename": "01_모델설명",
       "path": "FrSmart/FrSmart_SW_분석/01_모델설명.md"
     },
     {
-      "basename": "08_set_ui_find_age_func",
-      "path": "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md"
-    },
-    {
       "basename": "06_전체 코드 설명",
       "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
-    },
-    {
-      "basename": "03_모델 학습 코드 설명",
-      "path": "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md"
-    },
-    {
-      "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "ScentSmart_분석_방향",
@@ -191,14 +199,6 @@
     {
       "basename": "05_IOcontrol",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/05_IOcontrol.md"
-    },
-    {
-      "basename": "06_IODefine.h, known_16bit_timers.h",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/06_IODefine.h, known_16bit_timers.h.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     }
   ],
   "omittedPaths": [],
