@@ -1,8 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "FsSmart_전체흐름요약",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md"
+      "basename": "FsSmart_SW_분석_계획",
+      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md"
+    },
+    {
+      "basename": "FrSmart_전체흐름요약",
+      "path": "FsSmart/FsSmart_SW_분석_계획/FrSmart_전체흐름요약.md"
     },
     {
       "basename": "2025-07-30",
@@ -195,10 +199,6 @@
     {
       "basename": "34_Qt 기본 위젯",
       "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
-    },
-    {
-      "basename": "19_DB_모듈_정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/19_DB_모듈_정리.md"
     }
   ],
   "omittedPaths": [],

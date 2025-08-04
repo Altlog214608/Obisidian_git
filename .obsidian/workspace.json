@@ -11,14 +11,12 @@
             "id": "7c533aa289527bc9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "FsSmart/FsSmart_SW_분석_계획/FsSmart_전체흐름요약.md",
-                "mode": "source",
-                "source": false
+                "path": "FsSmart/FsSmart_SW_분석_계획"
               },
               "icon": "lucide-file",
-              "title": "FsSmart_전체흐름요약"
+              "title": "FsSmart_SW_분석_계획"
             }
           }
         ]
@@ -201,8 +199,10 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "7c533aa289527bc9",
+  "active": "5e4d9e9ea5ec9f07",
   "lastOpenFiles": [
+    "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md",
+    "FsSmart/FsSmart_SW_분석_계획/FrSmart_전체흐름요약.md",
     "Notes/Daily/2025/07/2025-07-30.md",
     "Notes/Daily/2025/08/2025-08-04.md",
     "Notes/Daily/2025/07/2025-07-28.md",
@@ -231,8 +231,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
