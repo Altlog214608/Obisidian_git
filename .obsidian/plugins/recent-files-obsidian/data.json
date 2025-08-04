@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "26_장치와 채널 차이",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md"
+    },
+    {
       "basename": "25_MODBUS vs Legacy",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/25_MODBUS vs Legacy.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "19_펌웨어 - 소프트웨어 전송 신호",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md"
-    },
-    {
-      "basename": "18_분사 정지 함수",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md"
     }
   ],
   "omittedPaths": [],
