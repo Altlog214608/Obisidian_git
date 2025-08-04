@@ -31,13 +31,13 @@
 
 flowchart TD
 
-    A[ScentSmart.py - 기능 호출] --> B[dsComm.py - MODBUS 패킷 조립]
+    A[ScentSmart.py - trigger functions] --> B[dsComm.py - build MODBUS packet]
 
-    B --> C[Serial.write() - 송신]
+    B --> C[Serial.write() - send packet]
 
-    C --> D[MODBUS 펌웨어 - CRC 검증 및 파싱]
+    C --> D[Firmware (MODBUS) - CRC & command parsing]
 
-    D --> E[향기 제어 - ControlPumpNF.c]
+    D --> E[Scent control - ControlPumpNF.c]
 
 ```
 
@@ -58,16 +58,19 @@ flowchart TD
 - **빠르고 단순하지만 외부 연동/표준성은 부족**
 
   
-
 ```mermaid
+
 flowchart TD
-    A[ScentSmart.py<br>(기능 호출)] --> B[dsComm.py<br>(Legacy 패킷 구성 - STX~ETX)]
-    B --> C[Serial.write()<br>직렬 송신]
-    C --> D[펌웨어(CustomSerial)<br>명령 문자 기반 파싱]
-    D --> E[향기 제어 실행<br>(ScentControl.c 등)]
+
+    A[ScentSmart.py - trigger functions] --> B[dsComm.py - build Legacy packet]
+
+    B --> C[Serial.write() - send packet]
+
+    C --> D[Firmware (Legacy) - parse ASCII command]
+
+    D --> E[Scent control - ScentControl.c]
+
 ```
-
-
   
 
 ---
