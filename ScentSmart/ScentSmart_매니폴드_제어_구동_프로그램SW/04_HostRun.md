@@ -209,13 +209,37 @@ extern int RecvFlag;              // 데이터 수신 여부 플래그
 
 extern char RunScentStatus[4];    // 장치 동작상태(4byte) - 향/세정 등 각 채널상태
 
-```채널상태`
+```
 
 # 3. 프로토콜 구조 & 명령 리스트
 
-cpp
+```cpp
 
-`// [시리얼 패킷 구조] /* STX(시작), Addr[2](목적지 주소), Command[1], Data[n], CheckSum[2], ETX(종료) */ HostCommandDataTag HostCommand[] = {     { 'C', 7 + 0,   0 },     // 'C': 통신확인(Cofirm) - 데이터 없음    { 'R', 7 + 13,  13 },    // 'R': 향분사(Run Scent) - Delay, Number, Period 등 13byte    { 'L', 7 + 13,  13 },    // 'L': 세정(Run Clear)    { 'S', 7 + 13,  13 },    // 'S': 중지(Run Stop)    { 'G', 7 + 0,   0 },     // 'G': 상태요청(Get Status)    { 'V', 7 + 0,   0 },     // 'V': 버전요청(Get Version)    { 'Z', 7 + 17,  17 },    // 'Z': 밸브 제로브로드캐스트    { 'z', 7 + 9,    9 },    // 'z': 밸브 제로설정    { 'v', 7 + 0,    0 },    // 'v': 밸브상태요청 };`
+HostCommandDataTag HostCommand[] =
+
+{
+
+    { 'C', 7 + 0,   0 },     // 'C': 통신확인(Cofirm) - 데이터 없음
+
+    { 'R', 7 + 13,  13 },    // 'R': 향분사(Run Scent) - Delay, Number, Period 등 13byte
+
+    { 'L', 7 + 13,  13 },    // 'L': 세정(Run Clear)
+
+    { 'S', 7 + 13,  13 },    // 'S': 중지(Run Stop)
+
+    { 'G', 7 + 0,   0 },     // 'G': 상태요청(Get Status)
+
+    { 'V', 7 + 0,   0 },     // 'V': 버전요청(Get Version)
+
+    { 'Z', 7 + 17,  17 },    // 'Z': 밸브 제로브로드캐스트
+
+    { 'z', 7 + 9,    9 },    // 'z': 밸브 제로설정
+
+    { 'v', 7 + 0,    0 },    // 'v': 밸브상태요청
+
+};
+
+```
 
 - `Command`: 명령 한 글자
     
@@ -226,9 +250,65 @@ cpp
 
 # 4. 상수 정의 (프로토콜 제어문자, 버퍼사이즈 등)
 
-cpp
+```cpp
 
-`#define SERIAL_HOST_COMMAND_POS    3   // 명령위치 (시작, 주소, 주소, [명령]) #define SERIAL_HOST_COMMAND_LEN    1 #define SERIAL_HOST_PARAM_POS      4   // 데이터 시작위치 #define SERIAL_STX   0x02   // 시작문자 #define SERIAL_SOH   0x40   // 전송시작(송신용) #define SERIAL_ETX   0x03   // 종료문자 #define SERIAL_ACK   0x06   // 통신성공(Ack) #define SERIAL_NACK  0x15   // 통신실패(Nak) #define SERIAL_HOST_BUFF_SIZE 128    // 시리얼 버퍼크기 128바이트 #define SerialHostTimeOutDefault 400 // 타임아웃카운트(40*10ms=4초) //--- 송수신용 버퍼와 상태변수들 unsigned char   SerialHostRxBuff[SERIAL_HOST_BUFF_SIZE];        // 수신 버퍼 unsigned char   SerialHostRxCommandBuff[SERIAL_HOST_BUFF_SIZE]; // 명령 수신 버퍼 unsigned char   SerialHostRxCommandParam[SERIAL_HOST_BUFF_SIZE];// 명령 데이터 파라미터 unsigned int    SerialHostRxCount = 0;                         // 수신된 바이트 수 unsigned int    SerialHostRxCommandBuffCount = 0;              // 명령버퍼 바이트수 unsigned int    SerialHostCommandIndex = 0;                    // 명령 인덱스(HostCommand 테이블 기준) unsigned char   SerialHostCommandActiveFlag = 0;               // 명령처리유무 unsigned char   SerialHostTxBuff[SERIAL_HOST_BUFF_SIZE];        // 송신 버퍼 unsigned int    SerialHostTxCount = 0;                         // 송신한 바이트 수 unsigned char   Host_CommandFlag;                              // 명령플래그(1이면 명령 도착, 처리대기) unsigned char   Host_SerialRunFlag;                            // 수신시작플래그(패킷 처음부터 수신 중) int SerialHostTimeOutCount = SerialHostTimeOutDefault;         // 타임아웃 카운트`
+#define SERIAL_HOST_COMMAND_POS    3   // 명령위치 (시작, 주소, 주소, [명령])
+
+#define SERIAL_HOST_COMMAND_LEN    1
+
+#define SERIAL_HOST_PARAM_POS      4   // 데이터 시작위치
+
+  
+
+#define SERIAL_STX   0x02   // 시작문자
+
+#define SERIAL_SOH   0x40   // 전송시작(송신용)
+
+#define SERIAL_ETX   0x03   // 종료문자
+
+#define SERIAL_ACK   0x06   // 통신성공(Ack)
+
+#define SERIAL_NACK  0x15   // 통신실패(Nak)
+
+  
+
+#define SERIAL_HOST_BUFF_SIZE 128    // 시리얼 버퍼크기 128바이트
+
+  
+
+#define SerialHostTimeOutDefault 400 // 타임아웃카운트(40*10ms=4초)
+
+  
+
+//--- 송수신용 버퍼와 상태변수들
+
+unsigned char   SerialHostRxBuff[SERIAL_HOST_BUFF_SIZE];        // 수신 버퍼
+
+unsigned char   SerialHostRxCommandBuff[SERIAL_HOST_BUFF_SIZE]; // 명령 수신 버퍼
+
+unsigned char   SerialHostRxCommandParam[SERIAL_HOST_BUFF_SIZE];// 명령 데이터 파라미터
+
+unsigned int    SerialHostRxCount = 0;                         // 수신된 바이트 수
+
+unsigned int    SerialHostRxCommandBuffCount = 0;              // 명령버퍼 바이트수
+
+unsigned int    SerialHostCommandIndex = 0;                    // 명령 인덱스(HostCommand 테이블 기준)
+
+unsigned char   SerialHostCommandActiveFlag = 0;               // 명령처리유무
+
+unsigned char   SerialHostTxBuff[SERIAL_HOST_BUFF_SIZE];        // 송신 버퍼
+
+unsigned int    SerialHostTxCount = 0;                         // 송신한 바이트 수
+
+unsigned char   Host_CommandFlag;                              // 명령플래그(1이면 명령 도착, 처리대기)
+
+unsigned char   Host_SerialRunFlag;                            // 수신시작플래그(패킷 처음부터 수신 중)
+
+  
+
+int SerialHostTimeOutCount = SerialHostTimeOutDefault;         // 타임아웃 카운트
+
+```
 
 - **패킷별 송수신을 위한 버퍼, 길이 저장 변수들이 반복적으로 쓰임**
     
