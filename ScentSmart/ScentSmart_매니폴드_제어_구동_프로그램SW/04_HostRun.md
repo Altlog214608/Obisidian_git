@@ -319,9 +319,35 @@ int SerialHostTimeOutCount = SerialHostTimeOutDefault;         // 타임아�
 
 ## 5.1. 시간, 타임아웃 함수
 
-cpp
+```cpp
 
-`void SerialHostTimeOutCheck() // 주기적으로 실행(50ms마다) {     if (SerialHostTimeOutCount)        SerialHostTimeOutCount--; // 타임아웃카운트 감소 (0되면 타임아웃) } char IsSerialHostTimeOut() {     if (SerialHostTimeOutCount == 0)        return 1;    else        return 0; }`
+void SerialHostTimeOutCheck() // 주기적으로 실행(50ms마다)
+
+{
+
+    if (SerialHostTimeOutCount)
+
+        SerialHostTimeOutCount--; // 타임아웃카운트 감소 (0되면 타임아웃)
+
+}
+
+  
+
+char IsSerialHostTimeOut()
+
+{
+
+    if (SerialHostTimeOutCount == 0)
+
+        return 1;
+
+    else
+
+        return 0;
+
+}
+
+```
 
 - **명령 실행 중 일정 시간(4초 정도)이 지난 후 응답 없으면 실패판정**
     
@@ -330,9 +356,69 @@ cpp
 
 ## 5.2. 패킷수신, 명령파싱(SerialHostEvent, RunSerialHostDataCheck)
 
-cpp
+```cpp
 
-`// 시리얼 수신 인터럽트/루프마다 실행: 들어온 바이트 읽고 패킷모으기 void SerialHostEvent(void) {     int C;    while (SerialHost.available())    {        C = SerialHost.read();    // 1바이트 읽기        if (C == -1)            return;        if (C == SERIAL_STX)     // 시작문자 오면        {            memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));            SerialHostRxCount = 0;            Host_SerialRunFlag = 1;        }        if (Host_SerialRunFlag)        {            SerialHostRxBuff[SerialHostRxCount++] = C; // 버퍼에 저장            if (C == SERIAL_ETX)        // 끝문자 오면 패킷 완성                Host_CommandFlag = 1;            if (SerialHostRxCount >= sizeof(SerialHostRxBuff))            {   // 버퍼 오버플로우 - 초기화                memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));                SerialHostRxCount = 0;                Host_SerialRunFlag = 0;                Host_CommandFlag = 0;            }        }    } }`
+// 시리얼 수신 인터럽트/루프마다 실행: 들어온 바이트 읽고 패킷모으기
+
+void SerialHostEvent(void)
+
+{
+
+    int C;
+
+    while (SerialHost.available())
+
+    {
+
+        C = SerialHost.read();    // 1바이트 읽기
+
+        if (C == -1)
+
+            return;
+
+        if (C == SERIAL_STX)     // 시작문자 오면
+
+        {
+
+            memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));
+
+            SerialHostRxCount = 0;
+
+            Host_SerialRunFlag = 1;
+
+        }
+
+        if (Host_SerialRunFlag)
+
+        {
+
+            SerialHostRxBuff[SerialHostRxCount++] = C; // 버퍼에 저장
+
+            if (C == SERIAL_ETX)        // 끝문자 오면 패킷 완성
+
+                Host_CommandFlag = 1;
+
+            if (SerialHostRxCount >= sizeof(SerialHostRxBuff))
+
+            {   // 버퍼 오버플로우 - 초기화
+
+                memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));
+
+                SerialHostRxCount = 0;
+
+                Host_SerialRunFlag = 0;
+
+                Host_CommandFlag = 0;
+
+            }
+
+        }
+
+    }
+
+}
+
+```
 
 cpp
 
