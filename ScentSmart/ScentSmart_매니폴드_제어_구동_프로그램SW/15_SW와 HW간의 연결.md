@@ -111,9 +111,13 @@ Python(Pyside6)와 C 펌웨어(HostRun 등)가 서로 **시리얼 통신을 통�
 
 - 소스 위치: **ScentSmart.py (UiDlg 클래스)**
     
-    python
     
-    `def write_data(self, wdata):     if dsSerial._is_open(self._serial):        self._serial.write(wdata)    # ← 실제 RS232/485로 바이트 패킷 송신        ...`
+    
+    ```python
+def write_data(self, wdata):     
+	if dsSerial._is_open(self._serial):        
+		self._serial.write(wdata)    # ← 실제 RS232/485로 바이트 패킷 송신        ...
+- ```
     
 - 동작 개요:
     
@@ -128,9 +132,17 @@ Python(Pyside6)와 C 펌웨어(HostRun 등)가 서로 **시리얼 통신을 통�
 
 - 소스 위치: **ScentSmart.py**
     
-    python
     
-    `def setSerialReadThread(self):     ...    self._serial_read_thread._serial_received_data.connect(lambda v: self._serial_received_data.emit(v))    self._serial_received_data.connect(self.readSerialData)    self._serial_read_thread.start(QtCore.QThread.Priority.HighestPriority) def readSerialData(self, rdata):     # rdata: MCU가 보낸 바이트 응답 패킷    self.parseReadData(rdata)  # 수신 데이터 해석 및 UI/로직 반영`
+    
+    ```python
+	def setSerialReadThread(self):     ...
+	    self._serial_read_thread._serial_received_data.connect(lambda v: 
+	    self._serial_received_data.emit(v))    
+	    self._serial_received_data.connect(self.readSerialData)    
+	    self._serial_read_thread.start(QtCore.QThread.Priority.HighestPriority) 
+	def readSerialData(self, rdata):     # rdata: MCU가 보낸 바이트 응답 패킷    
+	    self.parseReadData(rdata)  # 수신 데이터 해석 및 UI/로직 반영
+- ```
     
 - 동작 개요:
     
