@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "09f9e43f4285f374",
+        "id": "faaa97ae405e2c7a",
         "type": "tabs",
         "children": [
           {
-            "id": "587d8abe93099d8c",
+            "id": "67153ad77467c76f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Daily/2025/08/2025-08-06.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-08-06"
+              "title": "새 탭"
             }
           }
         ]
@@ -201,8 +197,9 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "587d8abe93099d8c",
+  "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "Notes/Daily/2025/08/2025-08-06.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/28_MODBUS_주요 기능 및 흐름.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md",
@@ -238,7 +235,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
