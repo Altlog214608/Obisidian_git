@@ -138,27 +138,39 @@ CRC 검증 (`CheckCRC16`, `CheckModbusCRC`)
 
 text
 
-   `[사용자/프로그램 명령]              │              ▼    [ControlPumpNF.c: 명령 함수]              │              ▼   [MODBUS.c/FunctionSerial.c: 패킷+CRC/SLIP 인코딩]              │              ▼    [ConfigCOM.c: SendToCom → 포트로 송신]              │              ▼    [외부장치: 펌웨어/MCU 응답]              │              ▼    [PC시리얼포트: ConfigCOM.c: 콜백 → ReadFromCom()]              │              ▼   [FunctionSerial.c: SLIP/CRC해제]              │              ▼    [ControlPumpNF.c: DecodePacket() → 결과값/에러 표시]`
+   
+   `
+   [사용자/프로그램 명령]              │              
+   ▼    [ControlPumpNF.c: 명령 함수]              │             
+   ▼   [MODBUS.c/FunctionSerial.c: 패킷+CRC/SLIP 인코딩]              │              
+   ▼    [ConfigCOM.c: SendToCom → 포트로 송신]              │              
+   ▼    [외부장치: 펌웨어/MCU 응답]              │              
+   ▼    [PC시리얼포트: ConfigCOM.c: 콜백 → ReadFromCom()]              │              
+   ▼   [FunctionSerial.c: SLIP/CRC해제]              │              
+   ▼    [ControlPumpNF.c: DecodePacket() → 결과값/에러 표시]
+   `
+
 
 ```mermaid
 
 graph TD
 
-    A[사용자 또는 프로그램 명령] --> B[ControlPumpNF.c - 명령 함수]
+    A[User or App Command] --> B[ControlPumpNF.c - Command Function]
 
-    B --> C[MODBUS.c / FunctionSerial.c - 패킷 생성 + CRC/SLIP 인코딩]
+    B --> C[MODBUS.c and FunctionSerial.c - Encode Packet with CRC and SLIP]
 
-    C --> D[ConfigCOM.c - SendToCom() → 포트 송신]
+    C --> D[ConfigCOM.c - SendToCom to Serial Port]
 
-    D --> E[외부장치 - 펌웨어/MCU 응답]
+    D --> E[External Device - MCU Response]
 
-    E --> F[PC 시리얼 포트 - ConfigCOM.c 콜백 → ReadFromCom()]
+    E --> F[PC Serial Port - ReadFromCom Callback]
 
-    F --> G[FunctionSerial.c - SLIP/CRC 해제]
+    F --> G[FunctionSerial.c - Decode CRC and SLIP]
 
-    G --> H[ControlPumpNF.c - DecodePacket() → 결과 표시]
+    G --> H[ControlPumpNF.c - DecodePacket and Show Result]
 
 ```
+
 
 # 4. 주요 예시 시나리오
 
@@ -196,8 +208,53 @@ graph TD
 
 text
 
-`┌───────────────┐         ┌───────────────┐ │    UI/사용자  │         │   외부장치(MCU)│ └──────┬────────┘         └──────┬────────┘        │                          ▲       ▼                          │ ┌────────────┐      TX/RX       ┌───────────┐ │ControlPump │ ◀───────────────►│시리얼포트 │ │INIT/명령함수│                │ (컴)      │ └────┬───────┘                 └────┬──────┘      │                                │     ▼                                │ ┌─────────────┐                       │ │ MODBUS/SLIP │(패킷인코딩/체크섬/CRC) │ └────┬────────┘                       │      │                                │     ▼                                │ ┌────────────┐                        │ │ ConfigCOM  │(포트오픈/콜백/수신해제) │ └────────────┘                        │      │                                │     ▼                                ▼ [  ControlPump - 결과 해석, 에러알림 및 UI출력  ]`
+`┌───────────────┐
+┌───────────────┐ 
+│    UI/사용자  │         
+│   외부장치(MCU)│ 
+└──────┬────────┘         └──────┬────────┘        │                          ▲       ▼                          │ ┌────────────┐      TX/RX       ┌───────────┐ │ControlPump │ ◀───────────────►│시리얼포트 │ │INIT/명령함수│                │ (컴)      │ └────┬───────┘                 └────┬──────┘      │                                │     ▼                                │ ┌─────────────┐                       │ │ MODBUS/SLIP │(패킷인코딩/체크섬/CRC) │ └────┬────────┘                       │      │                                │     ▼                                │ ┌────────────┐                        │ │ ConfigCOM  │(포트오픈/콜백/수신해제) │ └────────────┘                        │      │                                │     ▼                                ▼ [  ControlPump - 결과 해석, 에러알림 및 UI출력  ]`
 
+```mermaid
+
+flowchart LR
+
+    subgraph PC_Side [PC Side]
+
+        UI[User / UI]
+
+        Control[ControlPump - Init and Command]
+
+        Encode[MODBUS / SLIP Encoding with CRC]
+
+        Port[ConfigCOM - Open Port and Handle RX]
+
+        Result[ControlPump - Parse Result and Show]
+
+    end
+
+  
+
+    subgraph MCU_Side [External Device (MCU)]
+
+        MCU[MCU Firmware]
+
+    end
+
+  
+
+    UI --> Control
+
+    Control --> Encode
+
+    Encode --> Port
+
+    Port --> MCU
+
+    MCU --> Port
+
+    Port --> Result
+
+```
 # 6. 한 눈에 보는 흐름 요약
 
 - 초기설정 → 포트 오픈/이벤트 등록 → 명령(built/packed) → 시리얼 전송 → 장치 응답 → CRC/SLIP 체크/해제 → 결과 해석 → UI/오류 알림
