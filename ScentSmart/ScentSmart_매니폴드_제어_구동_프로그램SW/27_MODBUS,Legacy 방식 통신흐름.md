@@ -28,9 +28,14 @@
 
   
 
-![MODBUS Flow](UML_MODBUS_Flow.png)
+```mermaid
+flowchart TD
+    A[ScentSmart.py - 기능 호출] --> B[dsComm.py - MODBUS 패킷 조립]
+    B --> C[Serial.write() - 송신]
+    C --> D[MODBUS 펌웨어 - CRC 검증 및 파싱]
+    D --> E[향기 제어 - ControlPumpNF.c]
+```
 
-  
 
 ---
 
@@ -50,7 +55,14 @@
 
   
 
-![Legacy Flow](UML_Legacy_Flow.png)
+```mermaid
+flowchart TD
+    A[ScentSmart.py<br>(기능 호출)] --> B[dsComm.py<br>(Legacy 패킷 구성 - STX~ETX)]
+    B --> C[Serial.write()<br>직렬 송신]
+    C --> D[펌웨어(CustomSerial)<br>명령 문자 기반 파싱]
+    D --> E[향기 제어 실행<br>(ScentControl.c 등)]
+```
+
 
   
 
