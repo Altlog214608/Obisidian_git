@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "26_장치와 채널 차이"
+              "title": "27_MODBUS,Legacy 방식 통신흐름"
             }
           }
         ]
@@ -204,8 +204,11 @@
   },
   "active": "587d8abe93099d8c",
   "lastOpenFiles": [
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/25_MODBUS vs Legacy.md",
+    "assets/img/UML_MODBUS_Flow.png",
+    "assets/img/UML_Legacy_Flow.png",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/25_MODBUS vs Legacy.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/24_펌웨어 분류(용도).md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_펌웨어 분류(12개 파일)_CustomSerial_Firmware.md",
@@ -236,15 +239,12 @@
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
     "Pasted image 20250731171503.jpg",
     "Pasted image 20250731170930.jpg",
     "Pasted image 20250731175906.jpg",
-    "Pasted image 20250731175903.jpg",
     "FrSmart/FrSmart_SW_분석_계획",
     "FrSmart/FrSmart_SW_분석",
     "FrSmart",

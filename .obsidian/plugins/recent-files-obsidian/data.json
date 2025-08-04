@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "27_MODBUS,Legacy 방식 통신흐름",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md"
+    },
+    {
       "basename": "26_장치와 채널 차이",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "20_구조요약",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md"
-    },
-    {
-      "basename": "19_펌웨어 - 소프트웨어 전송 신호",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md"
     }
   ],
   "omittedPaths": [],
