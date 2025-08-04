@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13_MODBUS"
+              "title": "15_SW와 HW간의 연결"
             }
           }
         ]
@@ -204,6 +204,7 @@
   },
   "active": "587d8abe93099d8c",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/08_ScentControl.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
@@ -229,7 +230,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md",

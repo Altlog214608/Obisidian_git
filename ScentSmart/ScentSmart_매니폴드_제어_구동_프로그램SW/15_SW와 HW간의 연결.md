@@ -6,9 +6,13 @@ Python 코드(ScentSmart.py 등)와 C언어 펌웨어 파일들이 **서로 시�
 
 - **핵심 함수**:
     
-    python
     
-    `def write_data(self, wdata):     if dsSerial._is_open(self._serial):        self._serial.write(wdata)   # <--- 실제 데이터 전송!`
+    
+    ```python
+def write_data(self, wdata):     
+	if dsSerial._is_open(self._serial):        
+		self._serial.write(wdata)   # <--- 실제 데이터 전송!
+```
     
     - 여기서 `wdata`는 바이트로 만든 명령 패킷(향 번호, 시간, 명령 등 포함)
         
@@ -31,7 +35,9 @@ Python 코드(ScentSmart.py 등)와 C언어 펌웨어 파일들이 **서로 시�
         
         python
         
-        `def readSerialData(self, rdata):     ...  # rdata = 바이트 데이터(패킷)    self.parseReadData(rdata)`
+        ```python
+		def readSerialData(self, rdata):     ...  # rdata = 바이트 데이터(패킷)    self.parseReadData(rdata)
+	```
         
     - 여기서 `rdata`는 펌웨어가 보낸 응답 패킷(상태, 결과 등)
         

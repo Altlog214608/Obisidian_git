@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "15_SW와 HW간의 연결",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
+    },
+    {
       "basename": "13_MODBUS",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md"
     },
@@ -191,10 +195,6 @@
     {
       "basename": "16_SW-HW간 패킷 복호화,발향 과정",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/16_SW-HW간 패킷 복호화,발향 과정.md"
-    },
-    {
-      "basename": "15_SW와 HW간의 연결",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
     },
     {
       "basename": "09_TimerOne",

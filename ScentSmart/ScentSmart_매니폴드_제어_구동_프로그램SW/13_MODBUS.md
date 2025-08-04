@@ -116,7 +116,8 @@ void WriteSingeRes_MODBUS(unsigned short add, unsigned short value)
 
 
 ```c
-WriteSingeRes_MODBUS(0x1068, 2);```
+WriteSingeRes_MODBUS(0x1068, 2);
+```
 
 - Modbus 명령 프레임 일부가 아래와 같이 `s_serial.send` 배열에 채워지고,
     
