@@ -233,44 +233,25 @@ text
     `
 
 ```mermaid
-
 flowchart LR
+    subgraph PC_Side [PC_Side]
+        UI[User / UI]
+        Control[ControlPump - Init and Command]
+        Encode[MODBUS / SLIP Encoding with CRC]
+        Port[ConfigCOM - Open Port and Handle RX]
+        Result[ControlPump - Parse Result and Show]
+    end
 
-    subgraph PC_Side [PC Side]
+    subgraph MCU_Side [External_Device_MCU]
+        MCU[MCU Firmware]
+    end
 
-        UI[User / UI]
-
-        Control[ControlPump - Init and Command]
-
-        Encode[MODBUS / SLIP Encoding with CRC]
-
-        Port[ConfigCOM - Open Port and Handle RX]
-
-        Result[ControlPump - Parse Result and Show]
-
-    end
-
-  
-
-    subgraph MCU_Side [External Device (MCU)]
-
-        MCU[MCU Firmware]
-
-    end
-
-  
-
-    UI --> Control
-
-    Control --> Encode
-
-    Encode --> Port
-
-    Port --> MCU
-
-    MCU --> Port
-
-    Port --> Result
+    UI --> Control
+    Control --> Encode
+    Encode --> Port
+    Port --> MCU
+    MCU --> Port
+    Port --> Result
 
 ```
 # 6. 한 눈에 보는 흐름 요약
