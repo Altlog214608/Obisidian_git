@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "무제",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/무제.md"
+    },
+    {
       "basename": "24_펌웨어 분류(용도)",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/24_펌웨어 분류(용도).md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "18_분사 정지 함수",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md"
-    },
-    {
-      "basename": "17_실제_발향과정",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md"
     }
   ],
   "omittedPaths": [],
