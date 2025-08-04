@@ -420,9 +420,75 @@ void SerialHostEvent(void)
 
 ```
 
-cpp
+```cpp
 
-`// 패킷 완성시 명령 구분 및 데이터 추출 void RunSerialHostDataCheck(void) {     int n;    if (Host_CommandFlag == 0)        return;    memcpy(SerialHostRxCommandBuff, SerialHostRxBuff, SerialHostRxCount);    SerialHostRxCommandBuffCount = SerialHostRxCount;    memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));    SerialHostRxCount = 0;     // 명령 문자(Command)와 HostCommand테이블의 n번째 명령 매칭    for (n = 0; n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)); n++)    {        if ((SerialHostRxCommandBuff[SERIAL_HOST_COMMAND_POS] == HostCommand[n].Command))            break;    }     if (n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)))    {   // 유효 명령이면 파라미터부분 추출        memset(SerialHostRxCommandParam, 0, sizeof(SerialHostRxCommandParam));        memcpy(SerialHostRxCommandParam, &SerialHostRxCommandBuff[SERIAL_HOST_PARAM_POS], HostCommand[n].DataLength);        SerialHostCommandIndex = n;        SerialHostCommandActiveFlag = 1;    }    else    // 알 수 없는 명령!    {        SerialHostCommandIndex = -1;        SerialHostCommandActiveFlag = 0;    }    RunSerialHostCommand();      // 실제 명령 수행    Host_CommandFlag = 0;        // 처리완료 }`
+// 패킷 완성시 명령 구분 및 데이터 추출
+
+void RunSerialHostDataCheck(void)
+
+{
+
+    int n;
+
+    if (Host_CommandFlag == 0)
+
+        return;
+
+    memcpy(SerialHostRxCommandBuff, SerialHostRxBuff, SerialHostRxCount);
+
+    SerialHostRxCommandBuffCount = SerialHostRxCount;
+
+    memset(SerialHostRxBuff, 0, sizeof(SerialHostRxBuff));
+
+    SerialHostRxCount = 0;
+
+  
+
+    // 명령 문자(Command)와 HostCommand테이블의 n번째 명령 매칭
+
+    for (n = 0; n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)); n++)
+
+    {
+
+        if ((SerialHostRxCommandBuff[SERIAL_HOST_COMMAND_POS] == HostCommand[n].Command))
+
+            break;
+
+    }
+
+  
+
+    if (n < (sizeof(HostCommand) / sizeof(HostCommandDataTag)))
+
+    {   // 유효 명령이면 파라미터부분 추출
+
+        memset(SerialHostRxCommandParam, 0, sizeof(SerialHostRxCommandParam));
+
+        memcpy(SerialHostRxCommandParam, &SerialHostRxCommandBuff[SERIAL_HOST_PARAM_POS], HostCommand[n].DataLength);
+
+        SerialHostCommandIndex = n;
+
+        SerialHostCommandActiveFlag = 1;
+
+    }
+
+    else    // 알 수 없는 명령!
+
+    {
+
+        SerialHostCommandIndex = -1;
+
+        SerialHostCommandActiveFlag = 0;
+
+    }
+
+    RunSerialHostCommand();      // 실제 명령 수행
+
+    Host_CommandFlag = 0;        // 처리완료
+
+}
+
+```
 
 - **수신→임시버퍼 저장→명령 구분→파라미터 분리→명령 실행 흐름**
     
@@ -431,10 +497,69 @@ cpp
 
 ## 5.3. 시리얼 인터럽트 핸들러
 
-cpp
+```cpp
 
-`ISR(USART0_RX_vect) // 시리얼 수신완료 인터럽트 {     if (bit_is_clear(UCSR0A, UPE0))    {        uint8_t c = UDR0;        SerialHost._rx_complete_irq(c);        SerialHostEvent();    }    else    {        uint8_t c = UDR0;    } } ISR(USART0_UDRE_vect) // 송신완료 인터럽트 {     if (SerialHost.Txavailable())    {        SerialHost._tx_udr_empty_irq();        SerialHost._TxEndFlag = 0;    }    else    {        if (SerialHost._TxEndFlag == 0)        {            cbi(UCSR0B, UDRIE0);            SerialHost._TxEndFlag = 1;        }    } }`
+ISR(USART0_RX_vect) // 시리얼 수신완료 인터럽트
 
+{
+
+    if (bit_is_clear(UCSR0A, UPE0))
+
+    {
+
+        uint8_t c = UDR0;
+
+        SerialHost._rx_complete_irq(c);
+
+        SerialHostEvent();
+
+    }
+
+    else
+
+    {
+
+        uint8_t c = UDR0;
+
+    }
+
+}
+
+  
+
+ISR(USART0_UDRE_vect) // 송신완료 인터럽트
+
+{
+
+    if (SerialHost.Txavailable())
+
+    {
+
+        SerialHost._tx_udr_empty_irq();
+
+        SerialHost._TxEndFlag = 0;
+
+    }
+
+    else
+
+    {
+
+        if (SerialHost._TxEndFlag == 0)
+
+        {
+
+            cbi(UCSR0B, UDRIE0);
+
+            SerialHost._TxEndFlag = 1;
+
+        }
+
+    }
+
+}
+
+```
 - **수신/송신 인터럽트마다 시리얼 데이터 입출력 동작**
     
 - 하드웨어 레벨, 프레임 하나하나 안정적으로 처리
@@ -442,9 +567,37 @@ cpp
 
 ## 5.4. 데이터 송신
 
-cpp
+```cpp
 
-`void SerialHostSendData(unsigned char* p, int Count) {     int i;    RS485_Tx_Enable();    delay(4);    for (i = 0; i < Count; )    {        if (SerialHost.availableForWrite())        {            SerialHost.print((char)*p++);            i++;        }    } }`
+void SerialHostSendData(unsigned char* p, int Count)
+
+{
+
+    int i;
+
+    RS485_Tx_Enable();
+
+    delay(4);
+
+    for (i = 0; i < Count; )
+
+    {
+
+        if (SerialHost.availableForWrite())
+
+        {
+
+            SerialHost.print((char)*p++);
+
+            i++;
+
+        }
+
+    }
+
+}
+
+```
 
 - RS485 송신모드 전환→데이터 한 글자씩 송신
     
@@ -453,9 +606,31 @@ cpp
 
 ## 5.5. 체크섬 처리
 
-cpp
+  
 
-`int SerialCheckCheckSum(unsigned char* p, int Count) {     // Count 바이트까지 XOR로 CHK값 만든 뒤 (16진수 → 문자)    // 뒤 2글자는 이 값이 맞는지 확인 } int MakeSerialCheckSum(unsigned char* p, int Count) {     // CHK 계산 후 p[Count]=CheckH, p[Count+1]=CheckL, 종료문자까지 추가, 전체길이 반환 }`
+```cpp
+
+int SerialCheckCheckSum(unsigned char* p, int Count)
+
+{
+
+    // Count 바이트까지 XOR로 CHK값 만든 뒤 (16진수 → 문자)
+
+    // 뒤 2글자는 이 값이 맞는지 확인
+
+}
+
+  
+
+int MakeSerialCheckSum(unsigned char* p, int Count)
+
+{
+
+    // CHK 계산 후 p[Count]=CheckH, p[Count+1]=CheckL, 종료문자까지 추가, 전체길이 반환
+
+}
+
+```
 
 - **데이터 무결성 검사용 XOR 체크섬**
     
@@ -466,10 +641,67 @@ cpp
 
 (아래는 일부만 예시로, 나머지도 매우 유사 구조)
 
-cpp
+```cpp
 
-`int RunSerialHostCommandConfirm() {     // Reply 패킷 생성 ("Confirm OK")    // 체크섬 붙이고 송신    // 코드 흐름 동일 } int RunSerialHostCommandRunScent() {     // 명령 데이터에서 Delay, ScentNo, Period 읽어서 전역 변수 세팅    // 향 분사 함수(DoScentBackLoop) 실행    // 결과 요청 } int RunSerialHostCommandRunClear() {     // 명령 데이터에서 Delay, ScentNo, Period 읽어서 세정 명령 수행    // 세정 함수, 상태 송신 등 } int RunSerialHostCommandGetStatus() {     // 현재 상태를 읽어서 패킷 포맷으로 송신 } int RunSerialHostCommandGetVersion() {     // 버전정보 문자열 생성, 패킷 송신 }`
+int RunSerialHostCommandConfirm()
 
+{
+
+    // Reply 패킷 생성 ("Confirm OK")
+
+    // 체크섬 붙이고 송신
+
+    // 코드 흐름 동일
+
+}
+
+  
+
+int RunSerialHostCommandRunScent()
+
+{
+
+    // 명령 데이터에서 Delay, ScentNo, Period 읽어서 전역 변수 세팅
+
+    // 향 분사 함수(DoScentBackLoop) 실행
+
+    // 결과 요청
+
+}
+
+  
+
+int RunSerialHostCommandRunClear()
+
+{
+
+    // 명령 데이터에서 Delay, ScentNo, Period 읽어서 세정 명령 수행
+
+    // 세정 함수, 상태 송신 등
+
+}
+
+  
+
+int RunSerialHostCommandGetStatus()
+
+{
+
+    // 현재 상태를 읽어서 패킷 포맷으로 송신
+
+}
+
+  
+
+int RunSerialHostCommandGetVersion()
+
+{
+
+    // 버전정보 문자열 생성, 패킷 송신
+
+}
+
+```
 - **모든 명령은 패킷 처리 → 해당 동작 함수 호출 → 결과 송신**의 일관된 구조
     
 
