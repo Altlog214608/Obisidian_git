@@ -11,10 +11,14 @@
             "id": "67153ad77467c76f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/28_MODBUS_주요 기능 및 흐름.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "새 탭"
+              "title": "28_MODBUS_주요 기능 및 흐름"
             }
           }
         ]
@@ -182,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,6 +204,7 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "Notes/Daily/2025/08/2025-08-06.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/28_MODBUS_주요 기능 및 흐름.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
@@ -220,7 +226,6 @@
     "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
     "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
-    "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
     "assets/img/Pasted image 20250801090312.jpg",
     "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
