@@ -140,6 +140,26 @@ text
 
    `[사용자/프로그램 명령]              │              ▼    [ControlPumpNF.c: 명령 함수]              │              ▼   [MODBUS.c/FunctionSerial.c: 패킷+CRC/SLIP 인코딩]              │              ▼    [ConfigCOM.c: SendToCom → 포트로 송신]              │              ▼    [외부장치: 펌웨어/MCU 응답]              │              ▼    [PC시리얼포트: ConfigCOM.c: 콜백 → ReadFromCom()]              │              ▼   [FunctionSerial.c: SLIP/CRC해제]              │              ▼    [ControlPumpNF.c: DecodePacket() → 결과값/에러 표시]`
 
+```mermaid
+
+graph TD
+
+    A[사용자 또는 프로그램 명령] --> B[ControlPumpNF.c - 명령 함수]
+
+    B --> C[MODBUS.c / FunctionSerial.c - 패킷 생성 + CRC/SLIP 인코딩]
+
+    C --> D[ConfigCOM.c - SendToCom() → 포트 송신]
+
+    D --> E[외부장치 - 펌웨어/MCU 응답]
+
+    E --> F[PC 시리얼 포트 - ConfigCOM.c 콜백 → ReadFromCom()]
+
+    F --> G[FunctionSerial.c - SLIP/CRC 해제]
+
+    G --> H[ControlPumpNF.c - DecodePacket() → 결과 표시]
+
+```
+
 # 4. 주요 예시 시나리오
 
 ## ① 펌프값 전송
