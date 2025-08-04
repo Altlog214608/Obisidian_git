@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "FsSmart_SW_분석_계획",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FsSmart_SW_분석_계획.md"
+      "basename": "14_전체 파일 축약",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md"
+    },
+    {
+      "basename": "13_MODBUS",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md"
+    },
+    {
+      "basename": "12_FunctionSerial",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md"
+    },
+    {
+      "basename": "11_ControlPumpNF",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md"
+    },
+    {
+      "basename": "10_ConfigCOM",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md"
+    },
+    {
+      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
+    },
+    {
+      "basename": "FrSmart_계획",
+      "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_계획.md"
+    },
+    {
+      "basename": "FrSmart_SW_분석_계획",
+      "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md"
     },
     {
       "basename": "FrSmart_전체흐름요약",
-      "path": "FsSmart/FsSmart_SW_분석_계획/FrSmart_전체흐름요약.md"
+      "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_전체흐름요약.md"
     },
     {
       "basename": "2025-07-30",
@@ -34,11 +62,7 @@
     },
     {
       "basename": "09_결과_QR코드_생성_함수",
-      "path": "FsSmart/FsSmart_SW_분석/09_결과_QR코드_생성_함수.md"
-    },
-    {
-      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
+      "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
     },
     {
       "basename": "Pasted image 20250801090312",
@@ -58,27 +82,27 @@
     },
     {
       "basename": "07_AI_모델_사용시점",
-      "path": "FsSmart/FsSmart_SW_분석/07_AI_모델_사용시점.md"
+      "path": "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md"
     },
     {
       "basename": "01_모델설명",
-      "path": "FsSmart/FsSmart_SW_분석/01_모델설명.md"
+      "path": "FrSmart/FrSmart_SW_분석/01_모델설명.md"
     },
     {
       "basename": "08_set_ui_find_age_func",
-      "path": "FsSmart/FsSmart_SW_분석/08_set_ui_find_age_func.md"
+      "path": "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md"
     },
     {
       "basename": "06_전체 코드 설명",
-      "path": "FsSmart/FsSmart_SW_분석/06_전체 코드 설명.md"
+      "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
     },
     {
       "basename": "03_모델 학습 코드 설명",
-      "path": "FsSmart/FsSmart_SW_분석/03_모델 학습 코드 설명.md"
+      "path": "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md"
     },
     {
       "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
-      "path": "FsSmart/FsSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
+      "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
     {
       "basename": "ScentSmart_분석_방향",
@@ -129,26 +153,6 @@
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
     },
     {
-      "basename": "14_전체 파일 축약",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/14_전체 파일 축약.md"
-    },
-    {
-      "basename": "13_MODBUS",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/13_MODBUS.md"
-    },
-    {
-      "basename": "12_FunctionSerial",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md"
-    },
-    {
-      "basename": "11_ControlPumpNF",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md"
-    },
-    {
-      "basename": "10_ConfigCOM",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md"
-    },
-    {
       "basename": "09_TimerOne",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/09_TimerOne.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "01.C++ 파일과 C Header 파일",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md"
-    },
-    {
-      "basename": "34_Qt 기본 위젯",
-      "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
     }
   ],
   "omittedPaths": [],
