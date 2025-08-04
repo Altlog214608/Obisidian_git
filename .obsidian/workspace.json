@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화"
+              "title": "04_HostRun"
             }
           }
         ]
@@ -203,6 +203,10 @@
   },
   "active": "587d8abe93099d8c",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/22_.md",
+    "assets/img/Pasted image 20250801090238.jpg",
+    "assets/img/Pasted image 20250801090201.jpg",
+    "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
     "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
     "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md",
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
@@ -210,9 +214,7 @@
     "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
     "assets/img/Pasted image 20250801090312.jpg",
     "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
-    "assets/img/Pasted image 20250801090201.jpg",
     "assets/img/Pasted image 20250801090220.jpg",
-    "assets/img/Pasted image 20250801090238.jpg",
     "assets/img/Pasted image 20250801090412.jpg",
     "Notes/Daily/2025/08/2025-08-04.md",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
@@ -234,9 +236,6 @@
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_전체흐름요약.md",
     "Notes/Daily/2025/07/2025-07-30.md",
     "Notes/Daily/2025/07/2025-07-28.md",
-    "Notes/Daily/2025/07/2025-07-29.md",
-    "Notes/Daily/2025/07/2025-07-31.md",
-    "Notes/Daily/2025/08/2025-08-01.md",
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
