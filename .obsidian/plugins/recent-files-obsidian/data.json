@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-04",
+      "path": "Notes/Daily/2025/08/2025-08-04.md"
+    },
+    {
       "basename": "01_PySide6_기초",
       "path": "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md"
     },
@@ -47,10 +51,6 @@
     {
       "basename": "09_결과_QR코드_생성_함수",
       "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
-    },
-    {
-      "basename": "2025-08-04",
-      "path": "Notes/Daily/2025/08/2025-08-04.md"
     },
     {
       "basename": "2025-08-01",
@@ -195,10 +195,6 @@
     {
       "basename": "12_FunctionSerial",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/12_FunctionSerial.md"
-    },
-    {
-      "basename": "11_ControlPumpNF",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md"
     }
   ],
   "omittedPaths": [],
