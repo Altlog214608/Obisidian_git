@@ -5,7 +5,22 @@
 c
 
 ```c
-int ReadFromCom(struct s_SERIAL *scom) {     char checkcrc, message[64];    int i, result, inqlen;    Delay(0.05);     if (scom->terminator) {        scom->readbyte = ComRdTerm(scom->port, scom->read, SIZEBUFFER-2, scom->terminator);    }    else {        inqlen = GetInQLen(scom->port);        if (inqlen) {            ComRd(scom->port, scom->read, inqlen);            scom->read[inqlen] = '\0';            scom->readbyte = inqlen;        }    }     // (중간에 debug용 출력 생략)    scom->error = ReturnRS232Err();     switch (scom->crc) {        case 1 : checkcrc = CheckCRC16(scom->sendbyte,scom->send); break;        case 2 : checkcrc = CheckModbusCRC(scom->sendbyte,scom->send); break;        default: break;    }     if (scom->crc && checkcrc) {        sprintf(message,"CRC error!");        MessagePopup("Error",message);        return (checkcrc);    }     if (!scom->error) DecodePacket();    return (scom->error); }
+int ReadFromCom(struct s_SERIAL *scom) 
+{     char checkcrc, message[64];    
+	  int i, result, inqlen;    
+	  Delay(0.05);     
+	  
+	  if (scom->terminator) {
+	          scom->readbyte = ComRdTerm(scom->port, scom->read, SIZEBUFFER-2, scom->terminator);
+	              }
+	  else {        
+			  inqlen = GetInQLen(scom->port);        
+			  if (inqlen) {            
+			  ComRd(scom->port, scom->read, inqlen);            
+			  scom->read[inqlen] = '\0';            
+			  scom->readbyte = inqlen;        
+			  }    
+			}     // (중간에 debug용 출력 생략)    scom->error = ReturnRS232Err();     switch (scom->crc) {        case 1 : checkcrc = CheckCRC16(scom->sendbyte,scom->send); break;        case 2 : checkcrc = CheckModbusCRC(scom->sendbyte,scom->send); break;        default: break;    }     if (scom->crc && checkcrc) {        sprintf(message,"CRC error!");        MessagePopup("Error",message);        return (checkcrc);    }     if (!scom->error) DecodePacket();    return (scom->error); }
 ```
 
 ## 1. **함수 선언부/지역 변수**
