@@ -152,15 +152,3 @@ int ReadFromCom(struct s_SERIAL *scom)
 - **이 과정 중 어디서든 오류나면 바로 중단/에러리턴**
     
 
-궁금하면 더 자세하게 각 함수, 각 버퍼, C↔Python 바이트 동작을 추가로 설명드릴 수 있습니다!
-
-1. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/6ea26fc2-9e2b-43eb-9434-7d868e463f83/ConfigCOM.c](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/6ea26fc2-9e2b-43eb-9434-7d868e463f83/ConfigCOM.c)
-2. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/e4f528e1-73e2-4306-9af6-7bd10a292b6c/ConfigCOM.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/e4f528e1-73e2-4306-9af6-7bd10a292b6c/ConfigCOM.h)
-3. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/311793f0-00ec-4937-9ab1-0ca0be611e23/ControlPumpNF.c](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/311793f0-00ec-4937-9ab1-0ca0be611e23/ControlPumpNF.c)
-4. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/50ffaa46-660c-4eee-ac44-5a3b310f5c38/ControlPumpNF.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/50ffaa46-660c-4eee-ac44-5a3b310f5c38/ControlPumpNF.h)
-5. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/f4b9368d-2bbe-4c48-8f5f-77356ed069f0/FunctionSerial.c](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/f4b9368d-2bbe-4c48-8f5f-77356ed069f0/FunctionSerial.c)
-6. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/4c6a2472-7ee6-48a7-baa6-d98a97a1657d/FunctionSerial.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/4c6a2472-7ee6-48a7-baa6-d98a97a1657d/FunctionSerial.h)
-7. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/0734a919-c2fc-4105-b173-48625c60b5f3/MODBUS.c](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/0734a919-c2fc-4105-b173-48625c60b5f3/MODBUS.c)
-8. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/ad82efcb-cc4e-43b2-839c-0603955dc00e/MODBUS.h](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/ad82efcb-cc4e-43b2-839c-0603955dc00e/MODBUS.h)
-9. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/11dbb366-8707-4401-ae96-0b74a041019d/dsComm.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/11dbb366-8707-4401-ae96-0b74a041019d/dsComm.py)
-10. [https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/d9dac957-04db-41bb-af5e-2f6c9baf3bbc/FrSmart.py](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/72041696/d9dac957-04db-41bb-af5e-2f6c9baf3bbc/FrSmart.py)
