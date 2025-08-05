@@ -55,7 +55,8 @@
     "//FrSmart/FrSmart/FrSmart_SW_분석",
     "//Tags",
     "//ScentSmart",
-    "//assets/assets/img"
+    "//assets/assets/img",
+    "//ScentSmart/ScentSmart/ScentSmart_SW_분석"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
