@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "20_구조요약",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md"
+    },
+    {
       "basename": "30_ReadFromCom함수",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/30_ReadFromCom함수.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FrSmart_계획",
       "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_계획.md"
-    },
-    {
-      "basename": "FrSmart_SW_분석_계획",
-      "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md"
     }
   ],
   "omittedPaths": [],
