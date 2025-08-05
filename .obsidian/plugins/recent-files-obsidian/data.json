@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "37_",
+      "path": "ScentSmart/ScentSmart_SW_분석/37_.md"
+    },
+    {
       "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
       "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "FrSmart_전체흐름요약",
       "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_전체흐름요약.md"
-    },
-    {
-      "basename": "2025-07-30",
-      "path": "Notes/Daily/2025/07/2025-07-30.md"
     }
   ],
   "omittedPaths": [],
