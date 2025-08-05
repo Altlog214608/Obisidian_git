@@ -12,11 +12,11 @@ tags: #PySide6 #Qt #기초
 
 ## ✅ 주요 모듈
 
-| 모듈                     | 주요 클래스 예시                            |
-| ---------------------- | ---------------------------------------- |
-| QtCore                 | `QObject`, `QThread`, `QTimer`, `QDateTime` 등 |
-| QtWidgets              | `QWidget`, `QDialog`, `QPushButton` 등        |
-| QtGui                  | `QPixmap`, `QImage`, `QColor`, `QFont` 등    |
+| 모듈        | 주요 클래스 예시                                     |
+| --------- | --------------------------------------------- |
+| QtCore    | `QObject`, `QThread`, `QTimer`, `QDateTime` 등 |
+| QtWidgets | `QWidget`, `QDialog`, `QPushButton` 등         |
+| QtGui     | `QPixmap`, `QImage`, `QColor`, `QFont` 등      |
 
 # ✅ PySide6 한줄 정의
 
