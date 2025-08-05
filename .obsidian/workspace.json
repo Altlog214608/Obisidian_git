@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "20_구조요약"
+              "title": "01_PySide6_기초"
             }
           }
         ]
@@ -204,13 +204,17 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_SW_분석/00_개요.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
+    "Notes/Daily/2025/08/2025-08-05.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/30_ReadFromCom함수.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md",
     "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md",
     "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md",
     "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
-    "Notes/Daily/2025/08/2025-08-05.md",
     "Notes/Daily/2025/08/2025-08-04.md",
     "Notes/Daily/2025/08/2025-08-01.md",
     "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
@@ -226,12 +230,8 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md",
-    "Notes/Daily/2025/08/2025-08-06.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md",
     "assets/img/Pasted image 20250801090238.jpg",
     "assets/img/Pasted image 20250801090201.jpg",
     "assets/img/Pasted image 20250801090312.jpg",

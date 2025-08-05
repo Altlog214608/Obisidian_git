@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "01_PySide6_기초",
+      "path": "ScentSmart/ScentSmart_SW_분석/01_PySide6_기초.md"
+    },
+    {
+      "basename": "00_개요",
+      "path": "ScentSmart/ScentSmart_SW_분석/00_개요.md"
+    },
+    {
+      "basename": "01.C++ 파일과 C Header 파일",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md"
+    },
+    {
+      "basename": "00_분석방향",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md"
+    },
+    {
+      "basename": "2025-08-05",
+      "path": "Notes/Daily/2025/08/2025-08-05.md"
+    },
+    {
       "basename": "20_구조요약",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md"
     },
@@ -27,10 +47,6 @@
     {
       "basename": "09_결과_QR코드_생성_함수",
       "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
-    },
-    {
-      "basename": "2025-08-05",
-      "path": "Notes/Daily/2025/08/2025-08-05.md"
     },
     {
       "basename": "2025-08-04",
@@ -169,14 +185,6 @@
       "path": "assets/img/Pasted image 20250801090412.jpg"
     },
     {
-      "basename": "01.C++ 파일과 C Header 파일",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md"
-    },
-    {
-      "basename": "00_분석방향",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md"
-    },
-    {
       "basename": "FrSmart_SW_분석",
       "path": "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "11_ControlPumpNF",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/11_ControlPumpNF.md"
-    },
-    {
-      "basename": "10_ConfigCOM",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/10_ConfigCOM.md"
-    },
-    {
-      "basename": "FrSmart_계획",
-      "path": "FrSmart/FrSmart_SW_분석_계획/FrSmart_계획.md"
     }
   ],
   "omittedPaths": [],
