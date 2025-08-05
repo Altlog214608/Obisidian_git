@@ -31,6 +31,7 @@ int ReadFromCom(struct s_SERIAL *scom)
 	  MessagePopup("Error",message);        
 	  return (checkcrc);    
 	  }     
+	  
 	  if (!scom->error) DecodePacket();    
 	  return (scom->error); }
 ```
