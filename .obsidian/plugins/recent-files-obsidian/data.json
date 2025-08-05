@@ -5,6 +5,10 @@
       "path": "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md"
     },
     {
+      "basename": "36_빅엔디안(Big-endian)순서",
+      "path": "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md"
+    },
+    {
       "basename": "35_데이터 송수신 구조 꼭 이해해야 할 포인트",
       "path": "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md"
     },
@@ -15,10 +19,6 @@
     {
       "basename": "2025-08-05",
       "path": "Notes/Daily/2025/08/2025-08-05.md"
-    },
-    {
-      "basename": "36_빅엔디안(Big-endian)순서",
-      "path": "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md"
     },
     {
       "basename": "2025-08-04",
