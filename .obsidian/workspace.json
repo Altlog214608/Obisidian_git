@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06_함수_분류_및_전체_흐름"
+              "title": "07_검사_훈련_시나리오"
             }
           }
         ]
@@ -203,6 +203,7 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/ScentSmart_SW_분석/05_프로토콜_분석.md",
     "ScentSmart/ScentSmart_SW_분석/04_dsComm_메시지_구조.md",
     "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md",
@@ -230,7 +231,6 @@
     "FrSmart/FrSmart_SW_분석/01_모델설명.md",
     "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
     "Notes/Daily/2025/08/2025-08-05.md",
-    "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
     "assets/img/UI_TEST.png",
     "assets/img/UML_MODBUS_Flow.png",
