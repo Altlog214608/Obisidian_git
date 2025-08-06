@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "41_Farnet",
+      "path": "ScentSmart/ScentSmart_SW_분석/41_Farnet.md"
+    },
+    {
       "basename": "40_예상질문리스트_답변",
       "path": "ScentSmart/ScentSmart_SW_분석/40_예상질문리스트_답변.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "21_펌웨어 데이터처리 과정",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/21_펌웨어 데이터처리 과정.md"
-    },
-    {
-      "basename": "19_펌웨어 - 소프트웨어 전송 신호",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/19_펌웨어 - 소프트웨어 전송 신호.md"
     }
   ],
   "omittedPaths": [],
