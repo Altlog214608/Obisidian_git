@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "03_시리얼_통신_및_하드웨어",
+      "path": "ScentSmart/ScentSmart_SW_분석/03_시리얼_통신_및_하드웨어.md"
+    },
+    {
       "basename": "02_UI_구조_및_다이얼로그",
       "path": "ScentSmart/ScentSmart_SW_분석/02_UI_구조_및_다이얼로그.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "07_nfserial",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/07_nfserial.md"
-    },
-    {
-      "basename": "04_HostRun",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/04_HostRun.md"
     }
   ],
   "omittedPaths": [],
