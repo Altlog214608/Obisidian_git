@@ -151,5 +151,4 @@ DecodeSLIP(s_serial.readbyte, s_serial.read);
 
 ---
 
-필요하면 이 과정을 **시퀀스 다이어그램**이나 **시각화 그림**으로도 만들어줄 수 있어.  
-어떤 부분 더 깊게 들어가볼까?
+![[Pasted image 20250806105724.png]]
