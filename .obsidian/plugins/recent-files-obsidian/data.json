@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "10_시리얼 통신 관련 핵심 함수 정리",
+      "path": "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md"
+    },
+    {
       "basename": "09_Signal 객체와 QThread",
       "path": "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "27_MODBUS,Legacy 방식 통신흐름",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/27_MODBUS,Legacy 방식 통신흐름.md"
-    },
-    {
-      "basename": "26_장치와 채널 차이",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md"
     }
   ],
   "omittedPaths": [],
