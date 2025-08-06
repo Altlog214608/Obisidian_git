@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "31_전체분석",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md"
+    },
+    {
+      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
+    },
+    {
       "basename": "10_함수_네이밍",
       "path": "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md"
     },
@@ -51,10 +59,6 @@
     {
       "basename": "37_알아야 할 패킷프로토콜, 실전 유의점",
       "path": "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md"
-    },
-    {
-      "basename": "ScentSmart_매니폴드_제어_구동_프로그램SW",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md"
     },
     {
       "basename": "2025-08-04",
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250801090412",
       "path": "assets/img/Pasted image 20250801090412.jpg"
-    },
-    {
-      "basename": "FrSmart_SW_분석",
-      "path": "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md"
     }
   ],
   "omittedPaths": [],

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "10_함수_네이밍"
+              "title": "31_전체분석"
             }
           }
         ]
@@ -203,6 +203,9 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
+    "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md",
     "assets/img/tree1_expert.svg",
     "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
@@ -212,12 +215,10 @@
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
     "FrSmart/FrSmart_SW_분석/01_모델설명.md",
     "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
-    "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md",
     "Notes/Daily/2025/08/2025-08-06.md",
     "Notes/Daily/2025/08/2025-08-07.md",
     "Notes/Daily/2025/08/2025-08-05.md",
     "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "Notes/Daily/2025/08/2025-08-04.md",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
     "assets/img/UI_TEST.png",
@@ -243,7 +244,6 @@
     "무제.canvas",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
-    "Pasted image 20250731171503.jpg",
     "FrSmart/FrSmart_SW_분석_계획",
     "FrSmart/FrSmart_SW_분석",
     "FrSmart",

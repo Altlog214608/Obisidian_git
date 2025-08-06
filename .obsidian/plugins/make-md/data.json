@@ -55,7 +55,8 @@
     "//FrSmart/FrSmart/FrSmart_SW_분석",
     "//Tags",
     "//ScentSmart",
-    "//FrSmart"
+    "//FrSmart",
+    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
