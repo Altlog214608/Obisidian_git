@@ -113,18 +113,3 @@ Fernet은 암호문을 다음과 같은 구조로 구성합니다:
 > → 키는 반드시 안전하게 관리해야 함
 
 ---
-
-## 🔗 관련 문서
-
-- [cryptography.io 공식 Fernet 문서](https://cryptography.io/en/latest/fernet/)
-    
-- [Fernet GitHub 이슈](https://github.com/pyca/cryptography)
-    
-
-```
-
----
-
-필요하면 이 내용을 PDF나 Word 문서로도 만들어줄 수 있어.  
-혹은 `dsCrypto.py`에서 Fernet 커스터마이징한 방식까지 포함한 내부 동작도 확장해줄 수도 있어. 어떻게 도와줄까?
-```
