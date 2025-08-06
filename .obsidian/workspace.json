@@ -203,6 +203,7 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "assets/img/tree1_expert.svg",
     "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md",
     "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md",
     "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md",
@@ -230,7 +231,6 @@
     "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md",
     "Notes/Daily/2025/08/2025-08-01.md",
     "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md",
-    "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
     "assets/img/Pasted image 20250801090238.jpg",
