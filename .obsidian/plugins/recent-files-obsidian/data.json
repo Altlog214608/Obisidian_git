@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "10_함수_네이밍",
+      "path": "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md"
+    },
+    {
+      "basename": "09_결과_QR코드_생성_함수",
+      "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
+    },
+    {
       "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
       "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
     },
@@ -11,10 +19,6 @@
     {
       "basename": "06_전체 코드 설명",
       "path": "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md"
-    },
-    {
-      "basename": "09_결과_QR코드_생성_함수",
-      "path": "FrSmart/FrSmart_SW_분석/09_결과_QR코드_생성_함수.md"
     },
     {
       "basename": "08_set_ui_find_age_func",
@@ -31,10 +35,6 @@
     {
       "basename": "02_sklearn_앙상블",
       "path": "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md"
-    },
-    {
-      "basename": "10_함수_네이밍",
-      "path": "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md"
     },
     {
       "basename": "2025-08-06",
