@@ -57,7 +57,8 @@
     "//ScentSmart",
     "//FrSmart",
     "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
-    "//assets/assets/img"
+    "//assets/assets/img",
+    "//ScentSmart/ScentSmart/ScentSmart_SW_분석"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

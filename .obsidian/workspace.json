@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Daily/2025/08/2025-08-07.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/38_DB(암호화_복호화).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-07"
+              "title": "38_DB(암호화_복호화)"
             }
           }
         ]
@@ -203,6 +203,8 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "Notes/Daily/2025/08/2025-08-07.md",
+    "ScentSmart/ScentSmart_SW_분석/38_DB(암호화_복호화).md",
     "Notes/Daily/2025/08/2025-08-06.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
@@ -221,7 +223,6 @@
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
     "FrSmart/FrSmart_SW_분석/01_모델설명.md",
     "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
-    "Notes/Daily/2025/08/2025-08-07.md",
     "Notes/Daily/2025/08/2025-08-05.md",
     "ScentSmart/ScentSmart_SW_분석/37_알아야 할 패킷프로토콜, 실전 유의점.md",
     "Notes/Daily/2025/08/2025-08-04.md",
@@ -232,7 +233,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/01.C++ 파일과 C Header 파일.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/30_ReadFromCom함수.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
     "assets/img/Pasted image 20250801090238.jpg",
