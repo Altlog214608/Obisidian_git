@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md"
+    },
+    {
       "basename": "31_전체분석",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250801090220",
       "path": "assets/img/Pasted image 20250801090220.jpg"
-    },
-    {
-      "basename": "Pasted image 20250801090412",
-      "path": "assets/img/Pasted image 20250801090412.jpg"
     }
   ],
   "omittedPaths": [],

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "31_전체분석"
+              "title": "32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩"
             }
           }
         ]
@@ -186,7 +186,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,6 +205,7 @@
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md",
     "assets/img/tree1_expert.svg",
@@ -231,7 +233,6 @@
     "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md",
     "ScentSmart/ScentSmart_SW_분석/35_데이터 송수신 구조 꼭 이해해야 할 포인트.md",
     "Notes/Daily/2025/08/2025-08-01.md",
-    "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
     "assets/img/Pasted image 20250801090238.jpg",
