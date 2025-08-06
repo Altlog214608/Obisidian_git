@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "09_Signal 객체와 QThread",
+      "path": "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md"
+    },
+    {
+      "basename": "08_QObject",
+      "path": "ScentSmart/ScentSmart_SW_분석/08_QObject.md"
+    },
+    {
       "basename": "07_검사_훈련_시나리오",
       "path": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "26_장치와 채널 차이",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/26_장치와 채널 차이.md"
-    },
-    {
-      "basename": "25_MODBUS vs Legacy",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/25_MODBUS vs Legacy.md"
-    },
-    {
-      "basename": "24_펌웨어 분류(용도)",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/24_펌웨어 분류(용도).md"
     }
   ],
   "omittedPaths": [],

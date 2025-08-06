@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md",
+                "file": "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "07_검사_훈련_시나리오"
+              "title": "09_Signal 객체와 QThread"
             }
           }
         ]
@@ -204,6 +204,9 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_SW_분석/08_QObject.md",
+    "ScentSmart/ScentSmart_SW_분석/09_Signal 객체와 QThread.md",
+    "ScentSmart/ScentSmart_SW_분석/07_검사_훈련_시나리오.md",
     "ScentSmart/ScentSmart_SW_분석/06_함수_분류_및_전체_흐름.md",
     "ScentSmart/ScentSmart_SW_분석/05_프로토콜_분석.md",
     "ScentSmart/ScentSmart_SW_분석/04_dsComm_메시지_구조.md",
@@ -229,9 +232,6 @@
     "FrSmart/FrSmart_SW_분석/06_전체 코드 설명.md",
     "FrSmart/FrSmart_SW_분석/08_set_ui_find_age_func.md",
     "FrSmart/FrSmart_SW_분석/07_AI_모델_사용시점.md",
-    "FrSmart/FrSmart_SW_분석/01_모델설명.md",
-    "FrSmart/FrSmart_SW_분석/02_sklearn_앙상블.md",
-    "Notes/Daily/2025/08/2025-08-05.md",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
     "assets/img/UI_TEST.png",
     "assets/img/UML_MODBUS_Flow.png",
