@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
+                "file": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩"
+              "title": "33_MODBUS 규격"
             }
           }
         ]
@@ -204,11 +204,12 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
+    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
     "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
     "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md",
     "assets/img/tree1_expert.svg",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
     "assets/img/Pasted image 20250806105724.png",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/ScentSmart_매니폴드_제어_구동_프로그램SW.md",
     "FrSmart/FrSmart_SW_분석/10_함수_네이밍.md",
@@ -233,7 +234,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/00_분석방향.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/20_구조요약.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/30_ReadFromCom함수.md",
-    "ScentSmart/ScentSmart_SW_분석/36_빅엔디안(Big-endian)순서.md",
     "assets/img/UML_MODBUS_Flow.png",
     "assets/img/UML_Legacy_Flow.png",
     "assets/img/Pasted image 20250801090238.jpg",

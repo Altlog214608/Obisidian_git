@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "33_MODBUS 규격",
+      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md"
+    },
+    {
       "basename": "32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20250801090201",
       "path": "assets/img/Pasted image 20250801090201.jpg"
-    },
-    {
-      "basename": "03_모델 학습 코드 설명",
-      "path": "FrSmart/FrSmart_SW_분석/03_모델 학습 코드 설명.md"
     }
   ],
   "omittedPaths": [],
