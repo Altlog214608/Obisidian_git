@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "39_예상질문리스트",
+      "path": "ScentSmart/ScentSmart_SW_분석/39_예상질문리스트.md"
+    },
+    {
       "basename": "11_바이트패킷, Struct, CRC",
       "path": "ScentSmart/ScentSmart_SW_분석/11_바이트패킷, Struct, CRC.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "15_SW와 HW간의 연결",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/15_SW와 HW간의 연결.md"
-    },
-    {
-      "basename": "23_펌웨어 분류(8개 파일)_MODBUS_Firmware",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/23_펌웨어 분류(8개 파일)_MODBUS_Firmware.md"
     }
   ],
   "omittedPaths": [],
