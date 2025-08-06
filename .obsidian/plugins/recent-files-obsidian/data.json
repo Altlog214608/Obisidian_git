@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
+      "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
+    },
+    {
       "basename": "05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화",
       "path": "FrSmart/FrSmart_SW_분석/05_XGBoost Regression, MLP, VAE, GAN, 베이지안 최적화.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
-    },
-    {
-      "basename": "04_sklearn Pipeline, OneHotEncoder, ColumnTransformer",
-      "path": "FrSmart/FrSmart_SW_분석/04_sklearn Pipeline, OneHotEncoder, ColumnTransformer.md"
     },
     {
       "basename": "34_Qt 기본 위젯",
