@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "01",
-      "path": "KnowledgeBase/AI/01.md"
+      "basename": "Concepts",
+      "path": "KnowledgeBase/Concepts/Concepts.md"
+    },
+    {
+      "basename": "Snippets",
+      "path": "KnowledgeBase/Snippets/Snippets.md"
+    },
+    {
+      "basename": "01_메모리 뱅크",
+      "path": "KnowledgeBase/AI/01_메모리 뱅크.md"
     },
     {
       "basename": "01_Farnet",
       "path": "KnowledgeBase/Concepts/01_Farnet.md"
-    },
-    {
-      "basename": "Concepts",
-      "path": "KnowledgeBase/Concepts/Concepts.md"
     },
     {
       "basename": "41_Farnet",
@@ -195,10 +199,6 @@
     {
       "basename": "34_Qt 기본 위젯",
       "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
-    },
-    {
-      "basename": "99_부록_용어정리",
-      "path": "ScentSmart/ScentSmart_SW_분석/99_부록_용어정리.md"
     }
   ],
   "omittedPaths": [],

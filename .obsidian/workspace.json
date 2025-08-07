@@ -11,14 +11,12 @@
             "id": "67153ad77467c76f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "mk-space",
               "state": {
-                "file": "KnowledgeBase/AI/01.md",
-                "mode": "source",
-                "source": false
+                "path": "KnowledgeBase/Concepts"
               },
               "icon": "lucide-file",
-              "title": "01"
+              "title": "Concepts"
             }
           }
         ]
@@ -202,18 +200,18 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "67153ad77467c76f",
+  "active": "36c718d9097bf733",
   "lastOpenFiles": [
+    "KnowledgeBase/Concepts/Concepts.md",
+    "KnowledgeBase/Snippets/Snippets.md",
+    "KnowledgeBase/AI/01_메모리 뱅크.md",
     "KnowledgeBase/Concepts/01_Farnet.md",
-    "KnowledgeBase/AI/01.md",
     "KnowledgeBase/AI/AI.md",
     "KnowledgeBase/AI",
     "KnowledgeBase/Protocol/Protocol.md",
     "KnowledgeBase/Protocol",
     "KnowledgeBase/무제.md",
-    "KnowledgeBase/Snippets/Snippets.md",
     "KnowledgeBase/Snippets",
-    "KnowledgeBase/Concepts/Concepts.md",
     "ScentSmart/ScentSmart_SW_분석/41_Farnet.md",
     "KnowledgeBase/Concepts",
     "KnowledgeBase/KnowledgeBase.md",
