@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "41_Farnet",
+      "path": "ScentSmart/ScentSmart_SW_분석/41_Farnet.md"
+    },
+    {
+      "basename": "KnowledgeBase",
+      "path": "KnowledgeBase/KnowledgeBase.md"
+    },
+    {
       "basename": "40_예상질문리스트_답변",
       "path": "ScentSmart/ScentSmart_SW_분석/40_예상질문리스트_답변.md"
     },
     {
       "basename": "42_built-in signal",
       "path": "ScentSmart/ScentSmart_SW_분석/42_built-in signal.md"
-    },
-    {
-      "basename": "41_Farnet",
-      "path": "ScentSmart/ScentSmart_SW_분석/41_Farnet.md"
     },
     {
       "basename": "39_예상질문리스트",
@@ -195,10 +199,6 @@
     {
       "basename": "17_실제_발향과정",
       "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/17_실제_발향과정.md"
-    },
-    {
-      "basename": "18_분사 정지 함수",
-      "path": "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/18_분사 정지 함수.md"
     }
   ],
   "omittedPaths": [],
