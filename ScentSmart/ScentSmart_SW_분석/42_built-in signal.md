@@ -84,9 +84,12 @@
     
 - connect(시그널, 슬롯) 형식으로 바로 연결해 사용
     
-    python
     
-    `self.button.clicked.connect(self.on_button_clicked) self.slider.valueChanged.connect(self.on_slider_moved)`
+    
+    ```python
+    self.button.clicked.connect(self.on_button_clicked) 
+    self.slider.valueChanged.connect(self.on_slider_moved)
+    ```
     
 - 시그널마다 전달하는 인자가 다름(클릭: 없음, 값변경: int 등)
     
@@ -128,25 +131,3 @@
 - 주로 .clicked, .valueChanged, .textChanged 등 자주 활용
     
 
-궁금한 위젯 추가/심화 예시 필요하면 얼마든지 말씀해 주세요!
-
-1. [https://www.pythonguis.com/docs/qpushbutton/](https://www.pythonguis.com/docs/qpushbutton/)
-2. [https://www.pythonguis.com/tutorials/pyqt-basic-widgets/](https://www.pythonguis.com/tutorials/pyqt-basic-widgets/)
-3. [https://www.pythonguis.com/tutorials/pyqt-signals-slots-events/](https://www.pythonguis.com/tutorials/pyqt-signals-slots-events/)
-4. [https://stackoverflow.com/questions/28258875/how-to-obtain-the-set-of-all-signals-for-a-given-widget](https://stackoverflow.com/questions/28258875/how-to-obtain-the-set-of-all-signals-for-a-given-widget)
-5. [https://doc.qt.io/qtforpython-6/tutorials/basictutorial/signals_and_slots.html](https://doc.qt.io/qtforpython-6/tutorials/basictutorial/signals_and_slots.html)
-6. [https://wikidocs.net/188111](https://wikidocs.net/188111)
-7. [https://doc.bccnsoft.com/docs/PyQt4/new_style_signals_slots.html](https://doc.bccnsoft.com/docs/PyQt4/new_style_signals_slots.html)
-8. [http://batmask.net/index.php/2020/05/20/559/](http://batmask.net/index.php/2020/05/20/559/)
-9. [https://stackoverflow.com/questions/52238212/qlineedit-and-signal-slot](https://stackoverflow.com/questions/52238212/qlineedit-and-signal-slot)
-10. [https://www.pythonguis.com/tutorials/transmitting-extra-data-qt-signals/](https://www.pythonguis.com/tutorials/transmitting-extra-data-qt-signals/)
-11. [https://ethan-world.tistory.com/entry/Day-2-PyQt5-%EC%9C%84%EC%A0%AF-%EB%B9%88-%EC%9C%88%EB%8F%84%EC%9A%B0-%EB%9D%84%EC%9A%B0%EA%B8%B0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84](https://ethan-world.tistory.com/entry/Day-2-PyQt5-%EC%9C%84%EC%A0%AF-%EB%B9%88-%EC%9C%88%EB%8F%84%EC%9A%B0-%EB%9D%84%EC%9A%B0%EA%B8%B0-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EB%A3%A8%ED%94%84)
-12. [https://www.pythontutorial.net/pyqt/pyqt-qslider/](https://www.pythontutorial.net/pyqt/pyqt-qslider/)
-13. [https://stackoverflow.com/questions/39690243/pyqt-qpushbutton-signal-handling](https://stackoverflow.com/questions/39690243/pyqt-qpushbutton-signal-handling)
-14. [https://www.pythonguis.com/docs/qlineedit/](https://www.pythonguis.com/docs/qlineedit/)
-15. [https://www.pythoncentral.io/pyside-pyqt-tutorial-using-built-in-signals-and-slots/](https://www.pythoncentral.io/pyside-pyqt-tutorial-using-built-in-signals-and-slots/)
-16. [https://stackoverflow.com/questions/72614590/send-signals-from-nested-children-widgets-to-ancestors-in-qt-pyqt5](https://stackoverflow.com/questions/72614590/send-signals-from-nested-children-widgets-to-ancestors-in-qt-pyqt5)
-17. [https://stackoverflow.com/questions/71373328/pyqt5-how-to-detect-if-qslider-is-dragged-to-the-end](https://stackoverflow.com/questions/71373328/pyqt5-how-to-detect-if-qslider-is-dragged-to-the-end)
-18. [https://wikidocs.net/21934](https://wikidocs.net/21934)
-19. [https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QLineEdit.html](https://doc.qt.io/qtforpython-5/PySide2/QtWidgets/QLineEdit.html)
-20. [https://doc.qt.io/qt-6/signalsandslots.html](https://doc.qt.io/qt-6/signalsandslots.html)
