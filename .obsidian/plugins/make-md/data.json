@@ -51,14 +51,10 @@
     "//Notes/Notes/Daily/Notes/Daily/2025/Notes/Daily/2025/07",
     "//FsSmart",
     "//FsSmart/FsSmart/FrSmart_SW_분석_계획",
-    "//assets",
-    "//FrSmart/FrSmart/FrSmart_SW_분석",
     "//Tags",
     "//ScentSmart",
     "//FrSmart",
-    "//ScentSmart/ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
-    "//assets/assets/img",
-    "//ScentSmart/ScentSmart/ScentSmart_SW_분석"
+    "//assets/assets/img"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
