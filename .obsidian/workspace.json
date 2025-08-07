@@ -202,10 +202,14 @@
       "custom-sort:Toggle custom sorting": false
     }
   },
-  "active": "67153ad77467c76f",
+  "active": "36c718d9097bf733",
   "lastOpenFiles": [
+    "KnowledgeBase/Protocol/Protocol.md",
+    "KnowledgeBase/Protocol",
     "KnowledgeBase/무제.md",
     "KnowledgeBase/Concepts/01_Farnet.md",
+    "KnowledgeBase/Snippets/Snippets.md",
+    "KnowledgeBase/Snippets",
     "KnowledgeBase/Concepts/Concepts.md",
     "ScentSmart/ScentSmart_SW_분석/41_Farnet.md",
     "KnowledgeBase/Concepts",
@@ -230,8 +234,6 @@
     "Notes/Daily/2025/08/2025-08-07.md",
     "Notes/Daily/2025/08/2025-08-06.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
-    "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
     "assets/img/tree1_expert.svg",
     "assets/img/Pasted image 20250806105724.png",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
@@ -248,8 +250,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW",
     "Notes/Daily/2025/08",
     "FrSmart/FrSmart_SW_분석_계획",
-    "FrSmart/FrSmart_SW_분석",
-    "FrSmart",
-    "ScentSmart/분석123"
+    "FrSmart/FrSmart_SW_분석"
   ]
 }
