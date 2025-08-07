@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ScentSmart/ScentSmart_SW_분석/41_Farnet.md",
+                "file": "KnowledgeBase/Concepts/01_Farnet.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "41_Farnet"
+              "title": "01_Farnet"
             }
           }
         ]
@@ -204,13 +204,15 @@
   },
   "active": "67153ad77467c76f",
   "lastOpenFiles": [
+    "KnowledgeBase/무제.md",
+    "KnowledgeBase/Concepts/01_Farnet.md",
     "KnowledgeBase/Concepts/Concepts.md",
+    "ScentSmart/ScentSmart_SW_분석/41_Farnet.md",
     "KnowledgeBase/Concepts",
     "KnowledgeBase/KnowledgeBase.md",
     "ScentSmart/ScentSmart_SW_분석/40_예상질문리스트_답변.md",
     "KnowledgeBase",
     "ScentSmart/ScentSmart_SW_분석/42_built-in signal.md",
-    "ScentSmart/ScentSmart_SW_분석/41_Farnet.md",
     "ScentSmart/ScentSmart_SW_분석/39_예상질문리스트.md",
     "ScentSmart/ScentSmart_SW_분석/11_바이트패킷, Struct, CRC.md",
     "ScentSmart/ScentSmart_SW_분석/10_시리얼 통신 관련 핵심 함수 정리.md",
@@ -230,8 +232,6 @@
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/33_MODBUS 규격.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/32_RS232, MODBUS RTU, CVI, CRC, SLIP 인코딩.md",
     "ScentSmart/ScentSmart_매니폴드_제어_구동_프로그램SW/31_전체분석.md",
-    "FrSmart/FrSmart_SW_분석/FrSmart_SW_분석.md",
-    "FrSmart/FrSmart_SW_분석_계획/FrSmart_SW_분석_계획.md",
     "assets/img/tree1_expert.svg",
     "assets/img/Pasted image 20250806105724.png",
     "assets/img/ChatGPT Image 2025년 8월 4일 오전 09_24_44.png",
