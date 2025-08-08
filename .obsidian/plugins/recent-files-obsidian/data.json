@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "2025-08-08",
+      "path": "Notes/Daily/2025/08/2025-08-08.md"
+    },
+    {
+      "basename": "2025-08-07",
+      "path": "Notes/Daily/2025/08/2025-08-07.md"
+    },
+    {
       "basename": "Concepts",
       "path": "KnowledgeBase/Concepts/Concepts.md"
     },
@@ -87,10 +95,6 @@
     {
       "basename": "38_DB(암호화_복호화)",
       "path": "ScentSmart/ScentSmart_SW_분석/38_DB(암호화_복호화).md"
-    },
-    {
-      "basename": "2025-08-07",
-      "path": "Notes/Daily/2025/08/2025-08-07.md"
     },
     {
       "basename": "2025-08-06",
@@ -195,10 +199,6 @@
     {
       "basename": "2025-08-01",
       "path": "Notes/Daily/2025/08/2025-08-01.md"
-    },
-    {
-      "basename": "34_Qt 기본 위젯",
-      "path": "ScentSmart/ScentSmart_SW_분석/34_Qt 기본 위젯.md"
     }
   ],
   "omittedPaths": [],
